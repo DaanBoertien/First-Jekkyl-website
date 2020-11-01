@@ -1,0 +1,10 @@
+---
+# front matter tells Jekyll to process Liquid
+layout: default
+title: Home
+greeting: Hi there!
+---
+<h1>Hello!</h1>
+<h1>{{ "Hello World!" | downcase }}</h1>
+<p>{{ page.greeting }}</p>
+<p>{{ site.data.test.hello }}</p>
