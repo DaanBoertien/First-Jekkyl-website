@@ -1,3 +1,15 @@
 backend:
   name: github
   repo: DaanBoertien/First-Jekkyl-website
+
+collections:
+  - name: "test"
+    label: "test"
+    files: 
+     - name: "test"
+       label: "Test files"
+       file: "_data/test.yml"
+       fields:
+        - label: "Title"
+          name: "title"
+          widget: "string"
