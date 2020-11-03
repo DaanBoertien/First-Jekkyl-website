@@ -15,3 +15,6 @@ collections:
         - label: "Title"
           name: "title"
           widget: "string"
+        - label: "Hello!"
+          name: "hello"
+          widget: "string"
