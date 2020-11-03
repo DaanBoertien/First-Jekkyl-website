@@ -28,7 +28,7 @@ collections:
           widget: "string"
   - name: 'concerts'
     label: 'Concerts'
-    folder: '_posts/'
+    folder: '_concerts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{title}}'
     published: true
