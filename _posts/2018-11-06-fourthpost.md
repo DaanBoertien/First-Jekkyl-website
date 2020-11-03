@@ -1,8 +1,10 @@
 ---
 layout: concert
 author: Daan
-time: 19:00
+title: Some concert
+time: Amsterdam
 place: Amsterdam
+date: 2020-11-03T15:27:04.749Z
 ---
 
 CQC - Wasser
