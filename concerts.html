@@ -6,7 +6,7 @@ title: concerts
 
 <ul>
 
-  {% for concert in site.concerts %}
+  {% for concert in site.posts %}
     <li>
       <h2><a href="{{ concert.url }}">{{ concert.title }}</a></h2>
       {{ concert.date | date_to_string }}
