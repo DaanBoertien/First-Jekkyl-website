@@ -26,3 +26,16 @@ collections:
         - label: "Greet me"
           name: "greeting"
           widget: "string"
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'concert' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'place', name: 'time', widget: 'string'}
+      - { label: 'More information', name: 'body', widget: 'markdown' }
