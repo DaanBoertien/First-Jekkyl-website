@@ -3,6 +3,7 @@ layout: concert
 author: Daan
 time: 19:00
 place: Amsterdam
+title: third post
 ---
 
 CQC - Wasser
