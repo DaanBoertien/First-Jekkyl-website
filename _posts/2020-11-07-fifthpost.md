@@ -1,8 +1,10 @@
 ---
 layout: concert
 author: Daan
-time: 19:00
+title: Chopin
+time: Zutphen
 place: Amsterdam
+date: 2020-11-03T16:12:33.281Z
 ---
 
 CQC - Wasser
