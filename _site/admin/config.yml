@@ -1,5 +1,10 @@
+# backend:
+#   name: github
+#   repo: DaanBoertien/First-Jekkyl-website
+
 backend:
   name: github
+  branch: master
   repo: DaanBoertien/First-Jekkyl-website
 
 media_folder: images/uploads 
@@ -17,4 +22,7 @@ collections:
           widget: "string"
         - label: "Hello!"
           name: "hello"
+          widget: "string"
+        - label: "Greet me"
+          name: "greeting"
           widget: "string"

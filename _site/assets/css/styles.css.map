@@ -3,12 +3,14 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"_sass/main.scss",
+		"_sass/nav.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\r\n    color: green;\r\n  }"
+		"@import \"main\";\n@import \"nav\";",
+		"*, *::before,  *::after {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.container {\r\n    width: 60%;\r\n    background: rgb(243, 243, 243);\r\n    margin: 0 auto;\r\n    padding: 1em;\r\n}",
+		"a {\r\n    color: red;\r\n}\r\n\r\n.current {\r\n    color: green;\r\n  }"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,CAAC,EAAE,CAAC,EAAE,MAAM,EAAG,CAAC,EAAE,KAAK,CAAC,EACpB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACb;;AAED,AAAA,UAAU,CAAC,EACP,KAAK,EAAE,GAAG,EACV,UAAU,EAAE,OAAkB,EAC9B,MAAM,EAAE,MAAM,EACd,OAAO,EAAE,GAAG,GACf;;ACVD,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
 }

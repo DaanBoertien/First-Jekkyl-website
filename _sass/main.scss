@@ -1,3 +1,11 @@
-.current {
-    color: green;
-  }
+*, *::before,  *::after {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    background: rgb(243, 243, 243);
+    margin: 0 auto;
+    padding: 1em;
+}
