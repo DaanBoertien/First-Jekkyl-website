@@ -3,8 +3,9 @@
 #   repo: DaanBoertien/First-Jekkyl-website
 
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: DaanBoertien/First-Jekkyl-website
 
 media_folder: images/uploads 
 
