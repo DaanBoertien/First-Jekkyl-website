@@ -26,8 +26,8 @@ collections:
         - label: "Greet me"
           name: "greeting"
           widget: "string"
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'concerts'
+    label: 'Concerts'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
