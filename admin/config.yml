@@ -31,6 +31,7 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+    published: true
     editor:
       preview: false
     fields:
