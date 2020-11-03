@@ -5,13 +5,13 @@ title: concerts
 <h1>Latest Posts</h1>
 
 <ul>
-    
-  {% for post in site.posts %}
+
+  {% for concert in site.concerts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.date | date_to_string }}
-      {{ post.excerpt }}
-      {{ post.place }}
+      <h2><a href="{{ concert.url }}">{{ concert.title }}</a></h2>
+      {{ concert.date | date_to_string }}
+      {{ concert.excerpt }}
+      {{ concert.place }}
     </li>
   {% endfor %}
 </ul>
