@@ -1,8 +1,10 @@
 - name: Home
   url: /
-- name: About
-  url: /about.html
+- name: Biografie
+  url: /biografie.html
+- name: Agenda
+  url: /concerts.html
+- name: Media
+  url: /media.html
 - name: Contact
   url: /contact.html
-- name: Concerts
-  url: /concerts.html

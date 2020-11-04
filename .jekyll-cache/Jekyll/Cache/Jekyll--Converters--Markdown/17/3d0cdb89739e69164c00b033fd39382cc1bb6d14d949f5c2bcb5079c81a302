@@ -1,0 +1,24 @@
+I"#<section class="section-landing">
+    <h1 class="landing-title">Home</h1>
+    <img src="assets/img/DaanBoertienSebastianGaltier.jpg" alt="" />
+</section>
+
+<section class="section-quote">
+    <p class="quote">
+        Gespecialiseerd in het begeleiden van liederen toonde Daan Boertien zich een zanger op de vleugel. Met zijn fijnzinnige en milde aanslag, zijn zowel vanzelfsprekende als verrassende timing en zijn grote inlevingsvermogen is hij de ideale combinatie van meebewegend begeleider en autonoom solist.
+        <span class="quote-author">Eindhovens Dagblad</span>
+    </p>
+</section>
+
+<section class="section-media">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CiP9CrQoLPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    <button class="btn">Meer video's</button>
+</section>
+
+<section class="section-bio">
+    <p class="bio-teaser">
+        Daan Boertien is een Nederlandse concertpianist die zich heeft gespecialiseerd in liedbegeleiding. Hij geeft concerten met verschillende zangers in binnen- en buitenland. In het seizoen 2019|2020 maakt hij deel uit van de operastudio van de Nationale Opera in Amsterdam.
+        <button class="btn">Lees meer</button>
+    </p>
+</section>
+:ET

@@ -3,14 +3,20 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
+		"_sass/variables.scss",
 		"_sass/main.scss",
-		"_sass/nav.scss"
+		"_sass/typography.scss",
+		"_sass/nav.scss",
+		"_sass/home.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n@import \"nav\";",
+		"@import \"variables\";\n@import \"main\";\n@import \"typography\";\n@import \"nav\";\n@import \"home\";",
+		":root {\r\n    --red: rgb(146, 20, 20);\r\n}",
 		"*, *::before,  *::after {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.container {\r\n    width: 60%;\r\n    background: rgb(243, 243, 243);\r\n    margin: 0 auto;\r\n    padding: 1em;\r\n}",
-		"a {\r\n    color: red;\r\n}\r\n\r\n.current {\r\n    color: green;\r\n  }"
+		"body {\r\n    font-family: \"montserrat\", sans-serif;\r\n}\r\n\r\nh1 {\r\n    font-size: 2rem;\r\n}",
+		"a {\r\n    color: red;\r\n}\r\n\r\n.current {\r\n    color: green;\r\n  }",
+		".section-landing {\r\n    position: relative;\r\n}\r\n\r\n.video-container {\r\n    width: 100%;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n    display: flex;\r\n    align-content: center;\r\n    // align-items: center;\r\n    color: white;\r\n}\r\n\r\n\r\n.video-container video {\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    object-fit: cover;\r\n    width: 100%;\r\n    height: 100%;\r\n    pointer-events: none;\r\n    object-position: bottom;\r\n}\r\n\r\n.video-container .landing-title-container {\r\n    position: absolute;\r\n    top: 30%;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    z-index: 1;\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.landing-title,\r\n.landing-subtitle {\r\n    text-align: center;\r\n    text-shadow: 0px 0px 3px rgba(0,0,0,0.5);\r\n    font-weight: 200;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}\r\n\r\n.landing-title {\r\n    font-size: 60px;\r\n    color: white;\r\n}\r\n\r\n.landing-subtitle {\r\n    font-size: 40px;\r\n    color: var(--red);\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,CAAC,EAAE,CAAC,EAAE,MAAM,EAAG,CAAC,EAAE,KAAK,CAAC,EACpB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACb;;AAED,AAAA,UAAU,CAAC,EACP,KAAK,EAAE,GAAG,EACV,UAAU,EAAE,OAAkB,EAC9B,MAAM,EAAE,MAAM,EACd,OAAO,EAAE,GAAG,GACf;;ACVD,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "CCAC,AAAD,IAAK,CAAC,EACF,KAAK,CAAA,iBAAC,GACT;;ACFD,AAAA,CAAC,EAAE,CAAC,EAAE,MAAM,EAAG,CAAC,EAAE,KAAK,CAAC,EACpB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACb;;AAED,AAAA,UAAU,CAAC,EACP,KAAK,EAAE,GAAG,EACV,UAAU,EAAE,OAAkB,EAC9B,MAAM,EAAE,MAAM,EACd,OAAO,EAAE,GAAG,GACf;;ACVD,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,wBAAwB,GACxC;;AAED,AAAA,EAAE,CAAC,EACC,SAAS,EAAE,IAAI,GAClB;;ACND,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb;;ACNH,AAAA,gBAAgB,CAAC,EACb,QAAQ,EAAE,QAAQ,GACrB;;AAED,AAAA,gBAAgB,CAAC,EACb,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,KAAK,EACb,QAAQ,EAAE,MAAM,EAChB,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,MAAM,EAErB,KAAK,EAAE,KAAK,GACf;;AAGD,AAAA,gBAAgB,CAAC,KAAK,CAAC,EACnB,QAAQ,EAAE,QAAQ,EAClB,IAAI,EAAE,CAAC,EACP,GAAG,EAAE,CAAC,EACN,UAAU,EAAE,KAAK,EACjB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EACZ,cAAc,EAAE,IAAI,EACpB,eAAe,EAAE,MAAM,GAC1B;;AAED,AAAA,gBAAgB,CAAC,wBAAwB,CAAC,EACtC,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,GAAG,EACR,IAAI,EAAE,GAAG,EACT,SAAS,EAAE,gBAAgB,EAC3B,OAAO,EAAE,CAAC,EACV,SAAS,EAAE,KAAK,EAChB,MAAM,EAAE,MAAM,GACjB;;AAED,AAAA,cAAc,EACd,iBAAiB,CAAC,EACd,UAAU,EAAE,MAAM,EAClB,WAAW,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,kBAAe,EACxC,WAAW,EAAE,GAAG,EAChB,cAAc,EAAE,SAAS,EACzB,cAAc,EAAE,GAAG,GACtB;;AAED,AAAA,cAAc,CAAC,EACX,SAAS,EAAE,IAAI,EACf,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,iBAAiB,CAAC,EACd,SAAS,EAAE,IAAI,EACf,KAAK,EAAE,UAAU,GACpB"
 }
