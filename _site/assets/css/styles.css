@@ -393,9 +393,9 @@
 
 .hamburger--vortex-r.is-active .hamburger-inner::after { bottom: 0; transform: rotate(-90deg); }
 
-*, *::before, *::after { margin: 0; padding: 0; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-body { background: var(--bg-color); color: var(--text-color); }
+body { background: var(--bg-color); color: var(--text-color); overflow-x: hidden; }
 
 .wrapper { max-width: 960px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
 
@@ -450,5 +450,7 @@ nav li { list-style: none; }
 .quote-author { margin-top: 1em; text-align: right; }
 
 .section-media iframe { width: 100%; height: 56.25vw; overflow: hidden; }
+
+.btn { border: 0px; background: rgba(255, 255, 255, 0.8); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 1em 2.5em; border-radius: 100px; font-family: inherit; margin: 1em; }
 
 /*# sourceMappingURL=styles.css.map */
