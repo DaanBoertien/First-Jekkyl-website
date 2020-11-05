@@ -1,7 +1,60 @@
-a {
-    color: red;
+body {
+  position: relative;
 }
 
-.current {
-    color: green;
-  }
+nav {
+  background: var(--bg-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+nav a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav .current {
+  color: var(--red);
+}
+
+nav ul {
+  // background: blue;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+nav li {
+  list-style: none;
+}
+
+.hamburger {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 11;
+}
+
+.hamburger-inner {
+  color: red;
+}
+
+.site-nav--open {
+  transform: translateX(0);
+  opacity: 1;
+}

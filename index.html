@@ -2,33 +2,49 @@
 # front matter tells Jekyll to process Liquid
 layout: default
 
-video-url: 
+video-url:
 ---
-<section class="section-landing">
-        <div class="video-container">
-            <video src="assets/img/dctbackgroundvideo6MB.mp4" class="background-video" autoplay muted loop type="video/mp4"></video>
-            <div class="landing-title-container">    
-                <h1 class="landing-title">Daan Boertien</h1>
-                <p class="landing-subtitle">Pianist</p>
-            </div>
-        </div>
-</section>
 
-<section class="section-quote">
-    <p class="quote">
-        {{ site.data.home.quote }}
-        <span class="quote-author">{{ site.data.home.quote-author }}</span>
-    </p>
+<section class="section-landing">
+  <div class="video-container">
+    <video
+      src="assets/img/dctbackgroundvideo6MB.mp4"
+      class="background-video"
+      autoplay
+      muted
+      loop
+      type="video/mp4"
+    ></video>
+    <div class="landing-title-container">
+      <h1 class="landing-title">Daan Boertien</h1>
+      <p class="landing-subtitle">Pianist</p>
+    </div>
+  </div>
 </section>
+<div class="wrapper">
+  <section class="section-quote">
+    <p class="quote">
+      {{ site.data.home.quote }}
+      <span class="quote-author">{{ site.data.home.quote-author }}</span>
+    </p>
+  </section>
+</div>
 
 <section class="section-media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <button class="btn">Meer video's</button>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+  <button class="btn">Meer video's</button>
 </section>
 
 <section class="section-bio">
-    <p class="bio-teaser">
-        {{ site.data.home.bio-teaser }}
-        <button class="btn">Lees meer</button>
-    </p>
+  <p class="bio-teaser">
+    {{ site.data.home.bio-teaser }}
+    <button class="btn">Lees meer</button>
+  </p>
 </section>

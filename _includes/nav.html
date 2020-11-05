@@ -1,5 +1,14 @@
 <nav>
-    {% for item in site.data.navigation %}
-        <a href="{{item.url}}" {% if page.url == item.url %}class="current"{% endif %}>{{item.name}}</a>
-    {% endfor %}
+         <ul>
+            {% for item in site.data.navigation %}
+                <li><a href="{{item.url}}" {% if page.url == item.url %}class="current"{% endif %}>{{item.name}}</a></li>
+            {% endfor %}
+        </ul>
+
+    
 </nav>
+<button class="hamburger hamburger--spin" type="button">
+    <span class="hamburger-box"></span>
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>

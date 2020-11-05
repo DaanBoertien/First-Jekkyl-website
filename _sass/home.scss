@@ -1,54 +1,53 @@
 .section-landing {
-    position: relative;
+  position: relative;
 }
 
 .video-container {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    align-content: center;
-    // align-items: center;
-    color: white;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  // align-items: center;
+  color: white;
 }
 
-
 .video-container video {
-    position: absolute;
-    left: 0;
-    top: 0;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    object-position: bottom;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-position: bottom;
 }
 
 .video-container .landing-title-container {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    max-width: 800px;
-    margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .landing-title,
 .landing-subtitle {
-    text-align: center;
-    text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .landing-title {
-    font-size: 60px;
-    color: white;
+  font-size: 60px;
+  color: white;
 }
 
 .landing-subtitle {
-    font-size: 40px;
-    color: var(--red);
+  font-size: 40px;
+  color: var(--red);
 }

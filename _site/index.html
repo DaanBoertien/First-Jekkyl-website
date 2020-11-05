@@ -9,47 +9,72 @@
 </head>
 <body>
     <nav>
-    
-        <a href="/" class="current">Home</a>
-    
-        <a href="/biografie.html" >Biografie</a>
-    
-        <a href="/concerts.html" >Agenda</a>
-    
-        <a href="/media.html" >Media</a>
-    
-        <a href="/contact.html" >Contact</a>
+         <ul>
+            
+                <li><a href="/" class="current">Home</a></li>
+            
+                <li><a href="/biografie.html" >Biografie</a></li>
+            
+                <li><a href="/concerts.html" >Agenda</a></li>
+            
+                <li><a href="/media.html" >Media</a></li>
+            
+                <li><a href="/contact.html" >Contact</a></li>
+            
+        </ul>
+
     
 </nav>
+<button class="hamburger hamburger--spin" type="button">
+    <span class="hamburger-box"></span>
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
     <!-- <div class="container"> -->
         <section class="section-landing">
-        <div class="video-container">
-            <video src="assets/img/dctbackgroundvideo6MB.mp4" class="background-video" autoplay muted loop type="video/mp4"></video>
-            <div class="landing-title-container">    
-                <h1 class="landing-title">Daan Boertien</h1>
-                <p class="landing-subtitle">Pianist</p>
-            </div>
-        </div>
+  <div class="video-container">
+    <video
+      src="assets/img/dctbackgroundvideo6MB.mp4"
+      class="background-video"
+      autoplay
+      muted
+      loop
+      type="video/mp4"
+    ></video>
+    <div class="landing-title-container">
+      <h1 class="landing-title">Daan Boertien</h1>
+      <p class="landing-subtitle">Pianist</p>
+    </div>
+  </div>
 </section>
-
-<section class="section-quote">
+<div class="wrapper">
+  <section class="section-quote">
     <p class="quote">
-        Gespecialiseerd in het begeleiden van liederen toonde Daan Boertien zich een zanger op de vleugel. Met zijn fijnzinnige en milde aanslag, zijn zowel vanzelfsprekende als verrassende timing en zijn grote inlevingsvermogen is hij de ideale combinatie van meebewegend begeleider en autonoom solist.
-        <span class="quote-author">Eindhovens Dagblad</span>
+      Gespecialiseerd in het begeleiden van liederen toonde Daan Boertien zich een zanger op de vleugel. Met zijn fijnzinnige en milde aanslag, zijn zowel vanzelfsprekende als verrassende timing en zijn grote inlevingsvermogen is hij de ideale combinatie van meebewegend begeleider en autonoom solist.
+      <span class="quote-author">Eindhovens Dagblad</span>
     </p>
-</section>
+  </section>
+</div>
 
 <section class="section-media">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CiP9CrQoLPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <button class="btn">Meer video's</button>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/CiP9CrQoLPM"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+  <button class="btn">Meer video's</button>
 </section>
 
 <section class="section-bio">
-    <p class="bio-teaser">
-        Daan Boertien is een Nederlandse concertpianist die zich heeft gespecialiseerd in liedbegeleiding. Hij geeft concerten met verschillende zangers in binnen- en buitenland. In het seizoen 2019|2020 maakt hij deel uit van de operastudio van de Nationale Opera in Amsterdam.
-        <button class="btn">Lees meer</button>
-    </p>
+  <p class="bio-teaser">
+    Daan Boertien is een Nederlandse concertpianist die zich heeft gespecialiseerd in liedbegeleiding. Hij geeft concerten met verschillende zangers in binnen- en buitenland. In het seizoen 2019|2020 maakt hij deel uit van de operastudio van de Nationale Opera in Amsterdam.
+    <button class="btn">Lees meer</button>
+  </p>
 </section>
+
     <!-- </div> -->
     <section class="footer">
     <div class="container">
@@ -58,5 +83,6 @@
         </p>
     </div>
 </section>
+    <script src="assets/js/hamburger.js"></script>
 </body>
 </html>
