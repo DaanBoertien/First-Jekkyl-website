@@ -60,11 +60,12 @@
 .section-quote::before {
   content: "“";
   position: absolute;
-  top: -80px;
-  left: 0px;
-  font-size: 400px;
+  top: -200px;
+  left: -80px;
+  font-family: "Playfair Display", serif;
+  font-size: 500px;
   color: white;
-  opacity: 0.5;
+  opacity: 0.4;
   z-index: -1;
   font-style: normal;
 }
