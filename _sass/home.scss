@@ -68,20 +68,19 @@
   opacity: 0.4;
   z-index: -1;
   font-style: normal;
-  overflow: hidden;
 }
 
-// .section-quote::before {
-//   content: "“";
-//   top: -200px;
-//   left: -80px;
-// }
+.section-quote::before {
+  content: "“";
+  top: -200px;
+  left: -80px;
+}
 
-// .section-quote::after {
-//   content: "”";
-//   right: -50px;
-//   bottom: -400px;
-// }
+.section-quote::after {
+  content: "”";
+  right: -50px;
+  bottom: -400px;
+}
 
 .quote-author {
   margin-top: 1em;

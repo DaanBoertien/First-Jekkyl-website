@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root { --bg-color: rgb(231, 230, 214); --red: rgb(146, 20, 20); --text-color: rgba(0, 0, 0, 0.85); --section-padding: 2em; }
 
 /*! Hamburgers @description Tasty CSS-animated hamburgers @author Jonathan Suh @jonsuh @site https://jonsuh.com/hamburgers @link https://github.com/jonsuh/hamburgers */
@@ -440,7 +441,11 @@ nav li { list-style: none; }
 
 .section-quote { font-style: italic; position: relative; padding: 2em 0; margin: 0em; }
 
-.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: white; opacity: 0.4; z-index: -1; font-style: normal; overflow: hidden; }
+.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: white; opacity: 0.4; z-index: -1; font-style: normal; }
+
+.section-quote::before { content: "“"; top: -200px; left: -80px; }
+
+.section-quote::after { content: "”"; right: -50px; bottom: -400px; }
 
 .quote-author { margin-top: 1em; text-align: right; }
 
