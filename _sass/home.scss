@@ -62,7 +62,8 @@
   position: relative;
   padding: 2em;
   margin: 0em;
-  overflow-x: hidden;
+  overflow: hidden;
+  //TODO: change before/after in svg
 }
 
 .section-quote::before,
@@ -105,4 +106,8 @@
   top: 0;
   left: 0;
   position: absolute;
+}
+
+.section-onemore {
+  padding: 0;
 }

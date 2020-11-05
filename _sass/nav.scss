@@ -43,6 +43,10 @@ nav li {
   list-style: none;
 }
 
+.hamburger-container {
+  position: relative;
+}
+
 .hamburger {
   position: absolute;
   top: 1em;
@@ -57,4 +61,10 @@ nav li {
 .site-nav--open {
   transform: translateX(0);
   opacity: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 2em;
+  color: rgba(0, 0, 0, 0.5);
 }

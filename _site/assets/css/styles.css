@@ -395,7 +395,7 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-body { background: var(--bg-color); color: var(--text-color); overflow-x: hidden; }
+body { background: var(--bg-color); color: var(--text-color); }
 
 img { width: 100%; }
 
@@ -421,11 +421,15 @@ nav ul { display: flex; height: 50%; flex-direction: column; align-items: center
 
 nav li { list-style: none; }
 
+.hamburger-container { position: relative; }
+
 .hamburger { position: absolute; top: 1em; right: 1em; z-index: 11; }
 
 .hamburger-inner { color: red; }
 
 .site-nav--open { transform: translateX(0); opacity: 1; }
+
+.footer { text-align: center; padding: 2em; color: rgba(0, 0, 0, 0.5); }
 
 .section-landing { position: relative; }
 
@@ -443,7 +447,7 @@ nav li { list-style: none; }
 
 .section-bio .btn, .section-media .btn { margin: 1em auto 2em; }
 
-.section-quote { font-style: italic; position: relative; padding: 2em; margin: 0em; overflow-x: hidden; }
+.section-quote { font-style: italic; position: relative; padding: 2em; margin: 0em; overflow: hidden; }
 
 .section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: white; opacity: 0.4; z-index: -1; font-style: normal; }
 
@@ -457,6 +461,10 @@ nav li { list-style: none; }
 
 .section-media iframe { width: 100%; height: 100%; top: 0; left: 0; position: absolute; }
 
-.btn { border: 0px; background: rgba(255, 255, 255, 0.8); color: rgba(0, 0, 0, 0.8); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.75em 2em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; }
+.section-onemore { padding: 0; }
+
+.btn { border: 0px; background: rgba(255, 255, 255, 0.8); color: rgba(0, 0, 0, 0.8); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.75em 2em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.4s ease-in-out; }
+
+.btn:hover { background: var(--color-bg); }
 
 /*# sourceMappingURL=styles.css.map */
