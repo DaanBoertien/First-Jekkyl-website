@@ -21,30 +21,38 @@ video-url:
   </div>
 </section>
 
-<div class="wrapper">
+<div class="container">
   <section class="section-bio">
     <p class="bio-teaser">
       {{ site.data.home.bio-teaser }}
       <button class="btn">Lees meer</button>
     </p>
   </section>
-</div>
 
-<section class="section-media">
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-  <button class="btn">Meer video's</button>
-</section>
-
-<div class="wrapper">
-  <section class="section-quote">
-    <p class="quote">{{ site.data.home.quote }}</p>
-    <p class="quote-author">{{ site.data.home.quote-author }}</p>
+  <section class="section-media">
+    <div class="iframe-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <button class="btn">Meer video's</button>
   </section>
 </div>
+<section class="section-quote">
+  <p class="quote">{{ site.data.home.quote }}</p>
+  <p class="quote-author">{{ site.data.home.quote-author }}</p>
+</section>
+
+<section class="section-onemore">
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus,
+    possimus necessitatibus placeat dolorem velit nisi consectetur impedit
+    magnam exercitationem accusantium molestiae in nesciunt maxime sed labore
+    consequatur, rerum beatae officia!
+  </p>
+</section>
