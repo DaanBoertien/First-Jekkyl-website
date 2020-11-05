@@ -55,19 +55,31 @@
 .section-quote {
   font-style: italic;
   position: relative;
+  padding: 2em 0;
+  margin: 0em;
 }
 
-.section-quote::before {
-  content: "“";
+.section-quote::before,
+.section-quote::after {
   position: absolute;
-  top: -200px;
-  left: -80px;
   font-family: "Playfair Display", serif;
   font-size: 500px;
   color: white;
   opacity: 0.4;
   z-index: -1;
   font-style: normal;
+}
+
+.section-quote::before {
+  content: "“";
+  top: -200px;
+  left: -80px;
+}
+
+.section-quote::after {
+  content: "”";
+  right: -50px;
+  bottom: -400px;
 }
 
 .quote-author {
