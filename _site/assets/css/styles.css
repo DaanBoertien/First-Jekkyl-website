@@ -449,6 +449,6 @@ nav li { list-style: none; }
 
 .quote-author { margin-top: 1em; text-align: right; }
 
-.section-media iframe { width: 100%; height: 56.25vw; }
+.section-media iframe { width: 100%; height: 56.25vw; overflow: hidden; }
 
 /*# sourceMappingURL=styles.css.map */
