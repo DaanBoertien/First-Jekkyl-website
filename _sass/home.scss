@@ -52,6 +52,28 @@
   color: var(--red);
 }
 
+.section-quote {
+  font-style: italic;
+  position: relative;
+}
+
+.section-quote::before {
+  content: "“";
+  position: absolute;
+  top: -80px;
+  left: 0px;
+  font-size: 400px;
+  color: white;
+  opacity: 0.5;
+  z-index: -1;
+  font-style: normal;
+}
+
+.quote-author {
+  margin-top: 1em;
+  text-align: right;
+}
+
 .section-media iframe {
   width: 100vw;
   height: 56.25vw;
