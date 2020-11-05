@@ -1,7 +1,6 @@
 ---
 # front matter tells Jekyll to process Liquid
 layout: default
-
 video-url:
 ---
 
@@ -21,10 +20,13 @@ video-url:
     </div>
   </div>
 </section>
+
 <div class="wrapper">
-  <section class="section-quote">
-    <p class="quote">{{ site.data.home.quote }}</p>
-    <p class="quote-author">{{ site.data.home.quote-author }}</p>
+  <section class="section-bio">
+    <p class="bio-teaser">
+      {{ site.data.home.bio-teaser }}
+      <button class="btn">Lees meer</button>
+    </p>
   </section>
 </div>
 
@@ -40,9 +42,9 @@ video-url:
   <button class="btn">Meer video's</button>
 </section>
 
-<section class="section-bio">
-  <p class="bio-teaser">
-    {{ site.data.home.bio-teaser }}
-    <button class="btn">Lees meer</button>
-  </p>
-</section>
+<div class="wrapper">
+  <section class="section-quote">
+    <p class="quote">{{ site.data.home.quote }}</p>
+    <p class="quote-author">{{ site.data.home.quote-author }}</p>
+  </section>
+</div>

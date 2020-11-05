@@ -427,11 +427,11 @@ nav li { list-style: none; }
 
 .section-landing { position: relative; }
 
-.video-container { width: 100%; height: 100vh; overflow: hidden; display: flex; align-content: center; color: white; }
+.video-container { width: 100%; height: 100vh; overflow: hidden; display: flex; align-content: center; color: white; background: black; }
 
 .video-container video { position: absolute; left: 0; top: 0; object-fit: cover; width: 100%; height: 100%; pointer-events: none; object-position: bottom; }
 
-.video-container .landing-title-container { position: absolute; top: 30%; left: 50%; transform: translateX(-50%); z-index: 1; max-width: 800px; margin: 0 auto; }
+.video-container .landing-title-container { position: absolute; top: 30%; left: 50%; transform: translateX(-50%); z-index: 1; margin: 0 auto; }
 
 .landing-title, .landing-subtitle { text-align: center; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); font-weight: 200; text-transform: uppercase; letter-spacing: 1px; }
 
