@@ -438,6 +438,6 @@ nav li { list-style: none; }
 
 .landing-subtitle { font-size: 40px; color: var(--red); }
 
-.section-media iframe { width: 100%; }
+.section-media iframe { width: 100vw; height: 56.25vw; }
 
 /*# sourceMappingURL=styles.css.map */
