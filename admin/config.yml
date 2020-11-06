@@ -39,3 +39,13 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'place', name: 'time', widget: 'string'}
       - { label: 'More information', name: 'body', widget: 'markdown' }
+  - name: 'videos'
+      label: 'Video's'
+      folder: 'videos/'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+      editor:
+        preview: false
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'YouTube ID', name: 'youtube-id', widget: 'string'}
