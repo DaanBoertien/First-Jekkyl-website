@@ -7,8 +7,9 @@
 }
 
 body {
-  background: var(--bg-color);
+  background: var(--gradient);
   color: var(--text-color);
+  min-height: 100vh;
   //   overflow-x: hidden;
 }
 
@@ -33,4 +34,10 @@ img {
   padding-top: 3em;
   margin-bottom: 1em;
   color: var(--red);
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.page-subtitle {
+  font-weight: 300;
 }

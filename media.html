@@ -2,6 +2,20 @@
 layout: default
 ---
 
-<h1>Media</h1>
-<h2>Video's</h2>
-<h2>Foto's</h2>
+<div class="container">
+  <h1 class="page-title">Media</h1>
+  <h2 class="page-subtitle">Video's</h2>
+  {% for video in site.videos %}
+  <div class="iframe-container">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/{{video.youtube-id}}?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+  {% endfor %}
+  <h2 class="page-subtitle">Foto's</h2>
+</div>
