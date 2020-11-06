@@ -457,13 +457,13 @@ nav li { list-style: none; }
 
 .section-media .btn { margin-top: 2em; }
 
-.section-quote { font-style: italic; position: relative; padding: 2em; margin: 0em; overflow: hidden; }
+.section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 18px; position: relative; padding: 2em; margin: 0em; overflow: hidden; }
 
 .section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.1; z-index: -1; font-style: normal; }
 
-.section-quote::before { content: "“"; top: -200px; left: -80px; }
+.section-quote::before { content: "“"; top: -180px; left: -80px; }
 
-.section-quote::after { content: "”"; right: -50px; bottom: -400px; }
+.section-quote::after { content: "”"; right: -50px; bottom: -350px; }
 
 .quote-author { margin-top: 1em; text-align: right; }
 
