@@ -61,6 +61,10 @@
   margin: 1em auto 2em;
 }
 
+.section-media .btn {
+  margin-top: 2em;
+}
+
 .section-quote {
   font-style: italic;
   position: relative;
@@ -75,8 +79,8 @@
   position: absolute;
   font-family: "Playfair Display", serif;
   font-size: 500px;
-  color: white;
-  opacity: 0.4;
+  color: var(--red);
+  opacity: 0.1;
   z-index: -1;
   font-style: normal;
 }

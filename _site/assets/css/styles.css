@@ -397,17 +397,23 @@
 
 body { background: var(--bg-color); color: var(--text-color); }
 
-img { width: 100%; }
+img { width: 100%; display: block; }
 
 .container { max-width: 960px; margin: 0 auto; padding-left: 2rem; padding-right: 2rem; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
+
+.page-title { padding-top: 3em; margin-bottom: 1em; color: var(--red); }
 
 body { font-family: "montserrat", sans-serif; }
 
 h1 { font-size: 2rem; }
 
 p { line-height: 1.6; }
+
+.btn { border: 0px; background: rgba(255, 255, 255, 0.8); color: rgba(0, 0, 0, 0.8); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.75em 2em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.4s ease-in-out; }
+
+.btn:hover { background: var(--color-bg); }
 
 body { position: relative; }
 
@@ -425,7 +431,7 @@ nav li { list-style: none; }
 
 .hamburger { position: absolute; top: 1em; right: 1em; z-index: 11; }
 
-.hamburger-inner { color: red; }
+.hamburger-black, .hamburger-black::before, .hamburger-black::after { background: rgba(0, 0, 0, 0.7); }
 
 .site-nav--open { transform: translateX(0); opacity: 1; }
 
@@ -449,9 +455,11 @@ nav li { list-style: none; }
 
 .section-bio .btn, .section-media .btn { margin: 1em auto 2em; }
 
+.section-media .btn { margin-top: 2em; }
+
 .section-quote { font-style: italic; position: relative; padding: 2em; margin: 0em; overflow: hidden; }
 
-.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: white; opacity: 0.4; z-index: -1; font-style: normal; }
+.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.1; z-index: -1; font-style: normal; }
 
 .section-quote::before { content: "“"; top: -200px; left: -80px; }
 
@@ -465,8 +473,8 @@ nav li { list-style: none; }
 
 .section-onemore { padding: 0; }
 
-.btn { border: 0px; background: rgba(255, 255, 255, 0.8); color: rgba(0, 0, 0, 0.8); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.75em 2em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.4s ease-in-out; }
+.biografie { margin-bottom: 2em; }
 
-.btn:hover { background: var(--color-bg); }
+.image-container { box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
 
 /*# sourceMappingURL=styles.css.map */

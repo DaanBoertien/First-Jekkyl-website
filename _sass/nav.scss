@@ -54,8 +54,10 @@ nav li {
   z-index: 11;
 }
 
-.hamburger-inner {
-  color: red;
+.hamburger-black,
+.hamburger-black::before,
+.hamburger-black::after {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .site-nav--open {
