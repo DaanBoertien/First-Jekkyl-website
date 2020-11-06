@@ -52,5 +52,11 @@ collections:
     editor:
       preview: false
     fields:
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "default",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "YouTube ID", name: "youtube-id", widget: "string" }
