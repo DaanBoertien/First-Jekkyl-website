@@ -46,7 +46,7 @@ collections:
       - { label: "More information", name: "body", widget: "markdown" }
   - name: "videos"
     label: "Video's"
-    folder: "videos/"
+    folder: "_videos/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     editor:
