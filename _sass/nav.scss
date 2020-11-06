@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background: var(--bg-color);
+  background: var(--gradient);
   position: fixed;
   top: 0;
   left: 0;
@@ -29,6 +29,7 @@ nav a {
 
 nav .current {
   color: var(--red);
+  font-weight: 400;
 }
 
 nav ul {

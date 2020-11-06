@@ -2,6 +2,10 @@
   --bg-color: rgb(231, 230, 214);
   --red: rgb(146, 20, 20);
   --text-color: rgba(0, 0, 0, 0.85);
-
+  --gradient: linear-gradient(
+    212deg,
+    rgba(240, 239, 228, 1) 0%,
+    rgba(231, 230, 214, 1) 93%
+  );
   --section-padding: 2em;
 }

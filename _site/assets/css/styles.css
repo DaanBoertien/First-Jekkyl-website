@@ -1,5 +1,9 @@
 @charset "UTF-8";
-:root { --bg-color: rgb(231, 230, 214); --red: rgb(146, 20, 20); --text-color: rgba(0, 0, 0, 0.85); --section-padding: 2em; }
+:root { --bg-color: rgb(231, 230, 214); --red: rgb(146, 20, 20); --text-color: rgba(0, 0, 0, 0.85); --gradient: linear-gradient(
+    212deg,
+    rgba(240, 239, 228, 1) 0%,
+    rgba(231, 230, 214, 1) 93%
+  ); --section-padding: 2em; }
 
 /*! Hamburgers @description Tasty CSS-animated hamburgers @author Jonathan Suh @jonsuh @site https://jonsuh.com/hamburgers @link https://github.com/jonsuh/hamburgers */
 .hamburger { padding: 15px 15px; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; }
@@ -417,11 +421,11 @@ p { line-height: 1.6; }
 
 body { position: relative; }
 
-nav { background: var(--bg-color); position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: 10; display: flex; align-items: center; justify-content: center; transform: translateX(100%); opacity: 1; transition: all 0.4s ease-in-out; }
+nav { background: var(--gradient); position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: 10; display: flex; align-items: center; justify-content: center; transform: translateX(100%); opacity: 1; transition: all 0.4s ease-in-out; }
 
 nav a { color: rgba(0, 0, 0, 0.7); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 300; }
 
-nav .current { color: var(--red); }
+nav .current { color: var(--red); font-weight: 400; }
 
 nav ul { display: flex; height: 50%; flex-direction: column; align-items: center; justify-content: space-around; }
 
@@ -476,5 +480,7 @@ nav li { list-style: none; }
 .biografie { margin-bottom: 2em; }
 
 .image-container { box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
+
+.page-bio { background: var(--bg-color); background: var(--gradient); }
 
 /*# sourceMappingURL=styles.css.map */
