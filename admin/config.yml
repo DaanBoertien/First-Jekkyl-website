@@ -7,45 +7,50 @@ backend:
   branch: master
   repo: DaanBoertien/First-Jekkyl-website
 
-media_folder: images/uploads 
+media_folder: images/uploads
 
 collections:
   - name: "test"
     label: "test"
-    files: 
-     - name: "test"
-       label: "Test files"
-       file: "_data/test.yml"
-       fields:
-        - label: "Title"
-          name: "title"
-          widget: "string"
-        - label: "Hello!"
-          name: "hello"
-          widget: "string"
-        - label: "Greet me"
-          name: "greeting"
-          widget: "string"
-  - name: 'concerts'
-    label: 'Concerts'
-    folder: '_posts/'
+    files:
+      - name: "test"
+        label: "Test files"
+        file: "_data/test.yml"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Hello!"
+            name: "hello"
+            widget: "string"
+          - label: "Greet me"
+            name: "greeting"
+            widget: "string"
+  - name: "concerts"
+    label: "Concerts"
+    folder: "_posts/"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{title}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'concert' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'place', name: 'time', widget: 'string'}
-      - { label: 'More information', name: 'body', widget: 'markdown' }
-  - name: 'videos'
-      label: 'Video's'
-      folder: 'videos/'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{title}}'
-      editor:
-        preview: false
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'YouTube ID', name: 'youtube-id', widget: 'string'}
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "concert",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "place", name: "time", widget: "string" }
+      - { label: "More information", name: "body", widget: "markdown" }
+  - name: "videos"
+    label: "Video's"
+    folder: "videos/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "YouTube ID", name: "youtube-id", widget: "string" }
