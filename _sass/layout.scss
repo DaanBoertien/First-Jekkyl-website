@@ -19,11 +19,15 @@ img {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  // background: blue;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.container-without-padding {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 section {
-  padding-top: 1em;
+  //   padding-top: 1em;
 }
