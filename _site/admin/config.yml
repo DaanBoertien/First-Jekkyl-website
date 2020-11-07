@@ -47,7 +47,7 @@ collections:
   - name: "videos"
     label: "Video's"
     file: "media.html"
-    widget: list
+    widget: "list"
     fields:
       -label: "Video's"
       -name: "videolist"
