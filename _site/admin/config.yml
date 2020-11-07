@@ -46,15 +46,18 @@ collections:
       - { label: "More information", name: "body", widget: "markdown" }
   - name: "videos"
     label: "Video's"
-    file: "media.html"
-    widget: "list"
-    fields:
-      -label: "Video's"
-      -name: "videolist"
-      -widget: "list"
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "YouTube ID"
-            name: "youtube-id"
-            widget: "string"
+    files:
+      - name: "videos"
+        label: "Video's"
+        file: "media.html"
+        fields:
+          - label: "Videolijst"
+            name: "videolist"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "YouTube Id"
+                name: "youtube-id"
+                widget: "string"
