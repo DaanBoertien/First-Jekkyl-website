@@ -46,12 +46,12 @@ collections:
       - { label: "More information", name: "body", widget: "markdown" }
   - name: "videos"
     label: "Video's"
-    files:
-      - name: "videolist"
-        label: "Video list"
-        file: "media.html"
-        widget: list
-        fields:
+    file: "media.html"
+    widget: list
+    fields:
+      -label: "Video's"
+      -name: "videolist"
+      -widget: "list"
           - label: "Title"
             name: "title"
             widget: "string"
