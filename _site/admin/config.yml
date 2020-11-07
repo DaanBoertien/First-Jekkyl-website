@@ -50,6 +50,8 @@ collections:
       - name: "videos"
         label: "Video's"
         file: "media.html"
+        editor:
+          preview: false
         fields:
           - label: "Videolijst"
             name: "videolist"
