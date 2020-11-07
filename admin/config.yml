@@ -46,17 +46,14 @@ collections:
       - { label: "More information", name: "body", widget: "markdown" }
   - name: "videos"
     label: "Video's"
-    folder: "_videos/"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    folder: "_data/videos.yml"
     editor:
       preview: false
+    widget: "list"
     fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "default",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "YouTube ID", name: "youtube-id", widget: "string" }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "YouTube ID"
+        name: "youtube-id"
+        widget: "string"

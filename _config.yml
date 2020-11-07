@@ -1,6 +1,2 @@
 # permalink: pretty
 baseurl: "/"
-
-collections:
-  videos:
-    output: true
