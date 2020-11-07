@@ -54,6 +54,7 @@ collections:
           preview: false
         fields:
           - label: "Video's"
+            label_singular: "Video"
             name: "video"
             widget: "list"
             add_to_top: true
