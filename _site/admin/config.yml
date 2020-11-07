@@ -65,9 +65,9 @@ collections:
               - label: "YouTube Id"
                 name: "youtube-id"
                 widget: "string"
-      - name: "fotos"
+      - name: "photos"
         label: "Foto's"
-        file: "media.html"
+        file: "_data/photos.yml"
         editor:
           preview: false
         fields:
