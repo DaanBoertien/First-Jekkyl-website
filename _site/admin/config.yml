@@ -49,7 +49,7 @@ collections:
     files:
       - name: "videolist"
         label: "Video list"
-        file: "_data/videos.yml"
+        file: "media.html"
         widget: list
         fields:
           - label: "Title"

@@ -1,11 +1,18 @@
 ---
 layout: default
+videolist:
+  - title: Beethoven op. 111
+    youtube-id: fcfU1_gskF8
+  - title: Varlaam's Lied
+    youtube-id: n_LmojLpPxw
+  - title: Chopin Nocturnes
+    youtube-id: WU8_upVBnT4
 ---
 
 <div class="container">
   <h1 class="page-title">Media</h1>
   <h2 class="page-subtitle">Video's</h2>
-  {% for video in site.data.videos %}
+  {% for video in page.videolist %}
   <div class="iframe-container">
     <iframe
       width="560"
