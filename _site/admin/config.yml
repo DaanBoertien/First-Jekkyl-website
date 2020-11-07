@@ -46,14 +46,15 @@ collections:
       - { label: "More information", name: "body", widget: "markdown" }
   - name: "videos"
     label: "Video's"
-    folder: "_data/videos.yml"
-    editor:
-      preview: false
-    widget: "list"
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "YouTube ID"
-        name: "youtube-id"
-        widget: "string"
+    files:
+      - name: "videolist"
+        label: "Video list"
+        file: "_data/videos.yml"
+        widget: list
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "YouTube ID"
+            name: "youtube-id"
+            widget: "string"

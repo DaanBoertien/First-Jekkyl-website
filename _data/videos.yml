@@ -1,6 +1,7 @@
-- title: Beethoven op. 111
-  youtube-id: fcfU1_gskF
-- title: Varlaam's Lied
-  youtube-id: n_LmojLpPxw
-- title: Chopin Nocturnes
-  youtube-id: WU8_upVBnT4
+videolist:
+  - title: Beethoven op. 111
+    youtube-id: fcfU1_gskF
+  - title: Varlaam's Lied
+    youtube-id: n_LmojLpPxw
+  - title: Chopin Nocturnes
+    youtube-id: WU8_upVBnT4
