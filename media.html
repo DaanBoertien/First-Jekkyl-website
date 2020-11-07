@@ -22,9 +22,9 @@ layout: default
     ></iframe>
   </div>
   {% endfor %}
-  {% for photo in page.foto %}
+  {% for photo in site.data.photos.foto %}
   <div class="media-video">
-    <img src="{{assets/img/uploads/photo.url}}" alt="">
+    <img src="{{photo.url}}" alt="{{photo.alt}}">
   </div>
   {% endfor %}
   
