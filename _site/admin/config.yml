@@ -7,7 +7,7 @@ backend:
   branch: master
   repo: DaanBoertien/First-Jekkyl-website
 
-media_folder: images/uploads
+media_folder: assets/img/uploads/
 
 collections:
   - name: "test"
@@ -64,4 +64,19 @@ collections:
                 widget: "string"
               - label: "YouTube Id"
                 name: "youtube-id"
+                widget: "string"
+          - label: "Foto's"
+            label_singular: "Foto"
+            name: "foto"
+            widget: "list"
+            add_to_top: true
+            fields:
+              - label: "Foto"
+                name: "url"
+                widget: "image"
+              - label: "Alt tekst"
+                name: "alt"
+                widget: "string"
+              - label: "Fotograaf"
+                name: "photographer"
                 widget: "string"
