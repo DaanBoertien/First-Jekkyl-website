@@ -44,8 +44,8 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "place", name: "time", widget: "string" }
       - { label: "More information", name: "body", widget: "markdown" }
-  - name: "videos"
-    label: "Video's"
+  - name: "media"
+    label: "Media"
     files:
       - name: "videos"
         label: "Video's"
@@ -53,8 +53,8 @@ collections:
         editor:
           preview: false
         fields:
-          - label: "Videolijst"
-            name: "videolist"
+          - label: "Video's"
+            name: "video"
             widget: "list"
             fields:
               - label: "Title"
