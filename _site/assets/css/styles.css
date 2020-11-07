@@ -405,6 +405,8 @@ img { width: 100%; display: block; }
 
 .container { max-width: 960px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }
 
+.container-media { max-width: 960px; margin: 0 auto; padding-left: 0.75rem; padding-right: 0.75rem; }
+
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
 .page-title { padding-top: 3em; margin-bottom: 1em; color: var(--red); font-weight: 200; font-size: 40px; }
@@ -485,6 +487,6 @@ nav li { list-style: none; }
 
 .page-bio { background: var(--bg-color); background: var(--gradient); }
 
-.media-video { margin-bottom: 2em; }
+.media-video { margin-bottom: 1.5em; }
 
 /*# sourceMappingURL=styles.css.map */
