@@ -487,6 +487,8 @@ nav li { list-style: none; }
 
 .page-bio { background: var(--bg-color); background: var(--gradient); }
 
+.media-titles { display: flex; justify-content: space-between; }
+
 .media-video { margin-bottom: 1.5em; background: black; }
 
 /*# sourceMappingURL=styles.css.map */

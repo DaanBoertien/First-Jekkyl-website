@@ -1,10 +1,17 @@
-videolist:
-  - title: Beethoven op. 111
-    youtube-id: fcfU1_gskF
+video:
   - title: Varlaam's Lied
     youtube-id: n_LmojLpPxw
+  - youtube-id: amCAXuyxqgU
+    title: Popsugar Fitness
+  - title: Beethoven op. 111
+    youtube-id: fcfU1_gskF8
   - title: Chopin Nocturnes
     youtube-id: WU8_upVBnT4
+<<<<<<< Updated upstream
 video:
   - title: hoi
     youtube-id: hoi?
+=======
+  - youtube-id: QpxNzQyUetA
+    title: GingerGM
+>>>>>>> Stashed changes

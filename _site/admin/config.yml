@@ -49,7 +49,7 @@ collections:
     files:
       - name: "videos"
         label: "Video's"
-        file: "media.html"
+        file: "_data/videos.yml"
         editor:
           preview: false
         fields:
@@ -65,6 +65,12 @@ collections:
               - label: "YouTube Id"
                 name: "youtube-id"
                 widget: "string"
+      - name: "fotos"
+        label: "Foto's"
+        file: "media.html"
+        editor:
+          preview: false
+        fields:
           - label: "Foto's"
             label_singular: "Foto"
             name: "foto"

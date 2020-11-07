@@ -1,35 +1,38 @@
 ---
 layout: default
-video:
-  - title: Varlaam's Lied
-    youtube-id: n_LmojLpPxw
-  - youtube-id: amCAXuyxqgU
-    title: Popsugar Fitness
-  - title: Beethoven op. 111
-    youtube-id: fcfU1_gskF8
-  - title: Chopin Nocturnes
-    youtube-id: WU8_upVBnT4
-  - youtube-id: QpxNzQyUetA
-    title: GingerGM
+
+foto:
+  - url: assets/img/uploads/DaanBoertienSebastianGaltier.jpg
+    alt: "portret"
+    photographer: "SebastianGaltier"
 ---
 
 <div class="container">
   <h1 class="page-title">Media</h1>
-  <h2 class="page-subtitle">Video's</h2>
+  <div class="media-titles">
+    <h2 class="page-subtitle">Video's</h2>
+    <h2 class="page-subtitle">Foto's</h2>
+  </div>
 </div>
 <div class="container">
-  {% for video in page.video %}
+  {% for video in site.data.videos.video %}
   <div class="iframe-container media-video">
     <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/{{video.youtube-id}}?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
+      src="https://www.youtube.com/embed/{{video.youtube-id}}"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
   </div>
   {% endfor %}
+  {% for photo in page.foto %}
+  <div class="media-video">
+    <img src="{{assets/img/uploads/photo.url}}" alt="">
+  </div>
+  {% endfor %}
+  
 </div>
-  <h2 class="page-subtitle">Foto's</h2>
+  
 </div>
