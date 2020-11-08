@@ -3,7 +3,8 @@
     212deg,
     rgba(240, 239, 228, 1) 0%,
     rgba(231, 230, 214, 1) 93%
-  ); --section-padding: 2em; }
+  ); --section-padding: 2em; --boxshadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; }
 
 /*! Hamburgers @description Tasty CSS-animated hamburgers @author Jonathan Suh @jonsuh @site https://jonsuh.com/hamburgers @link https://github.com/jonsuh/hamburgers */
 .hamburger { padding: 15px 15px; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; }
@@ -399,6 +400,8 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
+html { scroll-behavior: smooth; }
+
 body { background: var(--gradient); color: var(--text-color); min-height: 100vh; }
 
 img { width: 100%; display: block; }
@@ -475,7 +478,7 @@ nav li { list-style: none; }
 
 .quote-author { margin-top: 1em; text-align: right; }
 
-.iframe-container { overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; }
+.iframe-container { overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: var(--boxshadow); }
 
 .iframe-container iframe { width: 100%; height: 100%; top: 0; left: 0; position: absolute; }
 
@@ -490,5 +493,11 @@ nav li { list-style: none; }
 .media-titles { display: flex; justify-content: space-between; }
 
 .media-video { margin-bottom: 1.5em; background: black; }
+
+.boxshadow { box-shadow: var(--boxshadow); }
+
+.all-items { margin-bottom: 1.5em; }
+
+#fotos { padding-top: 1.5em; }
 
 /*# sourceMappingURL=styles.css.map */

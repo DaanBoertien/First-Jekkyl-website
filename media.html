@@ -6,24 +6,27 @@ layout: default
   <h1 class="page-title">Media</h1>
   <div class="media-titles">
     <h2 class="page-subtitle">Video's</h2>
-    <h2 class="page-subtitle">Foto's</h2>
+    <h2 class="page-subtitle"><a href="#fotos">Foto's</a></h2>
   </div>
 </div>
 <div class="container">
-  {% for video in site.data.videos.video %}
-  <div class="iframe-container media-video">
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/{{video.youtube-id}}"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+  <div class="all-items">
+    {% for video in site.data.videos.video %}
+    <div class="iframe-container media-video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/{{video.youtube-id}}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
+  <h2 class="page-subtitle"><a id="fotos">Foto's</a></h2>
   {% for photo in site.data.photos.foto %}
-  <div class="media-video">
+  <div class="media-video boxshadow">
     <img src="{{photo.url}}" alt="{{photo.alt}}">
   </div>
   {% endfor %}

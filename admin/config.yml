@@ -75,7 +75,7 @@ collections:
             label_singular: "Foto"
             name: "foto"
             widget: "list"
-            summary: '<img src="{{fields.url}}">'
+            summary: "{{fields.alt}}"
             add_to_top: true
             fields:
               - label: "Foto"
