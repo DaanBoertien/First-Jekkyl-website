@@ -87,3 +87,4 @@ collections:
               - label: "Fotograaf"
                 name: "photographer"
                 widget: "string"
+                required: false
