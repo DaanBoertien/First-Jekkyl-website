@@ -512,7 +512,7 @@ form { display: flex; flex-direction: column; margin-top: 2em; margin-bottom: 2e
 
 button[type="submit"], input, textarea { font-family: inherit; font-weight: inherit; font-size: inherit; border: 0; box-shadow: var(--boxshadow); border-radius: 5px; }
 
-input, textarea { padding: 0.5em; margin-bottom: 1em; }
+input, textarea { padding: 1em; margin-bottom: 1.5em; }
 
 textarea { margin-bottom: 2em; resize: vertical; min-height: 100px; }
 
@@ -535,5 +535,7 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 .margin-bottom { margin-bottom: 2em; }
 
 .thank-you { margin-bottom: 1em; }
+
+.photographer-list li { line-height: 1.6; list-style: none; }
 
 /*# sourceMappingURL=styles.css.map */
