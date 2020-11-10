@@ -46,17 +46,33 @@
     </div>
 </div>
     <!-- <div class="container"> -->
-    Contact
-Mail voor vragen of boekingen naar daan.boertien@gmail.com.
+    <div class="container">
+  <h1 class="page-title">Contact</h1>
+  <p class="contact-invitation">
+    Stuur Daan hieronder een bericht, of mail naar info@daanboertien.com.
+  </p>
 
-FOTO'S
-Marco Borggreve
-Martijn Gijsbertsen
-Christina Körte
-TaiZhi Shao
-Petra Teeuwsen
+  <form name="contact" method="POST" data-netlify="true">
+    <label for="name">Naam</label>
+    <input type="text" id="name" name="name" autofocus />
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <label for="message">Bericht</label>
+    <textarea rows="4" cols="50" name="message"></textarea>
+    <input type="submit" value="Verzend" />
+  </form>
+  <h2 class="page-subtitle">Fotografen</h2>
+  <ul>
+    <li>Marco Borggreve</li>
+    <li>Martijn Gijsbertsen</li>
+    <li>Christina Körte</li>
+    <li>TaiZhi Shao</li>
+    <li>Petra Teeuwsen</li>
+    <li>Sebastian Galtier</li>
+  </ul>
+  CONTACTFORM
+</div>
 
-CONTACTFORM
     <!-- </div> -->
     <section class="footer">
     <div class="container">

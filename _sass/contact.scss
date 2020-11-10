@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+button[type="submit"],
+input,
+textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  border: 0;
+  box-shadow: var(--boxshadow);
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+textarea {
+  margin-bottom: 2em;
+  resize: vertical;
+  min-height: 100px;
+}
+
+label {
+  color: var(--clr-greyblue);
+  margin-bottom: 0.2em;
+}
+
+input[type="submit"] {
+  background: var(--clr-greyblue);
+  padding: 0.75em 0;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: var(--clr-greyblue-hover);
+}
+
+.contact-invitation {
+  color: var(--text-color);
+}
