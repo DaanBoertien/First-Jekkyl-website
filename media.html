@@ -28,8 +28,8 @@ layout: default
   {% for photo in site.data.photos.foto %}
   <div class="media-video boxshadow">
     <img src="{{photo.url}}" alt="{{photo.alt}}">
-    {% if photo.photographer%}
-    <p class="photographer">© {{photo.photographer}}</p>
+    {% if photo.photographer != "" %}
+      <p class="photographer">© {{photo.photographer}}</p>
     {% endif %}
   </div>
   {% endfor %}
