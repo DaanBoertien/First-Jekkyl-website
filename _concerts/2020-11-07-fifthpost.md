@@ -1,10 +1,10 @@
 ---
 layout: concert
 author: Daan
-title: Some concert
-time: Den Haag
+title: Chopin future
+time: Zutphen
 place: Amsterdam
-date: 2020-11-03T15:27:04.749Z
+date: 2021-11-03T16:12:33.281Z
 ---
 
 CQC - Wasser

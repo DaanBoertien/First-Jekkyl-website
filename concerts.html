@@ -2,16 +2,25 @@
 layout: default
 title: concerts
 ---
-<h1>Latest Posts</h1>
 
-<ul>
+<div class="container">
+  <h1 class="page-title">Agenda</h1>
 
-  {% for concert in site.posts %}
-    <li>
-      <h2><a href="{{ concert.url }}">{{ concert.title }}</a></h2>
-      {{ concert.date | date_to_string }}
-      {{ concert.excerpt }}
-      {{ concert.place }}
-    </li>
+  {% assign future_concerts = site.concerts | where_exp: "concert",
+  "concert.date > site.time" %} {% for concert in future_concerts %}
+  <div>
+    <p>{{concert.title}}</p>
+    <p>{{concert.date}}</p>
+  </div>
   {% endfor %}
-</ul>
+
+  <h1 class="page-title">Archief</h1>
+  {% assign future_concerts = site.concerts | where_exp: "concert",
+  "concert.date < site.time" %} {% for concert in future_concerts %} {% if
+  concert.in_archive == true %}
+  <div>
+    <p>{{concert.title}}</p>
+    <p>{{concert.date}}</p>
+  </div>
+  {% endif %} {% endfor %}
+</div>

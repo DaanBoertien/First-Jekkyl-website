@@ -416,7 +416,7 @@ img { width: 100%; display: block; }
 
 .page-subtitle { font-weight: 400; margin-bottom: 1em; color: var(--clr-greyblue); font-size: 1.35em; transition: color 0.3s ease-in-out; text-decoration: underline; text-decoration-thickness: 0.75px; text-underline-offset: 3px; text-decoration-skip-ink: auto; }
 
-.page-subtitle:hover { color: var(--red); }
+a.page-subtitle:hover { color: var(--red); }
 
 body { font-family: "montserrat", sans-serif; }
 

@@ -28,7 +28,7 @@ collections:
             widget: "string"
   - name: "concerts"
     label: "Concerts"
-    folder: "_posts/"
+    folder: "_concerts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     editor:
@@ -41,9 +41,27 @@ collections:
           default: "concert",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "place", name: "time", widget: "string" }
-      - { label: "More information", name: "body", widget: "markdown" }
+      - { label: "Datum en tijd", name: "date", widget: "datetime" }
+      - { label: "Plaats", name: "time", widget: "string" }
+      - { label: "Repertoire", name: "repertoire", widget: "string" }
+      - { label: "Musici", name: "musicians", widget: "text" }
+      - {
+          label: "Link naar organisator",
+          name: "organizer_url",
+          widget: "text",
+        }
+      - {
+          label: "In archief",
+          name: "in_archive",
+          widget: "boolean",
+          default: true,
+        }
+      - {
+          label: "Geannuleerd",
+          name: "cancelled",
+          widget: "boolean",
+          default: false,
+        }
   - name: "media"
     label: "Media"
     files:
