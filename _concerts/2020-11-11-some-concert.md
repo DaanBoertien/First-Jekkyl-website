@@ -1,6 +1,7 @@
 ---
 layout: concert
-date: 2019-11-11
+hall: Konzerthaus19
+date: 2019-11-12
 time: 12:01
 place: Blaibach
 repertoire: Liederen van Schubert en Schumann
@@ -9,6 +10,5 @@ musicians: |-
   Daan Boertien, Pianist
 in_archive: true
 title: Some concert?
-hall: Konzerthaus19
 ---
 More information!
