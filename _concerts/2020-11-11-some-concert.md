@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Konzerthaus19
-date: 2019-11-12
+date: 2019-11-13
 time: 12:01
 place: Blaibach
 repertoire: Liederen van Schubert en Schumann
