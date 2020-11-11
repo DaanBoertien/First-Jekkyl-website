@@ -6,7 +6,7 @@ musicians: |-
   Daan Boertien, Piano
 in_archive: true
 time: Amsterdam
-date: 2020-11-19T19:00:00.000Z
+date: 2020-12-01T19:00:00.000Z
 repertoire: Winterreise - F. Schubert
 cancelled: false
 title: Winterreise
