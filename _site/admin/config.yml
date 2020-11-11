@@ -17,7 +17,7 @@ collections:
     create: true
     sortable_fields: ["date"]
     summary: "{{hall}}, {{place}}, {{ concert_date }}"
-    slug: "{{concert_date | date: '%Y-%m-%d'}}-{{hall}}"
+    slug: "{{concert_date}}-{{hall}}"
     editor:
       preview: false
     fields:
