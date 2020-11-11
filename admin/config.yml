@@ -16,8 +16,8 @@ collections:
     folder: "_concerts/"
     create: true
     sortable_fields: ["concert_date"]
-    summary: "{{hall}}, {{place}}, {{ concert_date }}"
-    slug: "{{concert_date}}-{{hall}}"
+    summary: "{{hall}}, {{place}}, {{day}}-{{month}}-{{year}}"
+    slug: "{{day}}-{{month}}-{{year}}-{{hall}}"
     editor:
       preview: false
     fields:
@@ -28,25 +28,7 @@ collections:
           default: "concert",
         }
       - { label: "Zaal", name: "hall", widget: "string" }
-      - {
-          label: "Datum",
-          name: "concert_date",
-          widget: "datetime",
-          date_format: "DD-MM-YYYY",
-          time_format: "HH:mm",
-        }
-
-        # time_format: false,
-        # format: "YYYY-MM-DD",
-      # - {
-      #     label: "Tijd",
-      #     name: "concert_time",
-      #     widget: "datetime",
-      #     date_format: false,
-      #     time_format: "HH:mm",
-      #   }
-      # format: "HH:mm",
-
+      - { label: "Datum", name: "concert_date", widget: "datetime" }
       - { label: "Plaats", name: "place", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
       - { label: "Musici", name: "musicians", widget: "text" }
