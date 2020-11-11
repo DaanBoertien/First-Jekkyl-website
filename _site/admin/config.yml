@@ -10,27 +10,12 @@ backend:
 media_folder: assets/img/uploads/
 
 collections:
-  - name: "test"
-    label: "test"
-    files:
-      - name: "test"
-        label: "Test files"
-        file: "_data/test.yml"
-        fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "Hello!"
-            name: "hello"
-            widget: "string"
-          - label: "Greet me"
-            name: "greeting"
-            widget: "string"
   - name: "concerts"
     label: "Concerts"
     label_singular: "Concert"
     folder: "_concerts/"
     create: true
+    summary: "{{fields.hall}}, {{fields.place}}, {{fields.date | date_to_long_string}}"
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     editor:
       preview: false
@@ -41,7 +26,7 @@ collections:
           widget: "hidden",
           default: "concert",
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Zaal", name: "hall", widget: "string" }
       - {
           label: "Datum en tijd",
           name: "date",
@@ -49,13 +34,14 @@ collections:
           date_format: "DD-MM-YYYY",
           time_format: "HH:mm",
         }
-      - { label: "Plaats", name: "time", widget: "string" }
+      - { label: "Plaats", name: "place", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
       - { label: "Musici", name: "musicians", widget: "text" }
       - {
           label: "Link naar organisator",
           name: "organizer_url",
           widget: "text",
+          required: false,
         }
       - {
           label: "In archief",
@@ -68,6 +54,7 @@ collections:
           name: "cancelled",
           widget: "boolean",
           default: false,
+          required: false,
         }
   - name: "media"
     label: "Media"
