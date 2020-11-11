@@ -28,6 +28,7 @@ collections:
             widget: "string"
   - name: "concerts"
     label: "Concerts"
+    label_singular: "Concert"
     folder: "_concerts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
