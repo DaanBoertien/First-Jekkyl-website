@@ -15,8 +15,9 @@ collections:
     label_singular: "Concert"
     folder: "_concerts/"
     create: true
-    summary: "{{hall}}, {{place}}, {{ date }}"
-    slug: "{{year}}-{{month}}-{{day}}-{{hall}}"
+    sortable_fields: ["date"]
+    summary: "{{hall}}, {{place}}, {{ concert_date }}"
+    slug: "{{concert_date}}-{{hall}}"
     editor:
       preview: false
     fields:
@@ -29,20 +30,20 @@ collections:
       - { label: "Zaal", name: "hall", widget: "string" }
       - {
           label: "Datum",
-          name: "date",
+          name: "concert_date",
           widget: "datetime",
           date_format: "DD-MM-YYYY",
           time_format: false,
-          format: "YYYY-MM-DD",
         }
+        # format: "YYYY-MM-DD",
       - {
           label: "Tijd",
-          name: "time",
+          name: "concert_time",
           widget: "datetime",
           date_format: false,
           time_format: "HH:mm",
-          format: "HH:mm",
         }
+        # format: "HH:mm",
 
       - { label: "Plaats", name: "place", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
@@ -58,6 +59,7 @@ collections:
           name: "in_archive",
           widget: "boolean",
           default: true,
+          required: false,
         }
       - {
           label: "Geannuleerd",
@@ -66,6 +68,7 @@ collections:
           default: false,
           required: false,
         }
+
   - name: "media"
     label: "Media"
     files:
