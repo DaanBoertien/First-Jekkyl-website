@@ -42,7 +42,13 @@ collections:
           default: "concert",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Datum en tijd", name: "date", widget: "datetime" }
+      - {
+          label: "Datum en tijd",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD-MM-YYYY",
+          time_format: "HH:mm",
+        }
       - { label: "Plaats", name: "time", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
       - { label: "Musici", name: "musicians", widget: "text" }
