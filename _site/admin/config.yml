@@ -28,8 +28,13 @@ collections:
           default: "concert",
         }
       - { label: "Zaal", name: "hall", widget: "string" }
-      - { label: "Datum", name: "concert_date", widget: "datetime" }
-        # date_format: "DD-MM-YYYY",
+      - {
+          label: "Datum",
+          name: "concert_date",
+          widget: "datetime",
+          date_format: "DD-MM-YYYY",
+        }
+
         # time_format: false,
         # format: "YYYY-MM-DD",
       - {
