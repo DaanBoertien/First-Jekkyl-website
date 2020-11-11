@@ -15,7 +15,7 @@ collections:
     label_singular: "Concert"
     folder: "_concerts/"
     create: true
-    sortable_fields: ["concert_date"]
+    sortable_fields: ["date"]
     summary: "{{hall}}, {{place}}, {{day}}-{{month}}-{{year}}"
     slug: "{{day}}-{{month}}-{{year}}-{{hall}}"
     editor:
@@ -28,7 +28,7 @@ collections:
           default: "concert",
         }
       - { label: "Zaal", name: "hall", widget: "string" }
-      - { label: "Datum", name: "concert_date", widget: "datetime" }
+      - { label: "Datum", name: "date", widget: "datetime" }
       - { label: "Plaats", name: "place", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
       - { label: "Musici", name: "musicians", widget: "text" }
