@@ -1,16 +1,17 @@
 ---
+layout: concert
+place: Amsterdam
 musicians: |-
   Marc Pantus, Bariton
   Daan Boertien, Piano
-place: Amsterdam
-layout: concert
-title: Winterreise
-date: 2020-11-20T19:00:00.000Z
-time: Amsterdam
-repertoire: Winterreise - F. Schubert
-organizer_url: "-"
 in_archive: true
+time: Amsterdam
+date: 2020-11-20T19:00:00.000Z
+repertoire: Winterreise - F. Schubert
 cancelled: false
+title: Winterreise
+hall: Concertgebouw
+organizer_url: "-"
 ---
 
 CQC - Wasser
