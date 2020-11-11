@@ -9,7 +9,7 @@ place
   <h1 class="page-title">Agenda</h1>
 
   {% assign future_concerts = site.concerts | where_exp: "concert",
-  "concert.date > site.time" %} {% for concert in future_concerts %}
+  "concert.concert_date > site.time" %} {% for concert in future_concerts %}
   <div>
     <p>{{concert.concert_date | date: "%d-%m-%Y" }}</p>
     <p>{{concert.concert_time | date: "%H:%I"}}</p>
@@ -22,12 +22,12 @@ place
 
   <h1 class="page-title">Archief</h1>
   {% assign future_concerts = site.concerts | where_exp: "concert",
-  "concert.date < site.time" %} {% for concert in future_concerts %} {% if
-  concert.in_archive == true %}
+  "concert.concert_date < site.time" %} {% for concert in future_concerts %} {%
+  if concert.in_archive == true %}
   <div>
     <p>{{concert.title}}</p>
-    <p>{{concert.date | date: "%d-%m-%Y" }}</p>
-    <p>{{concert.date | date: "%H:%I" }}</p>
+    <p>{{concert.concert_date | date: "%d-%m-%Y" }}</p>
+    <p>{{concert.concert_date | date: "%H:%I" }}</p>
   </div>
   {% endif %} {% endfor %}
 </div>

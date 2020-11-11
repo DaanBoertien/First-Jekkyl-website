@@ -33,6 +33,7 @@ collections:
           name: "concert_date",
           widget: "datetime",
           date_format: "DD-MM-YYYY",
+          format: "YYYY-MM-DD",
         }
 
         # time_format: false,
