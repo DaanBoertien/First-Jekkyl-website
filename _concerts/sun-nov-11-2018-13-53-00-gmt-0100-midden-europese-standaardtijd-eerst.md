@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Eerst
+hall: nu
 concert_date: 2018-11-11T12:53:00.000Z
 place: hier
 repertoire: bach
