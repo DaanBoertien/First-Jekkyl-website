@@ -1,0 +1,53 @@
+.concert-poster {
+  background: rgb(250, 250, 249);
+  border-radius: 10px;
+  box-shadow: var(--boxshadow);
+  font-weight: 300;
+}
+
+.concert-location {
+  padding: 1em;
+}
+
+.concert-poster + .concert-poster {
+  margin-top: 2em;
+}
+
+.concert-datetime {
+  background: var(--clr-greyblue);
+  color: white;
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.concert-date,
+.concert-place,
+.concert-hall,
+.concert-time {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.archive {
+  opacity: 0.7;
+}
+
+.concert-hall {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--red);
+}
+
+.concert-place {
+  margin-bottom: 1em;
+}
+
+.concert-repertoire {
+  margin-bottom: 1em;
+}
+
+.concert-musicians {
+  white-space: pre-wrap;
+}

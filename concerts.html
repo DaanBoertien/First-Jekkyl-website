@@ -3,21 +3,25 @@ layout: default
 title: concerts
 ---
 
-musicians, organizer_url, in_archive, cancelled, time, date, hall, repertoire,
-place
 <div class="container">
   <h1 class="page-title">Agenda</h1>
 
   {% assign future_concerts = site.concerts | where_exp: "concert",
   "concert.date >= site.time" %} {% for concert in future_concerts %}
-  <div>
-    <p>{{concert.date | date: "%d-%m-%Y" }}</p>
-    <p>{{concert.date | date: "%d-%m-%Y, %k:%M" }}</p>
-    <p>{{concert.hall}}</p>
-    <p>{{concert.place}}</p>
-    <p>{{concert.repertoire}}</p>
-    <p>{{concert.musicians}}</p>
-    <br /><br />
+  <div class="concert-poster">
+    <div class="concert-datetime">
+      <p class="concert-date">{{concert.date | date_to_long_string }}</p>
+      <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
+    </div>
+    <div class="concert-location">
+      <p class="concert-hall">{{concert.hall}}</p>
+      <p class="concert-place">{{concert.place}}</p>
+      <p class="concert-repertoire">{{concert.repertoire}}</p>
+      <p class="concert-musicians">{{concert.musicians }}</p>
+      {% if concert.organizer_url != "" %}
+      <p class="concert-tickets">{{concert.organizer_url}}</p>
+    </div>
+    {% endif %}
   </div>
   {% endfor %}
 
@@ -25,11 +29,18 @@ place
   {% assign past_concerts = site.concerts | where_exp: "concert", "concert.date
   < site.time" %} {% for concert in past_concerts %} {% if concert.in_archive ==
   true %}
-  <div>
-    <p>{{concert.title}}</p>
-    <p>{{concert.date | date: "%d-%m-%Y" }}</p>
-    <p>{{concert.date | date: "%H:%I" }}</p>
-    <br /><br />
+  <div class="concert-poster archive">
+    <div class="concert-datetime">
+      <p class="concert-date">{{concert.date | date: "%d-%m-%Y" }}</p>
+      <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
+    </div>
+    <p class="concert-hall">{{concert.hall}}</p>
+    <p class="concert-place">{{concert.place}}</p>
+    <p class="concert-repertoire">{{concert.repertoire}}</p>
+    <p class="concert-musicians">{{concert.musicians}}</p>
+    {% if concert.organizer_url != "" %}
+    <p class="concert-tickets">{{concert.organizer_url}}</p>
+    {% endif %}
   </div>
   {% endif %} {% endfor %}
 </div>
