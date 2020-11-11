@@ -9,6 +9,6 @@ musicians: |-
   Daan Boertien, Pianist
 in_archive: true
 title: Some concert?
-hall: Konzerthaus
+hall: Konzerthaus21
 ---
 More information!
