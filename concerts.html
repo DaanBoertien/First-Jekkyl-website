@@ -20,7 +20,8 @@ title: concerts
   concert.in_archive == true %}
   <div>
     <p>{{concert.title}}</p>
-    <p>{{concert.date}}</p>
+    <p>{{concert.date | date: "%d-%m-%Y" }}</p>
+    <p>{{concert.date | date: "%H:%I" }}</p>
   </div>
   {% endif %} {% endfor %}
 </div>
