@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: "Concertgebouw "
+hall: Concertgebouw
 date: 2021-11-11T19:15:00.000Z
 place: "Amsterdam "
 repertoire: "Beethoven "
