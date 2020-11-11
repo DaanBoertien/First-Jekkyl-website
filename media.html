@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="container">
-  <h1 class="page-title">Media</h1>
-  <div class="media-titles">
+  <h1 class="page-title fadeIn">Media</h1>
+  <div class="media-titles fadeIn">
     <a href="#videos" class="page-subtitle" id="videos">Video's</a>
     <a href="#fotos" class="page-subtitle">Foto's</a>
   </div>
@@ -12,7 +12,7 @@ layout: default
 <div class="container">
   <div class="all-items">
     {% for video in site.data.videos.video %}
-    <div class="iframe-container media-video">
+    <div class="iframe-container media-video fadeIn">
       <iframe
         width="560"
         height="315"
@@ -24,9 +24,9 @@ layout: default
     </div>
     {% endfor %}
   </div>
-  <h2 class="page-subtitle"><a id="fotos">Foto's</a></h2>
+  <h2 class="page-subtitle fadeIn"><a id="fotos">Foto's</a></h2>
   {% for photo in site.data.photos.foto %}
-  <div class="media-video boxshadow">
+  <div class="media-video boxshadow fadeIn">
     <img src="{{photo.url}}" alt="{{photo.alt}}">
     {% if photo.photographer != "" %}
       <p class="photographer">© {{photo.photographer}}</p>
