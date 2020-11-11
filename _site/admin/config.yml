@@ -15,7 +15,7 @@ collections:
     label_singular: "Concert"
     folder: "_concerts/"
     create: true
-    summary: "{{fields.hall}}, {{fields.place}}, {{fields.date | date_to_long_string}}"
+    summary: "{{fields.hall}}, {{fields.place}}: {{ fields.date | date_to_long_string }}"
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     editor:
       preview: false
@@ -34,6 +34,7 @@ collections:
           date_format: "DD-MM-YYYY",
           time_format: "HH:mm",
         }
+        # format: "YYYY-MM-DD HH:mm"
       - { label: "Plaats", name: "place", widget: "string" }
       - { label: "Repertoire", name: "repertoire", widget: "string" }
       - { label: "Musici", name: "musicians", widget: "text" }
