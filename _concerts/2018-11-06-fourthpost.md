@@ -1,6 +1,6 @@
 ---
 layout: concert
-date: 2020-12-01T19:00:00.000Z
+date: 2017-12-01
 time: 20:00
 place: Amsterdam
 repertoire: Winterreise - F. Schubert
@@ -10,7 +10,7 @@ musicians: |-
 in_archive: true
 cancelled: false
 title: Winterreise
-hall: Concertgebouw
+hall: Concertgebouw17
 organizer_url: "-"
 ---
 
