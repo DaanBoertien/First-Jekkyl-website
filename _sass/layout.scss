@@ -43,10 +43,14 @@ img {
 }
 
 .fadeIn,
-.fadeInMedia {
+.fadeInMedia,
+.fadeInTitle {
   transform: translateY(50px);
   opacity: 0;
   visibility: hidden;
+}
+.fadeInTitle {
+  transform: translateY(0px);
 }
 
 .page-title {

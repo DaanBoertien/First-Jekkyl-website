@@ -18,6 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log('Loaded DOM')
 animate(".fadeIn")
+animate(".fadeInTitle")
 // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
 // you could also use addEventListener() instead
 window.onload = function() {
