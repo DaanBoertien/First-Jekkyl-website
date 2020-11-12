@@ -12,13 +12,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
-;
+if (videoContainer) {
+    animate(".fadeIn", 3, 1);
+}
 
 // wait until DOM is ready
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log('Loaded DOM')
 animate(".fadeIn")
 animate(".fadeInTitle")
+
 // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
 // you could also use addEventListener() instead
 window.onload = function() {
@@ -45,8 +48,8 @@ console.log("loaded window")
 
 });
 
-function animate(enterClass){
+function animate(enterClass, speed = 1, timeBetween = 0.2){
     return ScrollTrigger.batch(enterClass, {
-        onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power3.inOut}),
+        onEnter: batch => gsap.to(batch, {duration: speed, y: 0, autoAlpha: 1, stagger: timeBetween, ease: Power3.inOut}),
     });
 }
