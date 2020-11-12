@@ -21,9 +21,7 @@ console.log('Loaded DOM')
 animate(".fadeIn")
 animate(".fadeInTitle")
 
-ScrollTrigger.batch(".fadeInLanding", {
-    onEnter: batch => gsap.to(batch, {duration: 3, y: 0, autoAlpha: 1, stagger: 1, ease: Power2.inOut})
-})
+
 
 
 
@@ -46,6 +44,9 @@ console.log("loaded window")
 
       animate(".fadeInVideo");
       animate(".fadeInPhoto");
+      ScrollTrigger.batch(".fadeInLanding", {
+        onEnter: batch => gsap.to(batch, {duration: 3, y: 0, autoAlpha: 1, stagger: 1, ease: Power2.inOut})
+    })
     
      
 
