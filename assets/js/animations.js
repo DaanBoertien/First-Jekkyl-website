@@ -11,6 +11,17 @@ window.onload = function() {
 gsap.registerPlugin(ScrollTrigger);
 
 
+gsap.to(".landing-title-container", {
+  yPercent: -20,
+  ease: "none",
+  scrollTrigger: {
+    trigger: videoContainer,
+    // start: "top bottom", // the default values
+    // end: "bottom top",
+    scrub: true
+  }, 
+});
+
 
 
 
@@ -45,7 +56,7 @@ console.log("loaded window")
       animate(".fadeInVideo");
       animate(".fadeInPhoto");
       ScrollTrigger.batch(".fadeInLanding", {
-        onEnter: batch => gsap.to(batch, {duration: 3, y: 0, autoAlpha: 1, stagger: 1, ease: Power2.inOut})
+        onEnter: batch => gsap.to(batch, {duration: 2, y: 0, autoAlpha: 1, stagger: .7, ease: Power2.inOut})
     })
     
      
