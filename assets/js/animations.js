@@ -17,13 +17,14 @@ gsap.registerPlugin(ScrollTrigger);
 // wait until DOM is ready
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log('Loaded DOM')
+ScrollTrigger.batch(".fadeIn", {
+    onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power2.inOut, overwrite: true}),
+});
 // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
 // you could also use addEventListener() instead
 window.onload = function() {
 console.log("loaded window")
-ScrollTrigger.batch(".fadeIn", {
-    onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power2.inOut}),
-});
+
    // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
    window.requestAnimationFrame(function() {
     console.log("loaded animation ticker")

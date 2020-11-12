@@ -412,7 +412,7 @@ img { width: 100%; display: block; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
-.fadeIn, .fadeInMedia { transform: translateY(20px); opacity: 0; visibility: hidden; }
+.fadeIn, .fadeInMedia { transform: translateY(30px); opacity: 0; visibility: hidden; }
 
 .page-title { padding-top: 3em; margin-bottom: 1em; color: var(--red); font-weight: 200; font-size: 40px; }
 
