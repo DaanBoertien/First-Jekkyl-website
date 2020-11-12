@@ -12,7 +12,7 @@ layout: default
 <div class="container">
   <div class="all-items">
     {% for video in site.data.videos.video %}
-    <div class="iframe-container media-video fadeInMedia">
+    <div class="iframe-container media-video fadeInVideo">
       <iframe
         width="560"
         height="315"
@@ -25,7 +25,7 @@ layout: default
   </div>
   <h2 class="page-subtitle fadeIn"><a id="fotos">Foto's</a></h2>
   {% for photo in site.data.photos.foto %}
-  <div class="media-video boxshadow fadeInMedia">
+  <div class="media-video boxshadow fadeInPhoto">
     <img src="{{photo.url}}" alt="{{photo.alt}}">
     {% if photo.photographer != "" %}
       <p class="photographer">© {{photo.photographer}}</p>

@@ -43,13 +43,19 @@ img {
 }
 
 .fadeIn,
-.fadeInMedia,
+.fadeInVideo,
+.fadeInPhoto,
 .fadeInTitle {
-  transform: translateY(50px);
   opacity: 0;
   visibility: hidden;
 }
-.fadeInTitle {
+
+.fadeIn,
+.fadeInPhoto {
+  transform: translateY(50px);
+}
+.fadeInNoY,
+.fadeInMedia {
   transform: translateY(0px);
 }
 

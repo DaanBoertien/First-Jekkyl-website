@@ -412,9 +412,11 @@ img { width: 100%; display: block; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
-.fadeIn, .fadeInMedia, .fadeInTitle { transform: translateY(50px); opacity: 0; visibility: hidden; }
+.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle { opacity: 0; visibility: hidden; }
 
-.fadeInTitle { transform: translateY(0px); }
+.fadeIn, .fadeInPhoto { transform: translateY(50px); }
+
+.fadeInNoY, .fadeInMedia { transform: translateY(0px); }
 
 .page-title { padding-top: 3em; margin-bottom: 1em; color: var(--red); font-weight: 200; font-size: 40px; }
 

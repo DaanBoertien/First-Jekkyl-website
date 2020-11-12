@@ -33,7 +33,8 @@ console.log("loaded window")
         videoContainer.classList.add("loaded");
     }
 
-      animate(".fadeInMedia")
+      animate(".fadeInVideo");
+      animate(".fadeInPhoto");
     
      
 
