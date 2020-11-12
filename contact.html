@@ -3,12 +3,18 @@ layout: default
 ---
 
 <div class="container">
-  <h1 class="page-title">Contact</h1>
-  <p class="contact-invitation">
+  <h1 class="page-title fadeIn">Contact</h1>
+  <p class="contact-invitation fadeIn">
     Stuur Daan hieronder een bericht, of mail naar info@daanboertien.com.
   </p>
 
-  <form name="contact" method="POST" data-netlify="true" action="/success">
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    action="/success"
+    class="fadeIn"
+  >
     <label for="name">Naam</label>
     <input type="text" id="name" name="name" autofocus />
     <label for="email">Email</label>
@@ -17,7 +23,7 @@ layout: default
     <textarea rows="4" cols="50" name="message"></textarea>
     <input type="submit" value="Verzend" />
   </form>
-  <h2 class="page-subtitle">Fotografen</h2>
+  <h2 class="page-subtitle fadeIn">Fotografen</h2>
   <ul class="photographer-list">
     <li>Marco Borggreve</li>
     <li>Martijn Gijsbertsen</li>
@@ -26,14 +32,4 @@ layout: default
     <li>Petra Teeuwsen</li>
     <li>Sebastian Galtier</li>
   </ul>
-</div>
-
-<div class="modal">
-  <div class="modal-body">
-    <p class="modal-text">
-      Het bericht is succesvol verzonden. Daan Boertien neemt zo snel mogelijk
-      contact met je op!
-    </p>
-    <a href="/contact.html" class="btn">OK</a>
-  </div>
 </div>
