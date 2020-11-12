@@ -42,9 +42,11 @@ img {
   margin: 0 auto;
 }
 
-.fadeIn {
-  transform: translateY(30px);
+.fadeIn,
+.fadeInMedia {
+  transform: translateY(20px);
   opacity: 0;
+  visibility: hidden;
 }
 
 .page-title {
