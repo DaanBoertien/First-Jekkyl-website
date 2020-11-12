@@ -45,13 +45,15 @@ img {
 .fadeIn,
 .fadeInVideo,
 .fadeInPhoto,
-.fadeInTitle {
+.fadeInTitle,
+.fadeInLanding {
   opacity: 0;
   visibility: hidden;
 }
 
 .fadeIn,
-.fadeInPhoto {
+.fadeInPhoto,
+.fadeInLanding {
   transform: translateY(50px);
 }
 .fadeInNoY,

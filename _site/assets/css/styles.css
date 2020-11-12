@@ -412,9 +412,9 @@ img { width: 100%; display: block; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
-.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle { opacity: 0; visibility: hidden; }
+.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle, .fadeInLanding { opacity: 0; visibility: hidden; }
 
-.fadeIn, .fadeInPhoto { transform: translateY(50px); }
+.fadeIn, .fadeInPhoto, .fadeInLanding { transform: translateY(50px); }
 
 .fadeInNoY, .fadeInMedia { transform: translateY(0px); }
 
