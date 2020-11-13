@@ -1,14 +1,20 @@
 const bgVideo = document.querySelector(".background-video");
 const videoContainer = document.querySelector(".video-container");
 
-
+gsap.registerPlugin(ScrollTrigger);
 
 window.onload = function() {
     videoContainer.classList.add("loaded");
 }
 
 
-gsap.registerPlugin(ScrollTrigger);
+// ScrollTrigger.batch(".fadeInNav", {
+//   onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: .2, ease: Power2.inOut})
+  
+  
+// })
+
+
 
 
 gsap.to(".landing-title-container", {

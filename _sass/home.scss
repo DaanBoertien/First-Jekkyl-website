@@ -35,6 +35,7 @@
   background: black;
   z-index: 1;
   transition: all 1s ease-in-out;
+  pointer-events: none;
 }
 
 .video-container::before.loaded {
@@ -68,6 +69,17 @@
 .landing-subtitle {
   font-size: 40px;
   color: var(--red);
+}
+
+.fa-angle-down {
+  position: absolute;
+  color: white;
+  left: 50%;
+  bottom: 1em;
+  transform: translateX(-50%);
+  font-size: 50px;
+  font-weight: 300;
+  opacity: 70%;
 }
 
 .section-bio {

@@ -412,9 +412,9 @@ img { width: 100%; display: block; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
-.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle, .fadeInLanding { opacity: 0; visibility: hidden; }
+.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle, .fadeInLanding, .fadeInNav { opacity: 0; visibility: hidden; }
 
-.fadeIn, .fadeInPhoto, .fadeInLanding { transform: translateY(50px); }
+.fadeIn, .fadeInPhoto, .fadeInLanding, .fadeInNav { transform: translateY(50px); }
 
 .fadeInNoY, .fadeInMedia { transform: translateY(0px); }
 
@@ -462,7 +462,7 @@ nav li { list-style: none; }
 
 .video-container video { position: absolute; left: 0; top: 0; object-fit: cover; width: 100%; height: 100%; pointer-events: none; object-position: -110px bottom; transition: all 2s ease-in-out; }
 
-.video-container::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: black; z-index: 1; transition: all 1s ease-in-out; }
+.video-container::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: black; z-index: 1; transition: all 1s ease-in-out; pointer-events: none; }
 
 .video-container.loaded::before { background: rgba(92, 59, 33, 0.1); }
 
@@ -473,6 +473,8 @@ nav li { list-style: none; }
 .landing-title { font-size: 60px; color: white; }
 
 .landing-subtitle { font-size: 40px; color: var(--red); }
+
+.fa-angle-down { position: absolute; color: white; left: 50%; bottom: 1em; transform: translateX(-50%); font-size: 50px; font-weight: 300; opacity: 70%; }
 
 .section-bio { padding-top: 2em; }
 
