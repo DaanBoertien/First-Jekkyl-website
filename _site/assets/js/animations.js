@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.to(".landing-title-container", {
-  yPercent: -70,
+  yPercent: -100,
   ease: "none",
   scrollTrigger: {
     trigger: videoContainer,
