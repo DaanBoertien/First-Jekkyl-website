@@ -414,6 +414,8 @@ img { width: 100%; display: block; }
 
 .container-without-padding { max-width: 960px; margin: 0 auto; }
 
+.fadeIn, .fadeInVideo, .fadeInPhoto, .fadeInTitle, .fadeInLanding { opacity: 0; visibility: hidden; }
+
 .page-title { padding-top: 3em; margin-bottom: 1em; color: var(--red); font-weight: 200; font-size: 40px; }
 
 .page-subtitle { font-weight: 400; margin-bottom: 1em; color: var(--clr-greyblue); font-size: 1.35em; transition: color 0.3s ease-in-out; text-decoration: underline; text-decoration-thickness: 0.75px; text-underline-offset: 3px; text-decoration-skip-ink: auto; }
