@@ -13,9 +13,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(100%);
-  opacity: 1;
-  transition: all 0.4s ease-in-out;
+  // transform: translateX(100%);
+  // opacity: 1;
+  // transition: all 0.4s ease-in-out;
 }
 
 nav a {
@@ -62,8 +62,8 @@ nav li {
 }
 
 .site-nav--open {
-  transform: translateX(0);
-  opacity: 1;
+  // transform: translateX(0);
+  // opacity: 1;
 }
 
 .footer {

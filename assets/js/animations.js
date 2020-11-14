@@ -3,33 +3,44 @@ const videoContainer = document.querySelector(".video-container");
 
 gsap.registerPlugin(ScrollTrigger);
 
+// gsap.set(['.fadeIn','.fadeInPhoto', '.fadeInLanding'], {
+//   y: 50,
+//   autoAlpha: 0
+// })
+
+gsapSet('.fadeInVideo', 0)
+gsapSet('.fadeInTitle', 0)
+gsapSet('.fadeIn', 50)
+gsapSet('.fadeInPhoto', 50)
+gsapSet('.fadeInLanding', 50)
+
+function gsapSet(className, yCoord) {
+  if(document.querySelector(className)){
+    gsap.set(className, {
+      y: yCoord,
+      autoAlpha: 0
+    })
+    
+  } else {
+    return
+  }
+}
+
 window.onload = function() {
     videoContainer.classList.add("loaded");
 }
-
-
-// ScrollTrigger.batch(".fadeInNav", {
-//   onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: .2, ease: Power2.inOut})
-  
-  
-// })
-
-
-
-
-gsap.to(".landing-title-container", {
-  yPercent: -100,
-  ease: "none",
-  scrollTrigger: {
-    trigger: videoContainer,
-    // start: "top bottom", // the default values
-    // end: "bottom top",
-    scrub: true
-  }, 
-});
-
-
-
+if (document.querySelector(".landing-title-container")) {
+  gsap.to(".landing-title-container", {
+    yPercent: -100,
+    ease: "none",
+    scrollTrigger: {
+      trigger: videoContainer,
+      // start: "top bottom", // the default values
+      // end: "bottom top",
+      scrub: true
+    }, 
+  });
+}
 
 // wait until DOM is ready
 document.addEventListener("DOMContentLoaded", function(event) {

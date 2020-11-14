@@ -42,26 +42,26 @@ img {
   margin: 0 auto;
 }
 
-.fadeIn,
-.fadeInVideo,
-.fadeInPhoto,
-.fadeInTitle,
-.fadeInLanding,
-.fadeInNav {
-  opacity: 0;
-  visibility: hidden;
-}
+// .fadeIn,
+// .fadeInVideo,
+// .fadeInPhoto,
+// .fadeInTitle,
+// .fadeInLanding {
+//   opacity: 0;
+//   visibility: hidden;
+// }
 
-.fadeIn,
-.fadeInPhoto,
-.fadeInLanding,
-.fadeInNav {
-  transform: translateY(50px);
-}
-.fadeInNoY,
-.fadeInMedia {
-  transform: translateY(0px);
-}
+// .fadeIn,
+// .fadeInPhoto,
+// .fadeInLanding {
+//   transform: translateY(50px);
+// }
+
+// verwijderen?
+// .fadeInNoY,
+// .fadeInMedia {
+//   transform: translateY(0px);
+// }
 
 .page-title {
   padding-top: 3em;
