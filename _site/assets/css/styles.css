@@ -404,6 +404,8 @@ html { scroll-behavior: smooth; }
 
 body { background: var(--gradient); color: var(--text-color); min-height: 100vh; position: relative; }
 
+.border-top { border-top: 10px solid var(--clr-greyblue); }
+
 img { width: 100%; display: block; }
 
 .container { max-width: 960px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }

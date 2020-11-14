@@ -18,6 +18,10 @@ body {
   //   overflow-x: hidden;
 }
 
+.border-top {
+  border-top: 10px solid var(--clr-greyblue);
+}
+
 img {
   width: 100%;
   display: block;
