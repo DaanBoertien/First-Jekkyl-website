@@ -1,20 +1,25 @@
 - name: Home
   name_en: Home
   url: /
+  url_en: /
   urlclass: /
 - name: Biografie
   name_en: Biografy
   url: /biografie/
+  url_en: /en/biografy/
   urlclass: /biografie.html
 - name: Agenda
   name_en: Calendar
   url: /concerts/
+  url_en: /en/concerts/
   urlclass: /concerts.html
 - name: Media
   name_en: Media
   url: /media/
+  url_en: /en/media/
   urlclass: /media.html
 - name: Contact
   name_en: Contact
   url: /contact/
+  url_en: /en/contact/
   urlclass: /contact.html

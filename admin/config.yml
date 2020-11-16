@@ -28,7 +28,12 @@ collections:
           default: "concert",
         }
       - { label: "Zaal (NL)", name: "hall", widget: "string" }
-      - { label: "Hall (EN)", name: "hall_en", widget: "string" }
+      - {
+          label: "Hall (EN)",
+          name: "hall_en",
+          widget: "string",
+          required: false,
+        }
       - {
           label: "Datum",
           name: "date",
@@ -38,11 +43,26 @@ collections:
         }
 
       - { label: "Plaats (NL)", name: "place", widget: "string" }
-      - { label: "Place (EN)", name: "place_en", widget: "string" }
+      - {
+          label: "Place (EN)",
+          name: "place_en",
+          widget: "string",
+          required: false,
+        }
       - { label: "Repertoire (NL)", name: "repertoire", widget: "string" }
-      - { label: "Repertoire (EN)", name: "repertoire_en", widget: "string" }
+      - {
+          label: "Repertoire (EN)",
+          name: "repertoire_en",
+          widget: "string",
+          required: false,
+        }
       - { label: "Musici (NL)", name: "musicians", widget: "text" }
-      - { label: "Musicians (EN)", name: "musicians_en", widget: "text" }
+      - {
+          label: "Musicians (EN)",
+          name: "musicians_en",
+          widget: "text",
+          required: false,
+        }
       - {
           label: "Link naar organisator",
           name: "organizer_url",

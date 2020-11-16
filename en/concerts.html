@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: default_en
 title: concerts
 ---
 
 <div class="container">
-  <h1 class="page-title fadeIn">Agenda</h1>
+  <h1 class="page-title fadeIn">Calendar</h1>
 
   {% assign future_concerts = site.concerts | where_exp: "concert",
   "concert.date >= site.time" %} {% for concert in future_concerts %}
@@ -14,10 +14,22 @@ title: concerts
       <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
     </div>
     <div class="concert-location">
-      <p class="concert-hall">{{concert.hall_en}}</p>
-      <p class="concert-place">{{concert.place_en}}</p>
-      <p class="concert-repertoire">{{concert.repertoire_en}}</p>
-      <p class="concert-musicians">{{concert.musicians_en }}</p>
+      <p class="concert-hall">
+        {% if concert.hall_en != "" %}{{concert.hall_en}}{{ else }}
+        {{concert.hall}}{% endif %}
+      </p>
+      <p class="concert-place">
+        {% if concert.place_en != "" %}{{concert.place_en}}{{ else }}
+        {{concert.place}}{% endif %}
+      </p>
+      <p class="concert-repertoire">
+        {% if concert.repertoire_en != "" %}{{concert.repertoire}}{{ else }}
+        {{concert.repertoire}}{% endif %}
+      </p>
+      <p class="concert-musicians">
+        {% if concert.musicians_en != "" %}{{concert.musicians_en}}{{ else }}
+        {{concert.musicians}}{% endif %}
+      </p>
       {% if concert.organizer_url != "" %}
       <p class="concert-tickets">{{concert.organizer_url}}</p>
     </div>
@@ -25,7 +37,7 @@ title: concerts
   </div>
   {% endfor %}
 
-  <h1 class="page-title fadeIn">Archief</h1>
+  <h1 class="page-title fadeIn">Archive</h1>
   {% assign past_concerts = site.concerts | where_exp: "concert", "concert.date
   < site.time" %} {% for concert in past_concerts %} {% if concert.in_archive ==
   true %}
