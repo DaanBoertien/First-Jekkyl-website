@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.hide {
+  display: none;
+  // visibility: hidden;
+}
+
+.show {
+  display: inherit;
+  // visibility: visible;
+}
+
 html {
   scroll-behavior: smooth;
 }

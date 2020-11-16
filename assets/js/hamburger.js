@@ -27,7 +27,7 @@ tl.to('nav', .5, {
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("is-active");
-  // nav.classList.toggle("site-nav--open");
+  
   toggleTween(tl);
       
   

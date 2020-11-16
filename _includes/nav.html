@@ -1,11 +1,15 @@
 <nav>
-         <ul>
+         <ul class="nl">
             {% for item in site.data.navigation %}
-                <li class="fadeInNav"><a href="{{item.url}}"  {% if page.url == item.url %}class="current"{% endif %} >{{item.name}}</a></li>
+                <li class="fadeInNav">
+                    <a href="{{item.url}}"  
+                    {% if page.url == item.urlclass %}class="current"{% endif %} >{{item.name}}</a>
+                    
+                </li>
             {% endfor %}
+            
         </ul>
-
-    
+        
 </nav>
 <div class="container-without-padding">
     <div class="hamburger-container">

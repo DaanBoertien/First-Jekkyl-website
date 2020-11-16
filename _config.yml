@@ -1,5 +1,6 @@
-# permalink: pretty
 baseurl: "/"
 
 collections:
   concerts:
+
+permalink: pretty

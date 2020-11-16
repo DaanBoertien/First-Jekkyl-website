@@ -46,6 +46,7 @@ if (document.querySelector(".landing-title-container")) {
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log('Loaded DOM')
 
+
 animate(".fadeIn")
 animate(".fadeInTitle")
 
@@ -58,8 +59,6 @@ animate(".fadeInTitle")
 // you could also use addEventListener() instead
 window.onload = function() {
 console.log("loaded window")
-
-
 
    // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
    window.requestAnimationFrame(function() {
@@ -88,5 +87,6 @@ console.log("loaded window")
 function animate(enterClass){
         return ScrollTrigger.batch(enterClass, {
             onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power3.inOut}),
-})
+    })
+  
 }
