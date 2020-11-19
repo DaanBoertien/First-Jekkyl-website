@@ -442,9 +442,9 @@ nav { background: var(--gradient); position: fixed; top: 0; left: 0; width: 100%
 
 nav a { color: rgba(0, 0, 0, 0.7); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 300; position: relative; transition: color 0.3s ease-in-out; }
 
-nav a::before { position: absolute; content: ""; bottom: 0; left: 0; right: 0; height: 1.5px; background: var(--red); transform: scaleX(0%); transition: transform 0.3s ease-in-out; }
+nav a::before { position: absolute; content: ""; bottom: 0; left: 0; right: 0; height: 1.5px; background: var(--red); transform: scaleX(0); transition: transform 0.3s ease-in-out; }
 
-nav a:hover::before, nav a:focus::before { transform: scale(95%); }
+nav a:hover::before, nav a:focus::before { transform: scale(0.95); }
 
 nav a:hover, nav a:focus { color: var(--clr-greyblue); }
 

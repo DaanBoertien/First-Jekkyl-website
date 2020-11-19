@@ -39,13 +39,13 @@ nav a::before {
   right: 0;
   height: 1.5px;
   background: var(--red);
-  transform: scaleX(0%);
+  transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
 
 nav a:hover::before,
 nav a:focus::before {
-  transform: scale(95%);
+  transform: scale(0.95);
 }
 
 nav a:hover,
