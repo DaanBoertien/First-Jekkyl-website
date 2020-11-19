@@ -10,7 +10,7 @@ title: concerts
   "concert.date >= site.time" %} {% for concert in future_concerts %}
   <div class="concert-poster fadeIn">
     <div class="concert-datetime">
-      <p class="concert-date">{{concert.date | date_to_long_string }}</p>
+      <p class="concert-date"></p>
       <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
     </div>
     <div class="concert-location">

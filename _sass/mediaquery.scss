@@ -1,0 +1,11 @@
+@media (min-width: 800px) {
+  .video-container video {
+    object-position: 0px bottom;
+  }
+}
+
+@media (min-width: 1063px) {
+  .section-quote {
+    overflow: visible;
+  }
+}
