@@ -484,13 +484,13 @@ nav li { list-style: none; }
 
 .section-bio { padding-top: 2em; }
 
-.section-bio .btn, .section-media .btn { margin: 1em auto 2em; }
+.section-bio .btn, .section-media .btn { margin: 1em auto 3em; }
 
 .section-media .btn { margin-top: 2em; }
 
-.section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 18px; position: relative; padding: 2em 1.5em; margin: 0em; overflow: hidden; }
+.section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 1.1rem; position: relative; padding: 2em 1.5em; margin: 0em; overflow: hidden; }
 
-.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.1; z-index: -1; font-style: normal; }
+.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.1; font-style: normal; }
 
 .section-quote::before { content: "“"; top: -180px; left: -80px; }
 
@@ -502,13 +502,17 @@ nav li { list-style: none; }
 
 .iframe-container iframe { width: 100%; height: 100%; top: 0; left: 0; position: absolute; }
 
-.section-onemore { padding: 0; position: relative; }
+.home-last-image { position: relative; }
+
+.section-onemore { padding: 0; }
 
 .biografie { margin-bottom: 2em; }
 
 .image-container { box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
 
 .page-bio { background: var(--bg-color); background: var(--gradient); }
+
+.bio-box { border-left: 5px solid var(--clr-greyblue); padding: 1em; background: rgba(99, 136, 161, 0.05); }
 
 .media-titles { display: flex; justify-content: space-between; }
 
@@ -572,8 +576,8 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 
 .photographer-list li { line-height: 1.6; list-style: none; }
 
-@media (min-width: 800px) { .video-container video { object-position: 0px bottom; } }
+@media (min-width: 800px) { body { font-size: 1.25rem; } .video-container video { object-position: 0px bottom; } .section-quote { font-size: 1.25rem; } .fa-angle-down { bottom: 1em; } .bio-box { border-left: 10px solid var(--clr-greyblue); padding: 2em; } }
 
-@media (min-width: 1063px) { .section-quote { overflow: visible; } }
+@media (min-width: 1063px) { .section-quote { overflow: visible; } .container { padding: 0; } .flex { display: flex; gap: 2em; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,10 @@
 const bgVideo = document.querySelector(".background-video");
 const videoContainer = document.querySelector(".video-container");
 
+
 gsap.registerPlugin(ScrollTrigger);
 
-// gsap.set(['.fadeIn','.fadeInPhoto', '.fadeInLanding'], {
-//   y: 50,
-//   autoAlpha: 0
-// })
+
 
 gsapSet('.fadeInVideo', 0)
 gsapSet('.fadeInTitle', 0)
@@ -31,16 +29,17 @@ window.onload = function() {
 }
 if (document.querySelector(".landing-title-container")) {
   gsap.to(".landing-title-container", {
-    yPercent: -100,
-    ease: "none",
+    yPercent: -20,
+    ease: "Power2.out",
     scrollTrigger: {
       trigger: videoContainer,
-      // start: "top bottom", // the default values
-      // end: "bottom top",
+      start: "bottom bottom", 
+      end: "bottom top",
       scrub: true
     }, 
   });
 }
+
 
 // wait until DOM is ready
 document.addEventListener("DOMContentLoaded", function(event) {
