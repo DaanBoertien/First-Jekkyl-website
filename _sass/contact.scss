@@ -50,37 +50,37 @@ input[type="submit"]:focus {
   color: var(--text-color);
 }
 
-.modal {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5em;
-  pointer-events: none;
-  opacity: 0;
-}
+// .modal {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background: rgba(0, 0, 0, 0.5);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 1.5em;
+//   pointer-events: none;
+//   opacity: 0;
+// }
 
-.modal-body {
-  background: rgb(231, 230, 214);
-  padding: 1.5em;
-  box-shadow: var(--boxshadow);
-  border-radius: 5px;
-}
+// .modal-body {
+//   background: rgb(231, 230, 214);
+//   padding: 1.5em;
+//   box-shadow: var(--boxshadow);
+//   border-radius: 5px;
+// }
 
-.modal-body a {
-  margin: 0 auto;
-  margin-top: 1em;
-}
+// .modal-body a {
+//   margin: 0 auto;
+//   margin-top: 1em;
+// }
 
-.modal.modal-open {
-  pointer-events: all;
-  opacity: 1;
-}
+// .modal.modal-open {
+//   pointer-events: all;
+//   opacity: 1;
+// }
 
 .margin-bottom {
   margin-bottom: 2em;

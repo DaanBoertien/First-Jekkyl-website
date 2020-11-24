@@ -24,16 +24,22 @@ layout: default
     {% endfor %}
   </div>
   <h2 class="page-subtitle fadeIn"><a id="fotos">Foto's</a></h2>
-  {% for photo in site.data.photos.foto %}
-  <div class="media-video boxshadow fadeInPhoto">
-    <img src="{{photo.url}}" alt="{{photo.alt}}">
-    {% if photo.photographer != "" %}
-      <p class="photographer">© {{photo.photographer}}</p>
-    {% endif %}
+  <div class="all-items all-photos">
+    {% for photo in site.data.photos.foto %}
+    <div class="media-video boxshadow fadeInPhoto">
+      <img src="{{photo.url}}" alt="{{photo.alt}}">
+      {% if photo.photographer != "" %}
+        <p class="photographer">© {{photo.photographer}}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
   
 </div>
+  
+</div>
+
+<div class="modal">
   
 </div>
 

@@ -16,6 +16,10 @@
     border-left: 10px solid var(--clr-greyblue);
     padding: 2em;
   }
+  .all-items {
+    column-count: 2;
+    column-gap: 1.5em;
+  }
 }
 
 @media (min-width: 1063px) {
