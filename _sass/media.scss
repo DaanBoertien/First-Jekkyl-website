@@ -54,11 +54,24 @@
 }
 
 .modal img.landscape {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .modal-open {
   pointer-events: all;
   opacity: 1;
+}
+
+.photo-box {
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-box img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-box img:hover {
+  transform: scale(1.05);
 }

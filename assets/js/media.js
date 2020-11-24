@@ -13,7 +13,7 @@ allPhotos.addEventListener('click', (e) => {
         modalImage.parentNode.removeChild(modalImage);
     }
     let imageAngle;
-    if (e.target.width > e.target.height) {
+    if (window.width > window.height) {
         imageAngle = 'landscape';
     }
 
