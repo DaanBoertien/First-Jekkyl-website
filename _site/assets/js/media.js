@@ -7,12 +7,21 @@ const modal = document.querySelector('.modal');
 
 
 allPhotos.addEventListener('click', (e) => {
-    console.log(e.target.src);
+    console.log(e.target);
     modalImage = document.querySelector('.modal-image');
     if (modalImage) {
         modalImage.parentNode.removeChild(modalImage);
     }
-    modal.insertAdjacentHTML( 'beforeend', `<img src=${e.target.src} class="modal-image"></img>` );
+    let imageAngle;
+    if (e.target.width > e.target.height) {
+        imageAngle = 'landscape';
+    }
+
+    else {
+        imageAngle = 'portrait';
+    }
+
+    modal.insertAdjacentHTML( 'beforeend', `<img src=${e.target.src} class="modal-image ${imageAngle}"></img>` );
     modal.classList.toggle('modal-open');
 })
 
