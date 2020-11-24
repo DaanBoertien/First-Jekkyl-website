@@ -19,6 +19,9 @@
 }
 
 @media (min-width: 1063px) {
+  .hamburger {
+    right: 0;
+  }
   .section-quote {
     overflow: visible;
   }
@@ -30,5 +33,16 @@
   .flex {
     display: flex;
     gap: 2em;
+  }
+
+  .concert-hall {
+    font-size: 2rem;
+  }
+
+  .concert-location {
+    padding: 2em;
+  }
+  .concert-datetime {
+    padding-left: 2em;
   }
 }

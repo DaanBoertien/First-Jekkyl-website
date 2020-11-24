@@ -29,19 +29,21 @@ title: concerts
   {% assign past_concerts = site.concerts | where_exp: "concert", "concert.date
   < site.time" %} {% for concert in past_concerts %} {% if concert.in_archive ==
   true %}
-  <div class="concert-poster archive fadeIn">
-    <div class="concert-datetime">
-      <p class="concert-date">{{concert.date | date: "%e-%m-%Y" }}</p>
-      <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
-    </div>
-    <div class="concert-location">
-      <p class="concert-hall">{{concert.hall}}</p>
-      <p class="concert-place">{{concert.place}}</p>
-      <p class="concert-repertoire">{{concert.repertoire}}</p>
-      <p class="concert-musicians">{{concert.musicians }}</p>
-      {% if concert.organizer_url != "" %}
-      <p class="concert-tickets">{{concert.organizer_url}}</p>
-      {% endif %}
+  <div class="concert-poster fadeIn">
+    <div class="archive">
+      <div class="concert-datetime">
+        <p class="concert-date">{{concert.date | date: "%e-%m-%Y" }}</p>
+        <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
+      </div>
+      <div class="concert-location">
+        <p class="concert-hall">{{concert.hall}}</p>
+        <p class="concert-place">{{concert.place}}</p>
+        <p class="concert-repertoire">{{concert.repertoire}}</p>
+        <p class="concert-musicians">{{concert.musicians }}</p>
+        {% if concert.organizer_url != "" %}
+        <p class="concert-tickets">{{concert.organizer_url}}</p>
+        {% endif %}
+      </div>
     </div>
   </div>
   {% endif %} {% endfor %}

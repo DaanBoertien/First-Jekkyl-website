@@ -1,8 +1,9 @@
 .concert-poster {
   background: rgb(250, 250, 249);
-  border-radius: 10px;
   box-shadow: var(--boxshadow);
   font-weight: 300;
+  border-left: 10px solid var(--clr-greyblue);
+  // border-radius: 10px;
 }
 
 .concert-location {
@@ -14,11 +15,10 @@
 }
 
 .concert-datetime {
-  background: var(--clr-greyblue);
+  background: rgba(99, 136, 161, 0.6);
   color: white;
   width: 100%;
   padding: 1em;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .concert-date,
