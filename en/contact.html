@@ -5,25 +5,25 @@ layout: default
 <div class="container">
   <h1 class="page-title fadeIn">Contact</h1>
   <p class="contact-invitation fadeIn">
-    Stuur Daan hieronder een bericht, of mail naar info@daanboertien.com.
+    Send Daan a message below, or send an e-mail to info@daanboertien.com.
   </p>
 
   <form
     name="contact"
     method="POST"
     data-netlify="true"
-    action="/success/"
+    action="/en/success/"
     class="fadeIn"
   >
-    <label for="name">Naam</label>
+    <label for="name">Name</label>
     <input type="text" id="name" name="name" autofocus />
     <label for="email">Email</label>
     <input type="email" id="email" name="email" />
-    <label for="message">Bericht</label>
+    <label for="message">Message</label>
     <textarea rows="4" cols="50" name="message"></textarea>
     <input type="submit" value="Verzend" />
   </form>
-  <h2 class="page-subtitle fadeIn">Fotografen</h2>
+  <h2 class="page-subtitle fadeIn">Photographers</h2>
   <ul class="photographer-list fadeIn">
     {% for photographer in site.data.contact %}
     <li>{{photographer.name}}</li>

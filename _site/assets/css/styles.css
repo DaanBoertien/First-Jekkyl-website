@@ -524,8 +524,6 @@ nav li { list-style: none; }
 
 .all-items { margin-bottom: 1.5em; }
 
-.video-grid { display: grid; grid-gap: 1rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); }
-
 .photo-box { -webkit-backface-visibility: hidden; -webkit-transform: translate3D(0, 0, 0); }
 
 #fotos { padding-top: 0.75em; }

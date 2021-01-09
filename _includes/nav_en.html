@@ -4,9 +4,10 @@
            <li class="fadeInNav">
                <a href="{{item.url_en}}"   
                
-               {% if page.url contains item.urlclass %}class="current"{% endif %} >{{item.name_en}}</a>
+               {% if page.url == item.url_en %}class="current"{% endif %} >{{item.name_en}}</a>
            </li>
        {% endfor %}
+       <li class="fadeInNav"><a href="/" class="">NL</a>  <a href="/en/" class="current">EN</a></li>
        
    </ul>
    
@@ -15,7 +16,7 @@
 <div class="hamburger-container">
    <button class="hamburger hamburger--spin" type="button">
        <span class="hamburger-box"></span>
-         <span class="hamburger-inner {% if page.url != "/" %}hamburger-black{% endif %}"></span>
+         <span class="hamburger-inner {% if page.url != "/en/" %}hamburger-black{% endif %}"></span>
        </span>
      </button>
 </div>
