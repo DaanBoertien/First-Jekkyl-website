@@ -4,9 +4,9 @@
   url_en: /en/
   urlclass: /
 - name: Biografie
-  name_en: Biografy
+  name_en: Biography
   url: /biografie/
-  url_en: /en/biografy/
+  url_en: /en/biography/
   urlclass: /biografie.html
 - name: Agenda
   name_en: Calendar

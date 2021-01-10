@@ -1,0 +1,50 @@
+---
+layout: default_en
+---
+
+<div class="container">
+  <h1 class="page-title fadeInTitle">Media</h1>
+  <div class="media-titles fadeInTitle">
+    <a href="#videos" class="page-subtitle" id="videos">Videos</a>
+    <a href="#fotos" class="page-subtitle">Photos</a>
+  </div>
+</div>
+<div class="container">
+  <div class="all-items">
+    <ul class="video-grid">
+    {% for video in site.data.videos.video %}
+    <div class="iframe-container media-video-margin fadeInVideo">
+      <li class="nobreak">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/{{video.youtube-id}}"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </li>
+    </div>
+    {% endfor %}
+  </ul>
+  </div>
+  <h2 class="page-subtitle fadeIn"><a id="fotos">Photos</a></h2>
+  <div class="all-items all-photos">
+    {% for photo in site.data.photos.foto %}
+    <div class="media-video boxshadow fadeInPhoto photo-box">
+      <img src="{{photo.url}}" alt="{{photo.alt}}">
+      {% if photo.photographer != "" %}
+        <p class="photographer">© {{photo.photographer}}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  
+</div>
+  
+</div>
+
+<div class="modal">
+  
+</div>
+
+
