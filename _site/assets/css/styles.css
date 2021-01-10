@@ -560,7 +560,7 @@ nav li { list-style: none; }
 
 .concert-musicians { white-space: pre-wrap; }
 
-form { display: flex; flex-direction: column; margin-top: 2em; margin-bottom: 2em; }
+form { display: flex; flex-direction: column; margin-top: 2em; margin-bottom: 2em; max-width: 500px; }
 
 button[type="submit"], input, textarea { font-family: inherit; font-weight: inherit; font-size: inherit; border: 0; box-shadow: var(--boxshadow); border-radius: 5px; }
 
