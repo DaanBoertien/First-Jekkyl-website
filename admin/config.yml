@@ -129,7 +129,7 @@ collections:
                 widget: "string"
                 required: false
   - name: "content"
-    label: "Hoi"
+    label: "Teksten"
     files:
       - name: "home"
         label: "Home"
@@ -167,3 +167,19 @@ collections:
           - label: "Footer"
             name: "footer-text"
             widget: "string"
+      - name: "biografie"
+        label: "Biografie"
+        file: "_data/biografie.yml"
+        editor:
+          preview: false
+        fields:
+          - label: "Biografie NL+EN"
+            name: "main"
+            widget: "list"
+            fields:
+              - label: "Alinea (NL)"
+                name: "alinea-nl"
+                widget: "text"
+              - label: "Alinea (EN)"
+                name: "alinea-en"
+                widget: "text"
