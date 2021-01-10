@@ -137,9 +137,9 @@ collections:
         editor:
           preview: false
         fields:
-          # - label: "Title"
-          #   name: "title"
-          #   widget: "string"
+          - label: "Title"
+            name: "title"
+            widget: "string"
           - label: "Quote"
             name: "quote"
             widget: "string"
@@ -153,7 +153,7 @@ collections:
             name: "bio-teaser"
             widget: "text"
           - label: "Biography teaser (EN)"
-            name: "bio-teaser"
+            name: "bio-teaser-en"
             widget: "text"
           - label: "Foto"
             name: "last-image"
