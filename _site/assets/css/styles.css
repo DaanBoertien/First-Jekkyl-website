@@ -520,7 +520,7 @@ nav li { list-style: none; }
 
 .media-titles { display: flex; justify-content: space-between; }
 
-.media-video { margin-bottom: 1.5em; position: relative; }
+.media-video { margin-bottom: 1.5em; background: transparent; position: relative; }
 
 .media-video-margin { margin-bottom: 1.5em; }
 
