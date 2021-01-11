@@ -500,7 +500,11 @@ nav li { list-style: none; }
 
 .iframe-container { overflow: hidden; position: relative; padding-top: 56.25%; box-shadow: var(--boxshadow); }
 
-.iframe-container iframe { width: 100%; height: 100%; top: 0; left: 0; position: absolute; }
+.iframe-container iframe, .iframe-container .youtubethumbnail { width: 100%; height: 100%; top: 0; left: 0; position: absolute; }
+
+.youtubethumbnail { z-index: 100; object-position: center; object-fit: cover; pointer-events: none; }
+
+.iframe { pointer-events: all; }
 
 .home-last-image { position: relative; }
 

@@ -5,7 +5,7 @@ const modal = document.querySelector('.modal');
 
 
 
-
+if (allPhotos){
 allPhotos.addEventListener('click', (e) => {
     if (e.target.src){
     
@@ -30,10 +30,12 @@ allPhotos.addEventListener('click', (e) => {
         }
     }
 })
+}
 
+if (modal){
 modal.addEventListener('click', () => {
     modal.classList.toggle('modal-open');
     
     
 })
-
+}
