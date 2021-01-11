@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsapSet('.fadeInVideo', 0)
 gsapSet('.fadeInTitle', 0)
 gsapSet('.fadeIn', 50)
-gsapSet('.fadeInPhoto', 50)
+gsapSet('.fadeInPhoto', 30)
 gsapSet('.fadeInLanding', 50)
 
 function gsapSet(className, yCoord) {
@@ -57,7 +57,7 @@ animate(".fadeInTitle")
 // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
 // you could also use addEventListener() instead
 window.onload = function() {
-console.log("loaded window")
+  console.log("loaded window")
 
    // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
    window.requestAnimationFrame(function() {
@@ -85,7 +85,7 @@ console.log("loaded window")
 
 function animate(enterClass){
         return ScrollTrigger.batch(enterClass, {
-            onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power3.inOut}),
+            onEnter: batch => gsap.to(batch, {duration: 1, y: 0, autoAlpha: 1, stagger: 0.2, ease: Power2.inOut}),
     })
   
 }
