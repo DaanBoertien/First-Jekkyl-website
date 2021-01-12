@@ -44,6 +44,22 @@
   .media-video-margin {
     margin-bottom: 0;
   }
+
+  .hamburger-container {
+    // display: none;
+  }
+  // nav {
+  //   transform: translate(0);
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   height: 100px;
+
+  //   ul {
+  //     flex-direction: row;
+  //     gap: 2em;
+  //   }
+  // }
 }
 
 @media (min-width: 1063px) {

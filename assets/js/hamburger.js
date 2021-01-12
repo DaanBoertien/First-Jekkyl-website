@@ -4,13 +4,18 @@ const nav = document.querySelector("nav");
 
 
 const tl = new TimelineLite({paused : true, reversed: true});
-gsap.set('nav', {x: '100%', autoAlpha: 0})
-gsap.set('.fadeInNav', {
-  y: 50,
-  autoAlpha: 0,
-  x: 20,
-  rotate: -10
-})
+    gsap.set('nav', {x: '100%', autoAlpha: 0})
+    gsap.set('.fadeInNav', {
+      y: 50,
+      autoAlpha: 0,
+      x: 20,
+      rotate: -10
+    })
+
+
+
+
+
 tl.to('nav', .5, {
   x: 0,
   ease: "power2.out",
