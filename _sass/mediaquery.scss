@@ -30,6 +30,12 @@
   }
 }
 
+@media (max-width: 880px) {
+  .navcontainer {
+    display: none;
+  }
+}
+
 @media (min-width: 880px) {
   .video-grid {
     display: grid;
@@ -47,6 +53,27 @@
 
   .hamburger-container {
     // display: none;
+  }
+
+  .navcontainer {
+    position: relative;
+  }
+
+  .navdesktop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 2000;
+
+    ul {
+      display: flex;
+      color: white;
+    }
+
+    li {
+      color: white;
+    }
   }
   // nav {
   //   transform: translate(0);

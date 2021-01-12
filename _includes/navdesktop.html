@@ -1,0 +1,16 @@
+<div class="container navcontainer">
+    <div class="navdesktop">
+        <ul class="nl">
+           {% for item in site.data.navigation %}
+               <li class="">
+                   <a href="{{item.url}}"  
+                   {% if page.url == item.url %}class="current"{% endif %} >{{item.name}}</a>
+                   
+               </li>
+           {% endfor %}
+               <li class=""><a href="/" class="current">NL</a>  <a href="/en/" class="">EN</a></li>
+           
+       </ul>
+       
+    </div>
+</div>

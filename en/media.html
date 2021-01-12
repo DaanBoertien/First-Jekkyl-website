@@ -31,7 +31,7 @@ layout: default_en
   <h2 class="page-subtitle fadeIn"><a id="fotos">Photos</a></h2>
   <div class="all-items all-photos">
     {% for photo in site.data.photos.foto %}
-    <div class="media-video boxshadow fadeInPhoto photo-box">
+    <div class="media-video boxshadow fadeInTitle photo-box">
       <img src="{{photo.url}}" alt="{{photo.alt}}">
       {% if photo.photographer != "" %}
         <p class="photographer">© {{photo.photographer}}</p>

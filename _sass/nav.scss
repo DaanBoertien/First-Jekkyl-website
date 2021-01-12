@@ -20,7 +20,8 @@ nav {
   // transition: all 0.4s ease-in-out;
 }
 
-nav a {
+nav a,
+.navdesktop a {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   text-transform: uppercase;
@@ -31,7 +32,8 @@ nav a {
   transition: color 0.3s ease-in-out;
 }
 
-nav a::before {
+nav a::before,
+.navdesktop a::before {
   position: absolute;
   content: "";
   bottom: 0;
@@ -44,16 +46,21 @@ nav a::before {
 }
 
 nav a:hover::before,
-nav a:focus::before {
+nav a:focus::before,
+.navdesktop a:hover::before,
+.navdesktop a:focus::before {
   transform: scale(0.95);
 }
 
 nav a:hover,
-nav a:focus {
+nav a:focus,
+.navdesktop a:hover,
+.navdesktop a:focus {
   color: var(--clr-greyblue);
 }
 
-nav .current {
+nav .current,
+.navdesktop .current {
   color: var(--red);
   font-weight: 400;
 }
@@ -66,7 +73,8 @@ nav ul {
   align-items: center;
   justify-content: space-around;
 }
-nav li {
+nav li,
+.navdesktop li {
   list-style: none;
 }
 
