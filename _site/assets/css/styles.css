@@ -456,7 +456,7 @@ nav a:hover, nav a:focus, .navdesktop a:hover, .navdesktop a:focus { color: var(
 
 nav .current, .navdesktop .current { color: var(--red); font-weight: 400; }
 
-.navdesktop a.current { color: var(--red); text-shadow: 0px 0px 1px rgba(187, 60, 60, 0.3); }
+.navdesktop a.current { color: var(--red); text-shadow: 0px 0px 1px rgba(187, 60, 60, 0.3); font-weight: 400; }
 
 nav ul { display: flex; height: 50%; flex-direction: column; align-items: center; justify-content: space-around; }
 
