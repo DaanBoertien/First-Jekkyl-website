@@ -486,7 +486,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .landing-title { font-size: 60px; color: white; }
 
-.landing-subtitle { font-size: 40px; color: var(--red); }
+.landing-subtitle { font-size: 40px; color: var(--red); font-weight: 300; }
 
 .fa-angle-down { position: absolute; color: white; left: 50%; bottom: 2em; transform: translateX(-50%); font-size: 50px; font-weight: 300; opacity: 70%; }
 
@@ -600,8 +600,10 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 
 @media (min-width: 800px) { body { font-size: 1.25rem; } .video-container video { object-position: 0px bottom; } .section-quote { font-size: 1.25rem; } .fa-angle-down { bottom: 1em; } .bio-box { border-left: 10px solid var(--clr-greyblue); padding: 2em; } .all-photos { column-count: 2; -webkit-column-count: 2; -moz-column-count: 2; column-gap: 1.5em; -webkit-column-gap: 1.5em; -moz-column-gap: 1.5em; } .all-photos img { cursor: pointer; } }
 
-@media (max-width: 880px) { .navcontainer { display: none; } }
+@media (max-width: 880px) { .navcontainer { display: none; } .video-container .landing-title-container { top: 30%; } }
 
 @media (min-width: 880px) { .video-grid { display: grid; grid-gap: 2rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); } .media-video-margin { margin-bottom: 0; } .hamburger-container { display: none; } .navcontainer { position: relative; } .navdesktop { position: absolute; left: 0; right: 0; top: 1.5em; height: 100px; z-index: 2000; } .navdesktop ul { display: flex; justify-content: space-between; } .navdesktop li a { font-size: 1.5rem; } }
 
 @media (min-width: 1063px) { .hamburger { right: 0; } .section-quote { overflow: visible; } .container { padding: 0; } .flex { display: flex; gap: 2em; } .concert-hall { font-size: 2rem; } .concert-location { padding: 2em; } .concert-datetime { padding-left: 2em; } }
+
+/*# sourceMappingURL=styles.css.map */
