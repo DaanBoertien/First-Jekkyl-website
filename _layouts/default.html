@@ -24,8 +24,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <body {% if page.url !="/" %}class="border-top" {% endif %}>
-    {% include nav.html %}
+  <body class="border-top">
+    {% include nav.html %} {% include navdesktop.html %}
     <!-- <div class="container"> -->
     {{content }}
     <!-- </div> -->

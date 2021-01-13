@@ -32,6 +32,18 @@ nav a,
   transition: color 0.3s ease-in-out;
 }
 
+.navdesktop a {
+  color: white;
+}
+
+.navdesktop a.navblack {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navdesktop a.navblack.current {
+  color: var(--red);
+}
+
 nav a::before,
 .navdesktop a::before {
   position: absolute;
@@ -63,6 +75,11 @@ nav .current,
 .navdesktop .current {
   color: var(--red);
   font-weight: 400;
+}
+
+.navdesktop a.current {
+  color: var(--red);
+  text-shadow: 0px 0px 1px rgba(187, 60, 60, 0.3);
 }
 
 nav ul {

@@ -442,6 +442,12 @@ nav { background: var(--gradient); position: fixed; top: 0; left: 0; width: 100%
 
 nav a, .navdesktop a { color: rgba(0, 0, 0, 0.7); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 300; position: relative; transition: color 0.3s ease-in-out; }
 
+.navdesktop a { color: white; }
+
+.navdesktop a.navblack { color: rgba(0, 0, 0, 0.7); }
+
+.navdesktop a.navblack.current { color: var(--red); }
+
 nav a::before, .navdesktop a::before { position: absolute; content: ""; bottom: 0; left: 0; right: 0; height: 1.5px; background: var(--red); transform: scaleX(0); transition: transform 0.3s ease-in-out; }
 
 nav a:hover::before, nav a:focus::before, .navdesktop a:hover::before, .navdesktop a:focus::before { transform: scale(0.95); }
@@ -449,6 +455,8 @@ nav a:hover::before, nav a:focus::before, .navdesktop a:hover::before, .navdeskt
 nav a:hover, nav a:focus, .navdesktop a:hover, .navdesktop a:focus { color: var(--clr-greyblue); }
 
 nav .current, .navdesktop .current { color: var(--red); font-weight: 400; }
+
+.navdesktop a.current { color: var(--red); text-shadow: 0px 0px 1px rgba(187, 60, 60, 0.3); }
 
 nav ul { display: flex; height: 50%; flex-direction: column; align-items: center; justify-content: space-around; }
 
@@ -588,12 +596,12 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 
 .photographer-list li { line-height: 1.6; list-style: none; }
 
+@media (min-width: 600px) { .video-container video { object-position: 0px bottom; } }
+
 @media (min-width: 800px) { body { font-size: 1.25rem; } .video-container video { object-position: 0px bottom; } .section-quote { font-size: 1.25rem; } .fa-angle-down { bottom: 1em; } .bio-box { border-left: 10px solid var(--clr-greyblue); padding: 2em; } .all-photos { column-count: 2; -webkit-column-count: 2; -moz-column-count: 2; column-gap: 1.5em; -webkit-column-gap: 1.5em; -moz-column-gap: 1.5em; } .all-photos img { cursor: pointer; } }
 
 @media (max-width: 880px) { .navcontainer { display: none; } }
 
-@media (min-width: 880px) { .video-grid { display: grid; grid-gap: 2rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); } .media-video-margin { margin-bottom: 0; } .navcontainer { position: relative; } .navdesktop { position: absolute; left: 0; right: 0; height: 100px; z-index: 2000; } .navdesktop ul { display: flex; color: white; } .navdesktop li { color: white; } }
+@media (min-width: 880px) { .video-grid { display: grid; grid-gap: 2rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); } .media-video-margin { margin-bottom: 0; } .hamburger-container { display: none; } .navcontainer { position: relative; } .navdesktop { position: absolute; left: 0; right: 0; top: 1.5em; height: 100px; z-index: 2000; } .navdesktop ul { display: flex; justify-content: space-between; } .navdesktop li a { font-size: 1.5rem; } }
 
 @media (min-width: 1063px) { .hamburger { right: 0; } .section-quote { overflow: visible; } .container { padding: 0; } .flex { display: flex; gap: 2em; } .concert-hall { font-size: 2rem; } .concert-location { padding: 2em; } .concert-datetime { padding-left: 2em; } }
-
-/*# sourceMappingURL=styles.css.map */

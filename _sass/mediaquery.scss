@@ -1,3 +1,9 @@
+@media (min-width: 600px) {
+  .video-container video {
+    object-position: 0px bottom;
+  }
+}
+
 @media (min-width: 800px) {
   body {
     font-size: 1.25rem;
@@ -52,7 +58,7 @@
   }
 
   .hamburger-container {
-    // display: none;
+    display: none;
   }
 
   .navcontainer {
@@ -63,16 +69,17 @@
     position: absolute;
     left: 0;
     right: 0;
+    top: 1.5em;
     height: 100px;
     z-index: 2000;
 
     ul {
       display: flex;
-      color: white;
+      justify-content: space-between;
     }
 
-    li {
-      color: white;
+    li a {
+      font-size: 1.5rem;
     }
   }
   // nav {
