@@ -53,7 +53,7 @@ var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop,
 function show(){
   if(!isVisible){
     TweenLite.to(".navdesktop", 0, { y: "0%" }, 0)
-    TweenLite.to(".hamburger", 0, { y: "0%" }, 0);
+    // TweenLite.to(".hamburger", 0, { y: "0%" }, 0);
     isVisible = true;
   }
 }
@@ -61,7 +61,7 @@ function show(){
 function hide(){
   if(isVisible){
     TweenLite.to(".navdesktop", 0, { y: "-100%" }, 0)
-    TweenLite.to(".hamburger", 0, { y: "-150%" }, 0);
+    // TweenLite.to(".hamburger", 0, { y: "-150%" }, 0);
     isVisible = false;
   }
 }
