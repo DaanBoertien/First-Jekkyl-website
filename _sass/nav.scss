@@ -102,13 +102,13 @@ nav li,
 
 .hamburger {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  top: 1.5em;
+  right: 1.5em;
   z-index: 11;
   background: var(--bg-color);
-  transition: transform 0.7s ease-out;
   box-shadow: var(--boxshadow);
   border-radius: 3px;
+  transition: transform 0.7s ease-out;
 }
 
 .hamburger-black,

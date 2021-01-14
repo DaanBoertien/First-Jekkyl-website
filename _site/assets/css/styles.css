@@ -464,7 +464,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .hamburger-container { position: relative; }
 
-.hamburger { position: fixed; top: 1em; right: 1em; z-index: 11; background: var(--bg-color); transition: transform 0.7s ease-out; box-shadow: var(--boxshadow); border-radius: 3px; }
+.hamburger { position: fixed; top: 1.5em; right: 1.5em; z-index: 11; background: var(--bg-color); box-shadow: var(--boxshadow); border-radius: 3px; transition: transform 0.7s ease-out; }
 
 .hamburger-black, .hamburger-black::before, .hamburger-black::after { background: rgba(0, 0, 0, 0.7); }
 
