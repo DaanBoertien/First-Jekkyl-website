@@ -52,16 +52,16 @@ var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop,
 
 function show(){
   if(!isVisible){
-    TweenLite.to(".navdesktop", 0, { y: "0%" }, 0)
-    TweenLite.to(".hamburger", 0, { x: "0%" }, 0);
+    TweenLite.to(".navdesktop", 0.7, { y: "0%" }, 0)
+    TweenLite.to(".hamburger", 0.5, { x: "0%", autoAlpha: 1}, 0);
     isVisible = true;
   }
 }
 
 function hide(){
   if(isVisible){
-    TweenLite.to(".navdesktop", 0, { y: "-100%" }, 0)
-    TweenLite.to(".hamburger", 0, { x: "150%" }, 0);
+    TweenLite.to(".navdesktop", 0.7, { y: "-100%" }, 0)
+    TweenLite.to(".hamburger", 0.5, { x: "150%", autoAlpha: 0 }, 0);
     isVisible = false;
   }
 }
