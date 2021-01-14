@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsapSet('.fadeInVideo', 0)
 gsapSet('.fadeInTitle', 0)
 gsapSet('.fadeIn', 50)
-gsapSet('.fadeInPhoto', 30)
+gsapSet('.fadeInPhoto', 0)
 gsapSet('.fadeInLanding', 50)
 
 function gsapSet(className, yCoord) {

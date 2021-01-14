@@ -101,10 +101,14 @@ nav li,
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 1em;
   right: 1em;
   z-index: 11;
+  background: var(--bg-color);
+  transition: transform 0.7s ease-out;
+  box-shadow: var(--boxshadow);
+  border-radius: 3px;
 }
 
 .hamburger-black,

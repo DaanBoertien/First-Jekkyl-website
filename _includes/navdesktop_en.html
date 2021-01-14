@@ -1,16 +1,19 @@
 <div class="container navcontainer">
-    <div class="navdesktop">
-        <ul class="nl">
-           {% for item in site.data.navigation %}
-               <li class="">
-                   <a href="{{item.url_en}}"  
-                   class="{% if page.url != "/en/" %}navblack {% endif %}{% if page.url == item.url_en %}current {% endif %}" >{{item.name_en}}</a>
-                   
-               </li>
-           {% endfor %}
-               <li class=""><a href="/" class="{% if page.url != "/en/" %}navblack {% endif %}">NL</a>  <a href="/en/" class="current">EN</a></li>
-           
-       </ul>
-       
-    </div>
+  <div class="navdesktop">
+    <ul class="nl">
+      {% for item in site.data.navigation %}
+      <li class="">
+        <a
+          href="{{item.url_en}}"
+          class="navblack {% if page.url == item.url_en %}current {% endif %}"
+          >{{item.name_en}}</a
+        >
+      </li>
+      {% endfor %}
+      <li class="">
+        <a href="/" class="navblack">NL</a>
+        <a href="/en/" class="current">EN</a>
+      </li>
+    </ul>
+  </div>
 </div>
