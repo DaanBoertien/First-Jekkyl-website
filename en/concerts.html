@@ -15,19 +15,19 @@ title: Concerts
     </div>
     <div class="concert-location">
       <p class="concert-hall">
-        {% if concert.hall_en != "" %}{{concert.hall_en}}{{ else }}
-        {{concert.hall}}{% endif %}
+        {% if concert.hall_en %}{{concert.hall_en}}{% else %} {{concert.hall}}{%
+        endif %}
       </p>
       <p class="concert-place">
-        {% if concert.place_en != "" %}{{concert.place_en}}{{ else }}
+        {% if concert.place_en %}{{concert.place_en}}{% else %}
         {{concert.place}}{% endif %}
       </p>
       <p class="concert-repertoire">
-        {% if concert.repertoire_en != "" %}{{concert.repertoire}}{{ else }}
+        {% if concert.repertoire_en %}{{concert.repertoire}}{% else %}
         {{concert.repertoire}}{% endif %}
       </p>
       <p class="concert-musicians">
-        {% if concert.musicians_en != "" %}{{concert.musicians_en}}{{ else }}
+        {% if concert.musicians_en %}{{concert.musicians_en}}{% else %}
         {{concert.musicians}}{% endif %}
       </p>
       {% if concert.organizer_url != "" %}
