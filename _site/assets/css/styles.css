@@ -572,7 +572,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .concert-repertoire { margin-bottom: 1em; font-style: italic; font-weight: 400; }
 
-.concert-musicians { white-space: pre-wrap; }
+.concert-musicians { white-space: pre; }
 
 form { display: flex; flex-direction: column; margin-top: 2em; margin-bottom: 2em; max-width: 500px; }
 

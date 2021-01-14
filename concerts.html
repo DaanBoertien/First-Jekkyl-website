@@ -18,10 +18,10 @@ title: concerts
       <p class="concert-place">{{concert.place}}</p>
       <p class="concert-repertoire">{{concert.repertoire}}</p>
       <p class="concert-musicians">{{concert.musicians }}</p>
-      {% if concert.organizer_url != "" %}
+      {% if concert.organizer_url %}
       <p class="concert-tickets">{{concert.organizer_url}}</p>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
   {% endfor %}
 

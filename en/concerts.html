@@ -26,14 +26,11 @@ title: Concerts
         {% if concert.repertoire_en %}{{concert.repertoire}}{% else %}
         {{concert.repertoire}}{% endif %}
       </p>
-      <p class="concert-musicians">
-        {% if concert.musicians_en %}{{concert.musicians_en}}{% else %}
-        {{concert.musicians}}{% endif %}
-      </p>
-      {% if concert.organizer_url != "" %}
+      <p class="concert-musicians">{{concert.musicians_en}}</p>
+      {% if concert.organizer_url %}
       <p class="concert-tickets">{{concert.organizer_url}}</p>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
   {% endfor %}
 
@@ -51,7 +48,7 @@ title: Concerts
       <p class="concert-place">{{concert.place_en}}</p>
       <p class="concert-repertoire">{{concert.repertoire_en}}</p>
       <p class="concert-musicians">{{concert.musicians_en }}</p>
-      {% if concert.organizer_url != "" %}
+      {% if concert.organizer_url %}
       <p class="concert-tickets">{{concert.organizer_url}}</p>
       {% endif %}
     </div>
