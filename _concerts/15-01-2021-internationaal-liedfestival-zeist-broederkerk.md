@@ -13,5 +13,5 @@ musicians_en: |-
   Daan Boertien, piano
 organizer_url: https://ilfz.nl/
 in_archive: true
-cancelled: false
+cancelled: true
 ---
