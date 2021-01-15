@@ -5,8 +5,8 @@ hall_en: Opera Aperitief
 date: 2020-12-06T15:00:00.000Z
 place: Zutphen
 place_en: Zutphen
-repertoire: Aria's van Mozart
-repertoire_en: Arias by Mozart
+repertoire: Aria's van Mozart en liederen van Schumann
+repertoire_en: Arias by Mozart and songs by Schumann
 musicians: |-
   Rosina Fabius, mezzosopraan
   Elvire Beekhuizen, sopraan
