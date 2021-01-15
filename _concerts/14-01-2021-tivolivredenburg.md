@@ -7,7 +7,7 @@ repertoire: J.S. Bach - Goldbergvariaties
 repertoire_en: J.S. Bach - Goldberg Variations
 musicians: Daan Boertien, Piano
 musicians_en: Daan Boertien, Piano
-organizer_url: www.tivolivredenburg.com
+organizer_url: https://www.tivolivredenburg.nl
 in_archive: true
 cancelled: false
 ---
