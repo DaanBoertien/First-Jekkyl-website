@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Opera Zutphen
+hall: Opera Aperitief
 hall_en: Opera Aperitief
 date: 2020-12-06T15:00:00.000Z
 place: Zutphen
@@ -16,5 +16,5 @@ musicians_en: |-
   Elvire Beekhuizen, Soprano
   Daan Boertien, Piano
 in_archive: true
-cancelled: false
+cancelled: true
 ---
