@@ -48,6 +48,7 @@ console.log('Loaded DOM')
 
 animate(".fadeIn")
 animate(".fadeInTitle")
+animate(".fadeInNavDesktop")
 
 
 

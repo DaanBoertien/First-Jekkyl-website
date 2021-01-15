@@ -2,7 +2,7 @@
   <div class="navdesktop">
     <ul class="nl">
       {% for item in site.data.navigation %}
-      <li class="">
+      <li class="fadeInTitle">
         <a
           href="{{item.url_en}}"
           class="navblack {% if page.url == item.url_en %}current {% endif %}"
@@ -10,7 +10,7 @@
         >
       </li>
       {% endfor %}
-      <li class="">
+      <li class="fadeInTitle">
         <a href="/" class="navblack">NL</a>
         <a href="/en/" class="current">EN</a>
       </li>
