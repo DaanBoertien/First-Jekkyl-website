@@ -33,9 +33,9 @@ title: Concerts
           >Tickets</a
         >
       </p>
-      {% endif %}
+      {% endif %} {% if concert.cancelled %}
       <p class="concert-cancelled">Cancelled</p>
-      {% if concert.cancelled %}
+      {% endif %}
     </div>
   </div>
   {% endfor %}
@@ -58,6 +58,8 @@ title: Concerts
       <p class="concert-tickets">
         <a href="{{concert.organizer_url}}" class="btn">More Information</a>
       </p>
+      {% endif %} {% if concert.cancelled %}
+      <p class="concert-cancelled">Cancelled</p>
       {% endif %}
     </div>
   </div>

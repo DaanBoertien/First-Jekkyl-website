@@ -54,3 +54,14 @@
   white-space: pre;
   margin-bottom: 1em;
 }
+
+.concert-tickets {
+  margin-bottom: 1em;
+}
+
+.concert-cancelled {
+  letter-spacing: 1;
+  text-transform: uppercase;
+  color: var(--clr-greyblue);
+  font-weight: 500;
+}
