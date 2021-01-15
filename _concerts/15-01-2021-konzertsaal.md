@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Konzertsaal
-date: 2021-11-12T18:00:00.000Z
+date: 2020-11-12T18:00:00.000Z
 place: Blaibach
 repertoire: Liederen van Schumann, Schubert, Poulenc, Strauss en Vaughan Williams
 repertoire_en: Songs by Schumann, Schubert, Poulenc, Strauss and Vaughan Williams
