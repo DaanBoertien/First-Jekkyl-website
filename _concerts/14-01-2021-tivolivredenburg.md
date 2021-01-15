@@ -9,5 +9,5 @@ musicians: Daan Boertien, Piano
 musicians_en: Daan Boertien, Piano
 organizer_url: https://www.tivolivredenburg.nl
 in_archive: true
-cancelled: false
+cancelled: true
 ---
