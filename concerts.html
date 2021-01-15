@@ -19,7 +19,11 @@ title: concerts
       <p class="concert-repertoire">{{concert.repertoire}}</p>
       <p class="concert-musicians">{{concert.musicians }}</p>
       {% if concert.organizer_url %}
-      <p class="concert-tickets">{{concert.organizer_url}}</p>
+      <p class="concert-tickets">
+        <a href="{{concert.organizer_url}}" target="_blank" class="btn"
+          >Tickets</a
+        >
+      </p>
       {% endif %}
     </div>
   </div>
@@ -27,8 +31,8 @@ title: concerts
 
   <h1 class="page-title fadeIn">Archief</h1>
   {% assign past_concerts = site.concerts | where_exp: "concert", "concert.date
-  < site.time" %} {% for concert in past_concerts %} {% if concert.in_archive ==
-  true %}
+  < site.time" | reverse %} {% for concert in past_concerts %} {% if
+  concert.in_archive == true %}
   <div class="concert-poster fadeIn">
     <div class="archive">
       <div class="concert-datetime">
@@ -40,8 +44,10 @@ title: concerts
         <p class="concert-place">{{concert.place}}</p>
         <p class="concert-repertoire">{{concert.repertoire}}</p>
         <p class="concert-musicians">{{concert.musicians }}</p>
-        {% if concert.organizer_url != "" %}
-        <p class="concert-tickets">{{concert.organizer_url}}</p>
+        {% if concert.organizer_url %} Hoi
+        <a href="{{concert.organizer_url}}" class="concert-tickets btn"
+          >More Information</a
+        >
         {% endif %}
       </div>
     </div>
