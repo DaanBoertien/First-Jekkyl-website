@@ -24,6 +24,8 @@ title: concerts
           >Tickets</a
         >
       </p>
+      {% endif %} {% if concert.cancelled %}
+      <p class="concert-cancelled">Geannuleerd</p>
       {% endif %}
     </div>
   </div>
@@ -48,6 +50,8 @@ title: concerts
         <a href="{{concert.organizer_url}}" class="concert-tickets btn"
           >More Information</a
         >
+        {% endif %} {% if concert.cancelled %}
+        <p class="concert-cancelled">Geannuleerd</p>
         {% endif %}
       </div>
     </div>
