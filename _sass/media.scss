@@ -13,6 +13,14 @@
   margin-bottom: 1.5em;
 }
 
+.videobackground {
+  background-image: linear-gradient(
+    212deg,
+    rgb(206, 206, 206) 0%,
+    rgb(102, 102, 102) 93%
+  );
+}
+
 .photographer {
   position: absolute;
   bottom: 0.5em;

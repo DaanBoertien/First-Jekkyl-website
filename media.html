@@ -13,9 +13,9 @@ layout: default
   <div class="all-items">
     <ul class="video-grid">
     {% for video in site.data.videos.video %}
-    <div class="iframe-container media-video-margin fadeInVideo">
+    <div class="iframe-container media-video-margin videobackground fadeInTitle">
       <li class="nobreak">
-        <iframe
+        <iframe class="fadeInVideo"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/{{video.youtube-id}}"
