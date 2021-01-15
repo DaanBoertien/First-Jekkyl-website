@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Hotel Krasnapolsky
+hall: Zuiderkerk
 date: 2020-08-07T19:00:00.000Z
 place: Amsterdam
 repertoire: Muziek van Poulenc, Franck, de Falla en Ravel
