@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Konzertsaal
-date: 2021-11-13T18:00:00.000Z
+date: 2020-11-13T18:00:00.000Z
 place: Blaibach
 repertoire: Liederen van Schumann, Schubert en Mahler
 repertoire_en: Songs by Schumann, Schubert and Mahler
