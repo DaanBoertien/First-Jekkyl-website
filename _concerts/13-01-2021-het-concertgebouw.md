@@ -7,6 +7,7 @@ place: Amsterdam
 repertoire: Beethoven Concerto
 musicians: Daan Boertien, Piano
 musicians_en: Daan Boertien, Piano
+organizer_url: www.concertgebouw.nl
 in_archive: true
 cancelled: false
 ---
