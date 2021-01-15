@@ -1,19 +1,15 @@
 ---
 layout: concert
-hall: Elbphilharmonie
-date: 2021-02-11T18:00:00.000Z
+hall: Deutschlandfunk Kultur
+date: 2020-02-18T20:30:00.000Z
 place: Hamburg
-repertoire: Uitreiking Berenbergprijs 2020
-repertoire_en: Award Ceremony Berenbergprize 2020
+repertoire: Liederen van Schumann en Schubert
+repertoire_en: Songs by Schumann and Schubert
 musicians: |-
-  Raoul Steffani, Bariton
-  Roman Gerber, Klarinet
-  Anna Olivia Amaya Farias, Cello
+  Geng Lee, Bariton
   Daan Boertien, Piano
 musicians_en: |-
-  Raoul Steffani, Baritone
-  Roman Gerber, Clarinet
-  Anna Olivia Amaya Farias, Cello
+  Geng Lee, Baritone
   Daan Boertien, Piano
 in_archive: true
 cancelled: false
