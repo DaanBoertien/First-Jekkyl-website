@@ -10,7 +10,7 @@ title: Concerts
   "concert.date >= site.time" %} {% for concert in future_concerts %}
   <div class="concert-poster fadeIn">
     <div class="concert-datetime">
-      <p class="concert-date"></p>
+      <p class="concert-date">{{concert.date | date: "%e-%m-%Y"}}</p>
       <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
     </div>
     <div class="concert-location">
@@ -28,8 +28,14 @@ title: Concerts
       </p>
       <p class="concert-musicians">{{concert.musicians_en}}</p>
       {% if concert.organizer_url %}
-      <p class="concert-tickets">{{concert.organizer_url}}</p>
+      <p class="concert-tickets">
+        <a href="{{concert.organizer_url}}" target="_blank" class="btn"
+          >Tickets</a
+        >
+      </p>
       {% endif %}
+      <p class="concert-cancelled">Cancelled</p>
+      {% if concert.cancelled %}
     </div>
   </div>
   {% endfor %}
@@ -40,7 +46,7 @@ title: Concerts
   concert.in_archive == true %}
   <div class="concert-poster archive fadeIn">
     <div class="concert-datetime">
-      <p class="concert-date">{{concert.date | date_to_long_string }}</p>
+      <p class="concert-date">{{concert.date | date: "%e-%m-%Y"}}</p>
       <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
     </div>
     <div class="concert-location">
