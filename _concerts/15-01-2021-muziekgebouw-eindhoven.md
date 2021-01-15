@@ -6,5 +6,5 @@ place: Eindhoven
 repertoire: Chopin
 musicians: Daan
 in_archive: true
-cancelled: false
+cancelled: true
 ---
