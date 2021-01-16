@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Prinsengrachtconcert
+hall: Prinsengracht concert
 hall_en: ""
 date: 2019-08-17T17:00:00.000Z
 place: Amsterdam
