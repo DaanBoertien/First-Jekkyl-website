@@ -8,7 +8,7 @@ repertoire: o.a. Liederen van Strauss
 repertoire_en: a.o. Songs by Strauss
 musicians: |-
   Daan Boertien, Piano
-  Olga Pashchenko, Klavecimbel, Fortepiano
+  Olga Pashchenko, Fortepiano
   Judith van Wanroij, Sopraan
   Amarins Wierdsma, Viool
   Jeanette Landré, Fluit
