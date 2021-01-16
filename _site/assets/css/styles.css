@@ -426,6 +426,8 @@ img { width: 100%; display: block; }
 
 a.page-subtitle:hover { color: var(--red); }
 
+.imgpress { max-width: 500px; margin-top: 2em; }
+
 body { font-family: "montserrat", sans-serif; }
 
 h1 { font-size: 2rem; }
