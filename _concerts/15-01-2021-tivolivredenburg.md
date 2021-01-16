@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: TivoliVredenburg
-date: 2020-08-18T17:00:00.000Z
+date: 2020-08-18T18:00:00.000Z
 place: Utrecht
 repertoire: F. Poulenc - La voix humaine
 musicians: |-
