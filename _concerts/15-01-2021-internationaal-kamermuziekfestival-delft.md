@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Internationaal Kamermuziekfestival Delft
+hall: Internationaal Kamermuziek Festival Delft
 hall_en: International Chambermusic Festival Delft
 date: 2019-08-02T18:15:00.000Z
 place: Delft
