@@ -11,6 +11,9 @@
   .video-container video {
     object-position: 0px bottom;
   }
+  .video-container::before {
+    background-position: 0px bottom;
+  }
   .section-quote {
     font-size: 1.25rem;
   }
