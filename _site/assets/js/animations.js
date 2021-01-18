@@ -57,11 +57,11 @@ animate(".fadeInNavDesktop")
 
 // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
 // you could also use addEventListener() instead
-// window.onload = function() {
+window.onload = function() {
   console.log("loaded window")
 
    // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
-  //  window.requestAnimationFrame(function() {
+   window.requestAnimationFrame(function() {
     console.log("loaded animation ticker")
       // GSAP custom code goes here  
     //   gsap.to('.video-container', {duration: 3, background: 'rgba(92, 59, 33, 0.1)'}); 
@@ -77,10 +77,10 @@ animate(".fadeInNavDesktop")
     
      
 
-  //  });
+   });
    
 
-// };
+};
 
 });
 
