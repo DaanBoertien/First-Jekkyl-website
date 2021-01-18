@@ -476,9 +476,9 @@ nav li, .navdesktop li { list-style: none; }
 
 .video-container { width: 100%; height: 100vh; display: flex; align-content: center; color: white; background: black; position: relative; }
 
-.video-container video { position: absolute; left: 0; top: 0; object-fit: cover; width: 100%; height: 100%; pointer-events: none; object-position: -110px bottom; transition: all 2s ease-in-out; }
+.video-container video, .video-container img { position: absolute; left: 0; top: 0; object-fit: cover; width: 100%; height: 100%; pointer-events: none; object-position: -500px center; transition: all 2s ease-in-out; }
 
-.video-container::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: black; background-image: url("/assets/img/dctbackgroundvideo1080cropped 0-0 screenshot.png"); background-size: cover; background-position: -110px bottom; z-index: 1; transition: all 1s ease-in-out; pointer-events: none; }
+.video-container::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: black; background-size: cover; background-position: -110px bottom; z-index: 1; transition: all 1s ease-in-out; pointer-events: none; }
 
 .video-container.loaded::before { background: rgba(92, 59, 33, 0.1); }
 
