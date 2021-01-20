@@ -29,7 +29,7 @@ window.onload = function() {
 }
 if (document.querySelector(".landing-title-container")) {
   gsap.to(".landing-title-container", {
-    yPercent: -20,
+    yPercent: -50,
     ease: "Power2.out",
     scrollTrigger: {
       trigger: videoContainer,

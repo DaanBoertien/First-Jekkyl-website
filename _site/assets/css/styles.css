@@ -482,7 +482,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .video-container.loaded::before { background: rgba(92, 59, 33, 0.1); }
 
-.video-container .landing-title-container { position: absolute; top: 40%; left: 50%; transform: translateX(-50%); z-index: 1; margin: 0 auto; }
+.video-container .landing-title-container { position: absolute; top: 50%; left: 50%; transform: translateX(-50%); z-index: 1; margin: 0 auto; }
 
 .landing-title, .landing-subtitle { text-align: center; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); font-weight: 200; text-transform: uppercase; letter-spacing: 1px; }
 
@@ -608,7 +608,7 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 
 @media (min-width: 800px) { body { font-size: 1.25rem; } .video-container video { object-position: 0px bottom; } .video-container::before { background-position: 0px bottom; } .section-quote { font-size: 1.25rem; } .fa-angle-down { bottom: 1em; } .bio-box { border-left: 10px solid var(--clr-greyblue); padding: 2em; } .all-photos { column-count: 2; -webkit-column-count: 2; -moz-column-count: 2; column-gap: 1.5em; -webkit-column-gap: 1.5em; -moz-column-gap: 1.5em; } .all-photos img { cursor: pointer; } }
 
-@media (max-width: 880px) { .navcontainer { display: none; } .video-container .landing-title-container { top: 30%; } }
+@media (max-width: 880px) { .navcontainer { display: none; } }
 
 @media (min-width: 880px) { .video-grid { display: grid; grid-gap: 2rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); } .media-video-margin { margin-bottom: 0; } .hamburger-container { display: none; } .navcontainer { position: relative; } .navdesktop { position: fixed; left: 0; right: 0; top: 0; width: 100%; height: fit-content; border-top: 10px solid var(--clr-greyblue); box-shadow: var(--boxshadow); padding-top: 0.7em; padding-bottom: 0.7em; z-index: 10; background: var(--bg-color); } .navdesktop ul { display: flex; justify-content: space-between; gap: 1.5em; max-width: 960px; margin: 0 auto; } .navdesktop li a { font-size: 1.5rem; } }
 
