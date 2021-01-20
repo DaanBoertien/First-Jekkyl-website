@@ -488,7 +488,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .video-container .landing-title-container { position: absolute; top: 42%; left: 50%; transform: translateX(-50%); z-index: 1; margin: 0 auto; }
 
-.landing-title, .landing-subtitle { text-align: center; text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.4), 1px 8px 13px rgba(0, 0, 0, 0.15), 1px 18px 23px rgba(0, 0, 0, 0.1); font-weight: 200; text-transform: uppercase; letter-spacing: 1px; line-height: 1; }
+.landing-title, .landing-subtitle { text-align: center; text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); font-weight: 200; text-transform: uppercase; letter-spacing: 1px; line-height: 1; }
 
 .landing-title { font-size: 60px; color: white; margin-bottom: 10px; }
 
