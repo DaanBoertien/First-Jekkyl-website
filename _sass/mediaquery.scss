@@ -12,6 +12,14 @@
   .fa-angle-down {
     bottom: 1em;
   }
+
+  .video-container img.imgsmall {
+    display: none;
+  }
+
+  .video-container img.imglarge {
+    display: block;
+  }
 }
 
 @media (min-width: 800px) {

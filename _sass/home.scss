@@ -22,16 +22,8 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  object-position: -500px center;
+  object-position: top;
   transition: all 2s ease-in-out;
-}
-
-.homesmall {
-  display: block;
-}
-
-.homelarge {
-  display: none;
 }
 
 .video-container::before {
@@ -52,6 +44,14 @@
 
 .video-container::before.loaded {
   background: rgba(92, 59, 33, 0.1);
+}
+
+.video-container img.imglarge {
+  display: none;
+}
+
+.video-container img.imgsmall {
+  display: block;
 }
 
 .video-container .landing-title-container {
