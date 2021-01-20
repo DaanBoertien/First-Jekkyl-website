@@ -48,7 +48,7 @@
 
 .video-container .landing-title-container {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%);
   // transform: translateY(30%);
@@ -72,6 +72,7 @@
 .landing-title {
   font-size: 60px;
   color: white;
+  margin-bottom: 10px;
 }
 
 .landing-subtitle {
