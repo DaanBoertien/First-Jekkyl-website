@@ -68,7 +68,7 @@ function hide(){
 
 function refresh() {
   var newScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  if (newScrollTop > currentScrollTop && newScrollTop > 200) {
+  if (newScrollTop > currentScrollTop && newScrollTop > 100) {
     hide();
     console.log(newScrollTop)
   } else if (newScrollTop < currentScrollTop) {

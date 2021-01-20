@@ -1,12 +1,16 @@
 @media (min-width: 490px) {
   .video-container img {
-    object-position: right 10px;
+    object-position: right 0px;
   }
 }
 
 @media (min-width: 600px) {
   .video-container video {
     object-position: 0px bottom;
+  }
+
+  .fa-angle-down {
+    bottom: 1em;
   }
 }
 
@@ -20,11 +24,9 @@
   .video-container::before {
     background-position: 0px bottom;
   }
+
   .section-quote {
     font-size: 1.25rem;
-  }
-  .fa-angle-down {
-    bottom: 1em;
   }
 
   .bio-box {
@@ -126,6 +128,10 @@
   }
   .section-quote {
     overflow: visible;
+  }
+
+  .video-container .landing-title-container {
+    left: 30%;
   }
 
   .container {
