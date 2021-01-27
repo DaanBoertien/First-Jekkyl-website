@@ -2,10 +2,14 @@
 #   name: github
 #   repo: DaanBoertien/First-Jekkyl-website
 
+# backend:
+#   name: github
+#   branch: master
+#   repo: DaanBoertien/First-Jekkyl-website
+
 backend:
-  name: github
+  name: git-gateway
   branch: master
-  repo: DaanBoertien/First-Jekkyl-website
 
 media_folder: assets/img/uploads/
 
