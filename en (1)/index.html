@@ -1,0 +1,60 @@
+---
+# front matter tells Jekyll to process Liquid
+layout: default
+---
+
+<section class="section-landing">
+  <div class="video-container">
+    <video
+      src="{{site.baseurl}}assets/img/dctbackgroundvideo1080cropped.mp4"
+      class="background-video"
+      autoplay
+      muted
+      loop
+      type="video/mp4"
+    ></video>
+    <div class="landing-title-container">
+      <h1 class="landing-title fadeInLanding">Daan Boertien</h1>
+      <p class="landing-subtitle fadeInLanding">Pianist</p>
+    </div>
+    <a href="#section-bio"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+  </div>
+</section>
+
+<div class="container border-top">
+  <section class="section-bio" id="section-bio">
+    <p class="bio-teaser fadeIn">
+      {{ site.data.home.bio-teaser }}
+      <a href="/biografie/" class="btn fadeIn">Lees meer</a>
+    </p>
+  </section>
+</div>
+<div class="container-without-padding">
+  <section class="section-media">
+    <div class="iframe-container fadeInPhoto">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <a href="/media/" class="btn fadeIn">Meer video's</a>
+  </section>
+</div>
+<div class="container-without-padding">
+<section class="section-quote">
+  <p class="quote fadeIn">{{ site.data.home.quote }}</p>
+  <p class="quote-author fadeIn">{{ site.data.home.quote-author }}</p>
+</section>
+</div>
+<section class="section-onemore fadeIn">
+  <img
+    src="{{site.baseurl}}assets/img/low_-high res Trouw Daan Boertien_W7A0566-bewerkt.jpg"
+    alt=""
+  />
+  <p class="photographer">© {{ site.data.home.photographer }}</p>
+</section>
+</div>
+</body>
