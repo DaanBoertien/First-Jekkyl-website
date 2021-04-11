@@ -3,7 +3,10 @@ layout: concert
 hall: Internationaal Liedfestival Zeist, Broederkerk
 date: 2021-05-24T14:00:13.883Z
 place: Zeist
-repertoire: Liederen van o.a. Rachmaninov en Ravel
+repertoire: |-
+  Liederen van o.a. Rachmaninov en Ravel
+
+  Verplaatst naar oktober
 repertoire_en: Songs by a.o. Rachmaninov and Ravel
 musicians: |-
   Michael Wilmering, bariton
@@ -13,5 +16,5 @@ musicians_en: |-
   Daan Boertien, piano
 organizer_url: https://ilfz.nl/
 in_archive: true
-cancelled: false
+cancelled: true
 ---
