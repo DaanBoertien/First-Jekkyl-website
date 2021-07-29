@@ -2,7 +2,7 @@
 layout: concert
 hall: Operadagen Rotterdam
 hall_en: Operadagen Rotterdam
-date: 2021-07-29T12:00:43.183Z
+date: 2021-08-23T12:00:43.183Z
 place: Rotterdam
 repertoire: Liederen van Schubert en Hahn
 repertoire_en: Songs by Schubert and Hahn
