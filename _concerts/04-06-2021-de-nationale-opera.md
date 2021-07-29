@@ -7,10 +7,10 @@ place: Amsterdam
 repertoire: "Liederen van Schoenberg "
 repertoire_en: Songs by Schoenberg
 musicians: |-
-  Verity Wingate, Sopraan
+  Leden van de Nationale Operastudio
   Daan Boertien, Piano
 musicians_en: |-
-  Verity Wingate, Soprano
+  Members of the Dutch National Operastudio
   Daan Boertien, Piano
 in_archive: true
 cancelled: false
