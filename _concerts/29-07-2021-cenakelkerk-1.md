@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Cenakelkerk
-hall_en: Nijmegen
+hall_en: Cenakelkerk
 date: 2021-09-19T14:00:18.908Z
 place: Nijmegen
 repertoire: "R. Wagner - Parsifal: Akte 3"
