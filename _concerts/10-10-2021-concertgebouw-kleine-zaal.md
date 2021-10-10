@@ -2,7 +2,7 @@
 layout: concert
 hall: Concertgebouw - Kleine Zaal
 hall_en: Concertgebouw - Recital Hall
-date: 2021-10-10T09:12:25.706Z
+date: 2022-04-22T18:30:25.706Z
 place: Amsterdam
 repertoire: |-
   Klapstuk
