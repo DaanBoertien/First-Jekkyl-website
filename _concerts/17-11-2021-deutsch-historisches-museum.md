@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Deutsch Historisches Museum
-date: 2021-12-06T17:00:42.888Z
+date: 2022-03-07T18:00:42.888Z
 place: Berlijn
 place_en: Berlin
 repertoire: "Liederen van Mahler, Strauss en Schubert "
