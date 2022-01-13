@@ -110,6 +110,15 @@
   margin: 1em auto 3em;
 }
 
+.bio-teaser a {
+  color: var(--red);
+  transition: color 0.2s ease-out;
+}
+
+.bio-teaser a:hover {
+  color: red;
+}
+
 .section-media .btn {
   margin-top: 2em;
 }

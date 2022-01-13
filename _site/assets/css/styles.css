@@ -500,6 +500,10 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-bio .btn, .section-media .btn { margin: 1em auto 3em; }
 
+.bio-teaser a { color: var(--red); transition: color 0.2s ease-out; }
+
+.bio-teaser a:hover { color: red; }
+
 .section-media .btn { margin-top: 2em; }
 
 .section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 1.1rem; position: relative; padding: 2em 1.5em; margin: 0em; overflow: hidden; }
