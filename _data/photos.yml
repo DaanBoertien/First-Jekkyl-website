@@ -1,5 +1,4 @@
 foto:
-<<<<<<< Updated upstream
   - url: /assets/img/uploads/DaanBoertienSebastianGaltier.jpg
     alt: Portret Daan
     photographer: Sebastian Galtier
@@ -32,8 +31,3 @@ foto:
   - url: /assets/img/uploads/unadjustednonraw_thumb_27.jpg
     alt: Daan kijkt naar rechts
     photographer: ""
-=======
-  - url: assets/img/uploads/DaanBoertienSebastianGaltier.jpg
-    alt: "portret"
-    photographer: "SebastianGaltier"
->>>>>>> Stashed changes
