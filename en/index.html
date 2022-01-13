@@ -19,7 +19,7 @@ layout: default_en
   <section class="section-bio border-top" id="section-bio">
     <div class="container">
     <p class="bio-teaser fadeIn nl">
-      {{ site.data.home.bio-teaser-en }}
+      {{ site.data.home.bio-teaser-en | markdownify}}
       <a href="/en/biography/" class="btn fadeIn">Read more</a>
     </p>
   </div>
