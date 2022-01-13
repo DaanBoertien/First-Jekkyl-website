@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Het Concertgebouw - Spiegelzaal
-hall_en: ""
+hall_en: Concertgebouw - Mirror Hall
 date: 2022-01-23T09:00:40.302Z
 place: Amsterdam
 repertoire: Liederen uit Schuberts Winterreise, Live op NPO Radio 4
