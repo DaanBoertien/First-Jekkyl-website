@@ -1,19 +1,19 @@
 ---
 layout: concert
-hall: NPO Radio 4 - Podium
-hall_en: NPO Radio 4 - Podium
-date: 2022-01-27T16:00:53.431Z
-place: Amsterdam
-repertoire: Liederen uit Schuberts Winterreise, Live op NPO Radio 4
-repertoire_en: Songs from Schuberts Winterreise, Live on NPO Radio 4
+hall: NPO Radio 4 - De Muziekfabriek
+hall_en: NPO Radio 4 - De Muziekfabriek
+date: 2022-03-19T11:00:53.431Z
+place: NPO Radio 4
+repertoire: Nog te bepalen
+repertoire_en: Yet to determine
 musicians: |-
   Michael Wilmering, Bariton
   Daan Boertien, Piano
-  Hans Haffmans, Host
+  Jet Berkhout, Host
 musicians_en: |-
   Michael Wilmering, Baritone
   Daan Boertien, Piano
-  Hans Haffmans, Host
+  Jet Berkhout, Host
 in_archive: true
 cancelled: false
 ---
