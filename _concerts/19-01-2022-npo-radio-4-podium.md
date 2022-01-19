@@ -1,7 +1,7 @@
 ---
 layout: concert
-hall: NPO Radio 4 - De Muziekfabriek
-hall_en: NPO Radio 4 - De Muziekfabriek
+hall: De Muziekfabriek
+hall_en: De Muziekfabriek
 date: 2022-03-19T11:00:53.431Z
 place: NPO Radio 4
 repertoire: Nog te bepalen
