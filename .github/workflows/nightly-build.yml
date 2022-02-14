@@ -10,3 +10,4 @@ jobs:
         run: curl -X POST -d {} "https://api.netlify.com/${TOKEN}"
         env:
           TOKEN: ${{ secrets.NETLIFY_CRON_BUILD_HOOK }}
+jkl;
