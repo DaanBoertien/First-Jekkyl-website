@@ -1,7 +1,7 @@
 name: Scheduled build
 on:
   schedule:
-    - cron: "2 * * * *"
+    - cron: "* * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,4 +10,3 @@ jobs:
         run: curl -X POST -d {} "https://api.netlify.com/${TOKEN}" --ssl-no-revoke
         env:
           TOKEN: ${{ secrets.NETLIFY_CRON_BUILD_HOOK }}
-# curl -s -X POST "https://api.netlify.com/build_hooks/${TOKEN}"
