@@ -11,12 +11,10 @@ absolute_path_en: /en/concerts/
   {% assign future_concerts = site.concerts | where_exp: "concert",
   "concert.date >= site.time" %} {% for concert in future_concerts %}
   <div class="concert-poster fadeIn">
-    <div class="concert-datetime">
+    <div class="concert-location">
       <p class="concert-date">
         {{concert.date | date: "%B %e, %Y"}} | {{concert.date | date: "%k:%M" }}
       </p>
-    </div>
-    <div class="concert-location">
       <p class="concert-hall">
         {% if concert.hall_en %}{{concert.hall_en}}{% else %} {{concert.hall}}{%
         endif %}
@@ -29,7 +27,7 @@ absolute_path_en: /en/concerts/
         {% if concert.repertoire_en %}{{concert.repertoire_en}}{% else %}
         {{concert.repertoire}}{% endif %}
       </p>
-      <p class="concert-musicians">{{concert.musicians_en}}</p>
+      <p class="concert-musicians">{{concert.musicians_en | markdownify}}</p>
       {% if concert.organizer_url %}
       <p class="concert-tickets">
         <a href="{{concert.organizer_url}}" target="_blank" class="btn"
@@ -48,12 +46,10 @@ absolute_path_en: /en/concerts/
   < site.time" | reverse %} {% for concert in past_concerts %} {% if
   concert.in_archive == true %}
   <div class="concert-poster fadeIn archive">
-    <div class="concert-datetime">
+    <div class="concert-location">
       <p class="concert-date">
         {{concert.date | date: "%B %e, %Y"}} | {{concert.date | date: "%k:%M" }}
       </p>
-    </div>
-    <div class="concert-location">
       <p class="concert-hall">
         {% if concert.hall_en %}{{concert.hall_en}}{% else %} {{concert.hall}}{%
         endif %}
