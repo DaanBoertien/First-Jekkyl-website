@@ -10,8 +10,7 @@ musicians: |-
   Leden van de Nationale Opera Studio
   Daan Boertien, Piano
 musicians_en: |-
-  Members of the Dutch National 
-  Opera Studio
+  Members of the DNOS
   Daan Boertien, Piano
 in_archive: true
 cancelled: false
