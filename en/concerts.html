@@ -12,8 +12,9 @@ absolute_path_en: /en/concerts/
   "concert.date >= site.time" %} {% for concert in future_concerts %}
   <div class="concert-poster fadeIn">
     <div class="concert-datetime">
-      <p class="concert-date">{{concert.date | date: "%e-%m-%Y"}}</p>
-      <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
+      <p class="concert-date">
+        {{concert.date | date: "%B %e, %Y"}} | {{concert.date | date: "%k:%M" }}
+      </p>
     </div>
     <div class="concert-location">
       <p class="concert-hall">
@@ -48,8 +49,9 @@ absolute_path_en: /en/concerts/
   concert.in_archive == true %}
   <div class="concert-poster fadeIn archive">
     <div class="concert-datetime">
-      <p class="concert-date">{{concert.date | date: "%e-%m-%Y"}}</p>
-      <p class="concert-time">{{concert.date | date: "%k:%M" }}</p>
+      <p class="concert-date">
+        {{concert.date | date: "%B %e, %Y"}} | {{concert.date | date: "%k:%M" }}
+      </p>
     </div>
     <div class="concert-location">
       <p class="concert-hall">
