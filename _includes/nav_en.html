@@ -7,7 +7,7 @@
                {% if page.url == item.url_en %}class="current"{% endif %} >{{item.name_en}}</a>
            </li>
        {% endfor %}
-       <li class="fadeInNav"><a href="/" class="">NL</a>  <a href="/en/" class="current">EN</a></li>
+       <li class="fadeInNav"><a href="{{page.absolute_path_nl}}" class="">NL</a>  <a href="{{page.absolute_path_en}}" class="current">EN</a></li>
        
    </ul>
    
