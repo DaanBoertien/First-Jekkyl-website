@@ -1,6 +1,6 @@
 .btn {
   border: 0px;
-  background: var(--clr-greyblue);
+  background: var(--clr-greyblue-hover);
   color: rgba(255, 255, 255, 0.85);
   display: block;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -10,10 +10,10 @@
   display: block;
   text-decoration: none;
   width: max-content;
-  transition: background 0.4s ease-in-out;
+  transition: background 0.2s ease-out;
 }
 
 .btn:hover,
 .btn:focus {
-  background: var(--clr-greyblue-hover);
+  background: var(--clr-greyblue);
 }

@@ -434,9 +434,9 @@ h1 { font-size: 2rem; }
 
 p { line-height: 1.6; }
 
-.btn { border: 0px; background: var(--clr-greyblue); color: rgba(255, 255, 255, 0.85); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.7em 1.5em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.4s ease-in-out; }
+.btn { border: 0px; background: var(--clr-greyblue-hover); color: rgba(255, 255, 255, 0.85); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.7em 1.5em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.2s ease-out; }
 
-.btn:hover, .btn:focus { background: var(--clr-greyblue-hover); }
+.btn:hover, .btn:focus { background: var(--clr-greyblue); }
 
 body { position: relative; }
 
@@ -566,17 +566,23 @@ nav li, .navdesktop li { list-style: none; }
 
 .photo-box img:hover { transform: scale(1.05); }
 
-.concert-poster { background: #fafaf9; box-shadow: var(--boxshadow); font-weight: 300; border-left: 10px solid var(--clr-greyblue); }
+.background-mahij { position: relative; }
 
-.concert-location { padding: 1em; }
+.background-mahij::before { position: fixed; content: ""; top: 0; left: 0; width: 100%; height: 100vh; background-image: url(/assets/img/mahij.jpg); background-size: cover; background-position: center; opacity: 0.1; }
+
+#background-mahij img { opacity: 0.2; object-fit: cover; }
+
+.concert-poster { background: rgba(255, 255, 255, 0.85); box-shadow: var(--boxshadow); font-weight: 300; border-left: 10px solid var(--clr-greyblue); }
+
+.concert-location { padding-bottom: 1em; }
 
 .concert-poster + .concert-poster { margin-top: 2em; }
-
-.concert-datetime { background: rgba(99, 136, 161, 0.6); color: white; width: 100%; padding: 1em; }
 
 .concert-date, .concert-place, .concert-hall, .concert-time { text-transform: uppercase; letter-spacing: 1px; line-height: 1.2; }
 
 .archive { opacity: 0.85; }
+
+.concert-date { color: var(--clr-greyblue); font-size: 1.3em; }
 
 .concert-hall { font-size: 1.5rem; font-weight: 200; color: var(--red); }
 
@@ -586,7 +592,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .concert-musicians { white-space: pre; margin-bottom: 1em; }
 
-.concert-tickets { margin-bottom: 1em; }
+.concert-tickets { margin-bottom: 0em; }
 
 .concert-cancelled { letter-spacing: 1; text-transform: uppercase; color: var(--clr-greyblue); font-weight: 500; }
 
@@ -622,6 +628,6 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--clr-g
 
 @media (min-width: 880px) { .video-grid { display: grid; grid-gap: 2rem; /* Partially responsive fallback */ /* Fully responsive version */ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); } .media-video-margin { margin-bottom: 0; } .hamburger-container { display: none; } .navcontainer { position: relative; } .navdesktop { position: fixed; left: 0; right: 0; top: 0; width: 100%; height: fit-content; border-top: 10px solid var(--clr-greyblue); box-shadow: var(--boxshadow); padding-top: 0.7em; padding-bottom: 0.7em; z-index: 10; background: var(--bg-color); } .navdesktop ul { display: flex; justify-content: space-between; gap: 1.5em; max-width: 960px; margin: 0 auto; } .navdesktop li a { font-size: 1.5rem; } }
 
-@media (min-width: 1063px) { .hamburger { right: 0; } .section-quote { overflow: visible; } .video-container .landing-title-container { left: 30%; } .container { padding: 0; } .flex { display: flex; gap: 2em; } .concert-hall { font-size: 2rem; } .concert-location { padding: 2em; } .concert-datetime { padding-left: 2em; } .concert-musicians { margin-bottom: 1em; } }
+@media (min-width: 1063px) { .hamburger { right: 0; } .section-quote { overflow: visible; } .video-container .landing-title-container { left: 30%; } .container { padding: 0; } .flex { display: flex; gap: 2em; } .concert-hall { font-size: 2rem; } .concert-location { padding: 2em; } .concert-musicians { margin-bottom: 1em; } }
 
 /*# sourceMappingURL=styles.css.map */
