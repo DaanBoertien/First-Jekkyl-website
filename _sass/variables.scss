@@ -1,13 +1,13 @@
 :root {
-  --bg-color: rgba(240, 239, 228, 1);
+  --bg-color: rgb(255, 255, 255);
   --clr-greyblue: rgba(99, 136, 161, 1);
   --clr-greyblue-hover: rgba(99, 136, 161, 0.85);
   --red: rgb(146, 20, 20);
   --text-color: rgba(0, 0, 0, 0.85);
   --gradient: linear-gradient(
     212deg,
-    rgba(240, 239, 228, 1) 0%,
-    rgba(231, 230, 214, 1) 93%
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 93%
   );
   --section-padding: 2em;
   --boxshadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,

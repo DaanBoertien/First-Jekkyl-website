@@ -1,8 +1,8 @@
 @charset "UTF-8";
-:root { --bg-color: rgba(240, 239, 228, 1); --clr-greyblue: rgba(99, 136, 161, 1); --clr-greyblue-hover: rgba(99, 136, 161, 0.85); --red: rgb(146, 20, 20); --text-color: rgba(0, 0, 0, 0.85); --gradient: linear-gradient(
+:root { --bg-color: rgb(255, 255, 255); --clr-greyblue: rgba(99, 136, 161, 1); --clr-greyblue-hover: rgba(99, 136, 161, 0.85); --red: rgb(146, 20, 20); --text-color: rgba(0, 0, 0, 0.85); --gradient: linear-gradient(
     212deg,
-    rgba(240, 239, 228, 1) 0%,
-    rgba(231, 230, 214, 1) 93%
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 93%
   ); --section-padding: 2em; --boxshadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; }
 
@@ -528,7 +528,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-onemore { padding: 0; }
 
-.biografie { margin-bottom: 2em; }
+.biografie { margin-bottom: 1em; }
 
 .image-container { box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
 
