@@ -7,10 +7,10 @@ place: Amsterdam
 repertoire: "Liederen van Schoenberg "
 repertoire_en: Songs by Schoenberg
 musicians: |-
-  Leden van de Nationale Operastudio
+  Leden van de Nationale Opera Studio
   Daan Boertien, Piano
 musicians_en: |-
-  Members of the Dutch National Operastudio
+  Members of the Dutch National Opera Studio
   Daan Boertien, Piano
 in_archive: true
 cancelled: false
