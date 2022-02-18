@@ -147,8 +147,8 @@ collections:
             min: 2
             max: 2
             collapsed: false
-            field: { name: teasers, label: Homepage tekst, widget: string }
-            widget: "text"
+            field: { name: teasers, label: Homepage tekst, widget: text }
+
           - label: "YouTube ID"
             name: "youtube-id"
             widget: "string"
@@ -204,7 +204,6 @@ collections:
             collapsed: false
             min: 2
             max: 2
-
             field: { name: quotes, label: Quote, widget: text }
           - label: "Quote Author"
             name: "quote-author"
