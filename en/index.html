@@ -67,13 +67,7 @@ absolute_path_en: /en/
         {{concert.repertoire}}{% endif %}
       </p>
       <p class="concert-musicians">{{concert.musicians_en}}</p>
-      {% if concert.organizer_url %}
-      <p class="concert-tickets">
-        <a href="{{concert.organizer_url}}" target="_blank" class="btn"
-          >Tickets</a
-        >
-      </p>
-      {% endif %} {% if concert.cancelled %}
+      {% if concert.cancelled %}
       <p class="concert-cancelled">Cancelled</p>
       {% endif %}
     </div>
