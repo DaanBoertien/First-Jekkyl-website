@@ -1,0 +1,94 @@
+<div class="background-image background-mahij">
+  <section class="section-landing">
+    <div class="video-container">
+      <img
+        src="/assets/img/DaanBoertienSebastianGaltier.jpg"
+        alt="Daan met bomen"
+        class="background-video imgsmall"
+      />
+      <img
+        src="/assets/img/g3z506s2jaa3lwogi93g.1920x0.jpg"
+        alt="Daan met bomen"
+        class="background-video imglarge"
+      />
+
+      <div class="landing-title-container">
+        <h1 class="landing-title fadeInLanding">Daan Boertien</h1>
+        <p class="landing-subtitle fadeInLanding">Pianist</p>
+      </div>
+      <a href="#section-bio"
+        ><i class="fa fa-angle-down bounce-7" aria-hidden="true"></i
+      ></a>
+    </div>
+  </section>
+
+  <section class="section-bio border-top" id="section-bio">
+    <div class="container bio-teaser fadeIn">
+      <p class="bio-teaser">
+        {% if page.lang == "nl" %} {{ site.data.home.bio-teaser | markdownify }}
+        {% else %} {{ site.data.home.bio-teaser-en | markdownify}} {% endif %}
+      </p>
+    </div>
+    <p>
+      <a href="/biografie/" class="btn fadeIn">Lees meer</a>
+    </p>
+  </section>
+
+  <div class="container-without-padding">
+    <section class="section-media">
+      <div class="iframe-container fadeInPhoto border-top">
+        <iframe
+          class="iframe"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/{{site.data.home.youtube-id}}"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a href="/media/" class="btn fadeIn">Meer video's</a>
+    </section>
+  </div>
+  <section class="container">
+    <h2 class="next-concert fadeIn">Volgende concert</h2>
+    {% assign future_concerts = site.concerts | where_exp: "concert",
+    "concert.date >= site.time" %} {% for concert in future_concerts limit:1 %}
+    <div class="concert-poster fadeIn">
+      <div class="concert-location">
+        <p class="concert-date">
+          {% assign m = concert.date | date: "%-m" %} {{ concert.date | date:
+          "%-d" }} {% case m %} {% when '1' %}Januari {% when '2' %}Februari {%
+          when '3' %}Maart {% when '4' %}April {% when '5' %}Mei {% when '6'
+          %}Juni {% when '7' %}Juli {% when '8' %}Augustus {% when '9'
+          %}September {% when '10' %}Oktober {% when '11' %}November {% when
+          '12' %}December {% endcase %} {{ concert.date | date: "%Y" }} |
+          {{concert.date | date: "%k:%M" }}
+        </p>
+
+        <p class="concert-hall">{{concert.hall}}</p>
+        <p class="concert-place">{{concert.place}}</p>
+        <p class="concert-repertoire">{{concert.repertoire}}</p>
+        <p class="concert-musicians">{{concert.musicians }}</p>
+        {% if concert.cancelled %}
+        <p class="concert-cancelled">Geannuleerd</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+    <p>
+      <a href="/concerts/" class="btn fadeIn more-concerts">Meer concerten</a>
+    </p>
+  </section>
+  <div class="container-without-padding">
+    <section class="section-quote">
+      <p class="quote fadeIn">{{ site.data.home.quote }}</p>
+      <p class="quote-author fadeIn">{{ site.data.home.quote-author }}</p>
+    </section>
+  </div>
+  <section class="section-onemore fadeIn">
+    <div class="container-without-padding home-last-image border-top">
+      <img src="{{ site.data.home.last-image }}" alt="" />
+      <p class="photographer">© {{ site.data.home.photographer }}</p>
+    </div>
+  </section>
+</div>

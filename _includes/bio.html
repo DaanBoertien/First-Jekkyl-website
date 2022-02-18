@@ -1,0 +1,32 @@
+{% assign language = page.lang %}
+
+<div class="background-image background-concertgebouw">
+  <div class="page-bio container">
+    <div class="container-without-padding">
+      <h1 class="page-title fadeIn">{{site.data.biografie.title[language]}}</h1>
+      <p>{{site.data.biografie.quote-test[language] | markdownify}}</p>
+
+      <div class="">
+        {% for alinea in site.data.biografie.main %}
+        <p class="biografie fadeIn">{{ alinea.alinea[language] }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="container-without-padding">
+    <section class="section-quote">
+      <p class="quote fadeIn">{{ site.data.biografie.quote[language] }}</p>
+      <p class="quote-author fadeIn">{{ site.data.biografie.quote-author }}</p>
+    </section>
+    <div
+      class="image-container fadeInPhoto container-without-padding bio-image-container border-top"
+    >
+      <img
+        src="{{site.baseurl}}{{site.data.biografie.image}}"
+        alt=""
+        class="bio-image"
+      />
+      <p class="photographer">© {{ site.data.biografie.photographer }}</p>
+    </div>
+  </div>
+</div>
