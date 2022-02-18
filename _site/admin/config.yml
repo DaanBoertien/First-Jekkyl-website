@@ -177,7 +177,7 @@ collections:
         editor:
           preview: false
         fields:
-          - label: "Titel"
+          - label: "Titel NL + EN"
             name: "title"
             widget: "list"
             field: { name: titles, label: Titel, widget: string }
@@ -186,12 +186,11 @@ collections:
             name: "main"
             widget: "list"
             fields:
-              - label: "Alinea (NL)"
-                name: "alinea[0]"
-                widget: "text"
-              - label: "Alinea (EN)"
-                name: "alinea[1]"
-                widget: "text"
+              fields:
+                - label: "Biografie NL + EN"
+                  name: "alinea"
+                  widget: "list"
+                  field: { name: alineas, label: Alinea, widget: text }
           - label: "Quote (NL)"
             name: "quote[0]"
             widget: "text"
