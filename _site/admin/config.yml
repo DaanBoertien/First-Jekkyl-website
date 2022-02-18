@@ -185,11 +185,12 @@ collections:
           - label: "Biografie NL + EN"
             name: "main"
             widget: "list"
+            summary: "Bio Tekst"
             fields:
               - label: "Alinea's"
                 name: "alinea"
                 widget: "list"
-                summary: "HOI"
+
                 field: { name: alineas, label: "Alinea", widget: text }
 
           - label: "Quote (NL)"
