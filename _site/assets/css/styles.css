@@ -548,6 +548,8 @@ nav li, .navdesktop li { list-style: none; }
 
 .biografie { margin-bottom: 1em; }
 
+.background-concertgebouw::before { background-image: url(/assets/img/mahij.jpg); }
+
 .image-container { box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
 
 .page-bio { background: var(--bg-color); background: var(--gradient); }
@@ -584,11 +586,11 @@ nav li, .navdesktop li { list-style: none; }
 
 .photo-box img:hover { transform: scale(1.05); }
 
-.background-mahij { position: relative; }
+.background-image { position: relative; }
 
-.background-mahij::before { position: fixed; content: ""; top: 0; left: 0; width: 100%; height: 100vh; background-image: url(/assets/img/mahij.jpg); background-size: cover; background-position: center; opacity: 0.05; }
+.background-image::before { position: fixed; content: ""; top: 0; left: 0; width: 100%; height: 100vh; background-size: cover; background-position: center; opacity: 0.05; }
 
-#background-mahij img { opacity: 0.2; object-fit: cover; }
+.background-mahij::before { background-image: url(/assets/img/mahij.jpg); }
 
 .concert-poster { background: white; box-shadow: var(--boxshadow); font-weight: 300; border-left: 10px solid var(--clr-greyblue); padding: 1em; }
 

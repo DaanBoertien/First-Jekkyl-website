@@ -5,30 +5,32 @@ absolute_path_nl: /biografie/
 absolute_path_en: /en/biography/
 ---
 
-<div class="page-bio container">
-  <div class="container-without-padding">
-    <h1 class="page-title fadeIn">Biografie</h1>
+<div class="background-image background-concertgebouw">
+  <div class="page-bio container">
+    <div class="container-without-padding">
+      <h1 class="page-title fadeIn">Biografie</h1>
 
-    <div class="">
-      {% for alinea in site.data.biografie.main %} {% if alinea.alinea-nl %}
-      <p class="biografie fadeIn">{{ alinea.alinea-nl }}</p>
-      {% endif %} {% endfor %}
+      <div class="">
+        {% for alinea in site.data.biografie.main %} {% if alinea.alinea-nl %}
+        <p class="biografie fadeIn">{{ alinea.alinea-nl }}</p>
+        {% endif %} {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-<div class="container-without-padding">
-  <section class="section-quote">
-    <p class="quote fadeIn">{{ site.data.biografie.quote-nl }}</p>
-    <p class="quote-author fadeIn">{{ site.data.biografie.quote-author }}</p>
-  </section>
-  <div
-    class="image-container fadeInPhoto container-without-padding bio-image-container border-top"
-  >
-    <img
-      src="{{site.baseurl}}{{site.data.biografie.image}}"
-      alt=""
-      class="bio-image"
-    />
-    <p class="photographer">© {{ site.data.biografie.photographer }}</p>
+  <div class="container-without-padding">
+    <section class="section-quote">
+      <p class="quote fadeIn">{{ site.data.biografie.quote-nl }}</p>
+      <p class="quote-author fadeIn">{{ site.data.biografie.quote-author }}</p>
+    </section>
+    <div
+      class="image-container fadeInPhoto container-without-padding bio-image-container border-top"
+    >
+      <img
+        src="{{site.baseurl}}{{site.data.biografie.image}}"
+        alt=""
+        class="bio-image"
+      />
+      <p class="photographer">© {{ site.data.biografie.photographer }}</p>
+    </div>
   </div>
 </div>

@@ -1,22 +1,20 @@
-.background-mahij {
+.background-image {
   position: relative;
 }
-.background-mahij::before {
+.background-image::before {
   position: fixed;
   content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(/assets/img/mahij.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.05;
 }
 
-#background-mahij img {
-  opacity: 0.2;
-  object-fit: cover;
+.background-mahij::before {
+  background-image: url(/assets/img/mahij.jpg);
 }
 
 .concert-poster {
