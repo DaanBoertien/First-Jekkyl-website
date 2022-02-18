@@ -1,6 +1,3 @@
-title:
-  - Biografie
-  - Biography
 main:
   - alinea:
       - Daan Boertien is een Nederlandse concertpianist die zich heeft
@@ -18,6 +15,8 @@ main:
         the Dutch National Opera Studio as an Associate Artist.
     alinea-nl: x nl
     alinea-en: x en
+    "alinea[0]": Alinea 1 NL
+    "alinea[1]": Alinea 1 EN
   - alinea:
       - Daan Boertien won vele prijzen. Zo mocht hij in 2020 de Berenbergprijs
         bekronen met een prijswinnaarsconcert in de Elbphilharmonie in Hamburg.
@@ -39,6 +38,8 @@ main:
         and in 2010 Daan was prize winner of the Princess Christina Competition.
     alinea-nl: x nl
     alinea-en: x en
+    "alinea[0]": Alinea 2 NL
+    "alinea[1]": Alinea 2 EN
   - alinea:
       - Op 10-jarige leeftijd werd Daan aangenomen bij de Young Musician’s
         Academy van het Conservatorium van Tilburg, waar hij les had van Jelena
@@ -58,6 +59,8 @@ main:
         Kurtág and Alfred Brendel.
     alinea-nl: x nl
     alinea-en: x en
+    "alinea[0]": Alinea 3 NL
+    "alinea[1]": Alinea 3 EN
   - alinea:
       - Daan Boertien trad onder meer op bij festivals als het Internationaal
         Liedfestival Zeist, het Grachtenfestival Amsterdam en het
@@ -79,6 +82,18 @@ main:
         Witteman.
     alinea-nl: x nl
     alinea-en: x en
+    "alinea[0]": Alinea 4 NL
+    "alinea[1]": Alinea 4 EN
+"quote[0]": Quote NL
+"quote[1]": Quote EN
+quote-author: "- Peter van der Lint, Trouw"
+image: assets/img/g3z506s2jaa3lwogi93g.1920x0.jpg
+photographer: Petra Teeuwsen
+quote-nl: Test quote NL
+title:
+  - Biografie
+  - Biography
+quote-en: Test quote EN
 quote:
   - >-
     Boertien verplaatste zich met zichtbaar plezier in klarinet of trompet. Maar
@@ -99,8 +114,3 @@ quote:
     (...)
 
     Sometimes driving, sometimes waiting Boertien gave the singers plenty of room for expression. And how he played the postludium of that last song - unearthly beautiful.
-quote-nl: Test quote NL
-quote-en: Test quote EN
-quote-author: "- Peter van der Lint, Trouw"
-image: assets/img/g3z506s2jaa3lwogi93g.1920x0.jpg
-photographer: Petra Teeuwsen
