@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Test concert
-date: 2022-02-17T23:22:30.126Z
+date: 2022-02-18T10:45:35.873Z
 place: Test
 repertoire: Test
 musicians: Test
