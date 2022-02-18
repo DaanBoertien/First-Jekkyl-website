@@ -1,5 +1,7 @@
 <section class="footer">
   <div class="container">
-    <p class="fadeIn">{{ site.data.home.footer-text }}</p>
+    <p class="fadeIn">
+      {{ site.data.home.footer-text }} | {{ "now" | date: "%Y"}}
+    </p>
   </div>
 </section>

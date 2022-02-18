@@ -428,6 +428,8 @@ a.page-subtitle:hover { color: var(--red); }
 
 .imgpress { max-width: 500px; margin-top: 2em; }
 
+.margin-top { margin-top: 1em; }
+
 body { font-family: "montserrat", sans-serif; }
 
 h1 { font-size: 2rem; }
@@ -458,7 +460,7 @@ nav a:hover, nav a:focus, .navdesktop a:hover, .navdesktop a:focus { color: var(
 
 nav .current, .navdesktop .current { color: var(--red); font-weight: 400; }
 
-.navdesktop a.current { color: var(--red); text-shadow: 0px 0px 1px rgba(187, 60, 60, 0.3); font-weight: 400; }
+.navdesktop a.current { color: var(--red); font-weight: 400; }
 
 nav ul { display: flex; height: 50%; flex-direction: column; align-items: center; justify-content: space-around; }
 
@@ -470,7 +472,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .hamburger-black, .hamburger-black::before, .hamburger-black::after { background: rgba(0, 0, 0, 0.7); }
 
-.footer { text-align: center; padding: 2em; color: rgba(0, 0, 0, 0.5); }
+.footer { text-align: center; padding: 2em; color: var(--red); }
 
 .section-landing { position: relative; }
 
@@ -494,7 +496,19 @@ nav li, .navdesktop li { list-style: none; }
 
 .landing-subtitle { font-size: 50px; color: white; font-weight: 200; }
 
-.fa-angle-down { position: absolute; color: white; left: 50%; bottom: 2em; transform: translateX(-50%); font-size: 50px; font-weight: 300; opacity: 70%; text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
+.fa-angle-down { position: absolute; color: white; left: 50%; bottom: 2em; transform: translateX(-50%); font-size: 50px; font-weight: 300; opacity: 70%; text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); transition: opacity 0.2s ease-out; animation-duration: 4s; animation-iteration-count: infinite; }
+
+.bounce-7 { animation-name: bounce-7; animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1); }
+
+@keyframes bounce-7 { 0% { transform: scale(1, 1) translateY(0); }
+  15% { transform: scale(1.05, 0.95) translateY(0); }
+  30% { transform: scale(0.95, 1.05) translateY(-20px); }
+  45% { transform: scale(1.02, 0.98) translateY(0); }
+  57% { transform: scale(1, 1) translateY(0px); }
+  64% { transform: scale(1, 1) translateY(0); }
+  100% { transform: scale(1, 1) translateY(0); } }
+
+.fa-angle-down:hover { opacity: 100%; }
 
 .section-bio { padding-top: 2em; }
 
@@ -576,7 +590,7 @@ nav li, .navdesktop li { list-style: none; }
 
 #background-mahij img { opacity: 0.2; object-fit: cover; }
 
-.concert-poster { background: rgba(255, 255, 255, 0.85); box-shadow: var(--boxshadow); font-weight: 300; border-left: 10px solid var(--clr-greyblue); padding: 1em; }
+.concert-poster { background: white; box-shadow: var(--boxshadow); font-weight: 300; border-left: 10px solid var(--clr-greyblue); padding: 1em; }
 
 .concert-location { padding-bottom: 1em; }
 
