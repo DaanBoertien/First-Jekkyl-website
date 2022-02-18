@@ -177,6 +177,16 @@ collections:
         editor:
           preview: false
         fields:
+          - label: "Titel"
+            name: "title"
+            widget: "list"
+            fields:
+              - label: "Titel (NL)"
+                name: "title"
+                widget: "text"
+              - label: "Titel (EN)"
+                name: "title"
+                widget: "string"
           - label: "Biografie NL+EN"
             name: "main"
             widget: "list"
