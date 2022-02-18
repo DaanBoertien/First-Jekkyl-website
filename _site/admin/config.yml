@@ -177,10 +177,10 @@ collections:
         editor:
           preview: false
         fields:
-          - label: "Titels"
-            name: "titels"
+          - label: "Titel"
+            name: "title"
             widget: "list"
-            field: { name: titel, label: Titel, widget: string }
+            field: { name: titles, label: Titel, widget: string }
 
           - label: "Biografie NL+EN"
             name: "main"
