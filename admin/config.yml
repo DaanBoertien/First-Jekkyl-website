@@ -197,7 +197,6 @@ collections:
                 collapsed: true
                 field: { name: alineas, label: "Alinea", widget: text }
 
-        fields:
           - label: "Quote NL + EN"
             name: "qute"
             widget: "list"
