@@ -186,11 +186,11 @@ collections:
             name: "main"
             widget: "list"
             fields:
-              fields:
-                - label: "Biografie NL + EN"
-                  name: "alinea"
-                  widget: "list"
-                  field: { name: alineas, label: Alinea, widget: text }
+              - label: "Alinea's"
+                name: "alinea"
+                widget: "list"
+                field: { name: alineas, label: Alinea, widget: text }
+
           - label: "Quote (NL)"
             name: "quote[0]"
             widget: "text"
