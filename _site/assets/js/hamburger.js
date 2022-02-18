@@ -27,7 +27,7 @@ tl.to('nav', .5, {
   rotate: 0,
   autoAlpha: 1,
   ease: "power2.out",
-  stagger: 0.15
+  stagger: 0.13
 })
 
 hamburger.addEventListener("click", () => {
