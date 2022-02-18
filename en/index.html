@@ -13,7 +13,7 @@ absolute_path_en: /en/
       <h1 class="landing-title fadeInLanding">Daan Boertien</h1>
       <p class="landing-subtitle fadeInLanding">Pianist</p>
     </div>
-    <a href="#section-bio"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+    <a href="#section-bio"><i class="fa fa-angle-down bounce-7" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -43,6 +43,44 @@ absolute_path_en: /en/
     <a href="/en/media/" class="btn fadeIn">More videos</a>
   </section>
 </div>
+
+<section class="container">
+  <h2 class="next-concert fadeIn">Next Concert</h2>
+  {% assign future_concerts = site.concerts | where_exp: "concert",
+  "concert.date >= site.time" %} {% for concert in future_concerts limit: 1%}
+  <div class="concert-poster fadeIn">
+    <div class="concert-location">
+      <p class="concert-date">
+        {{concert.date | date: "%B %e, %Y"}} | {{concert.date | date: "%k:%M"
+        }}
+      </p>
+      <p class="concert-hall">
+        {% if concert.hall_en %}{{concert.hall_en}}{% else %}
+        {{concert.hall}}{% endif %}
+      </p>
+      <p class="concert-place">
+        {% if concert.place_en %}{{concert.place_en}}{% else %}
+        {{concert.place}}{% endif %}
+      </p>
+      <p class="concert-repertoire">
+        {% if concert.repertoire_en %}{{concert.repertoire_en}}{% else %}
+        {{concert.repertoire}}{% endif %}
+      </p>
+      <p class="concert-musicians">{{concert.musicians_en}}</p>
+      {% if concert.organizer_url %}
+      <p class="concert-tickets">
+        <a href="{{concert.organizer_url}}" target="_blank" class="btn"
+          >Tickets</a
+        >
+      </p>
+      {% endif %} {% if concert.cancelled %}
+      <p class="concert-cancelled">Cancelled</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+      <p><a href="/concerts/" class="btn fadeIn more-concerts">More Concerts</a></p>
+</section>
 
 <div class="container-without-padding">
 <section class="section-quote">

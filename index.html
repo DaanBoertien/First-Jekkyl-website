@@ -46,7 +46,7 @@ absolute_path_en: /en/
     <a href="/media/" class="btn fadeIn">Meer video's</a>
   </section>
 </div>
-<section class="container-without-padding">
+<section class="container">
   <h2 class="next-concert fadeIn">Volgende concert</h2>
   {% assign future_concerts = site.concerts | where_exp: "concert",
       "concert.date >= site.time" %} {% for concert in future_concerts limit:1 %}
