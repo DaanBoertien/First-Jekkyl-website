@@ -1,0 +1,33 @@
+{% assign language = page.lang %}
+<div class="background-image background-mahij">
+  <div class="container">
+    <h1 class="page-title fadeIn">Contact</h1>
+    <p class="contact-invitation fadeIn">
+      {{site.data.form.information[language]}}
+    </p>
+
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      action="/en/success/"
+      class="fadeIn"
+    >
+      <label for="name">{{site.data.form.naam[language]}}</label>
+      <input type="text" id="name" name="name" autofocus />
+      <label for="email">{{site.data.form.email[language]}}</label>
+      <input type="email" id="email" name="email" />
+      <label for="message">{{site.data.form.message[language]}}</label>
+      <textarea rows="4" cols="50" name="message"></textarea>
+      <input type="submit" value="{{site.data.form.send[language]}}" />
+    </form>
+    <h2 class="page-subtitle fadeIn">
+      {{site.data.form.photographers[language]}}
+    </h2>
+    <ul class="photographer-list fadeIn">
+      {% for photographer in site.data.contact %}
+      <li>{{photographer.name}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

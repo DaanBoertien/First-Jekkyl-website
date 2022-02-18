@@ -6,12 +6,12 @@ place: Weimar
 repertoire: "Liederen van Mahler, Strauss en Schubert "
 repertoire_en: Songs by Mahler, Strauss and Schubert
 musicians: |-
-  Benjamin Appl, Bariton
-  Éva Fahidi, Spreker
+  Benjamin Appl, Bariton\
+  Éva Fahidi, Spreker\
   Daan Boertien, Piano
 musicians_en: |-
-  Benjamin Appl, Baritone
-  Éva Fahidi, Speaker
+  Benjamin Appl, Baritone\
+  Éva Fahidi, Speaker\
   Daan Boertien, Piano
 in_archive: true
 cancelled: false

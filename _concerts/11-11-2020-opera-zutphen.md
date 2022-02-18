@@ -8,12 +8,12 @@ place_en: Zutphen
 repertoire: Aria's van Mozart en liederen van Schumann
 repertoire_en: Arias by Mozart and songs by Schumann
 musicians: |-
-  Rosina Fabius, mezzosopraan
-  Elvire Beekhuizen, sopraan
+  Rosina Fabius, mezzosopraan\
+  Elvire Beekhuizen, sopraan\
   Daan Boertien, piano
 musicians_en: |-
-  Rosina Fabius, Mezzo Soprano
-  Elvire Beekhuizen, Soprano
+  Rosina Fabius, Mezzo Soprano\
+  Elvire Beekhuizen, Soprano\
   Daan Boertien, Piano
 in_archive: true
 cancelled: true

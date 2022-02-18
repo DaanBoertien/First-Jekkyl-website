@@ -7,10 +7,10 @@ place: Amsterdam
 repertoire: Liederen van Glinka, Tschaikovsky en Rachmaninov
 repertoire_en: Songs by Glinka, Tschaikovsky and Rachmaninov
 musicians: |-
-  Julietta Aleksanyan, Sopraan
+  Julietta Aleksanyan, Sopraan\
   Daan Boertien, Piano
 musicians_en: |-
-  Julietta Aleksanyan, Sopraan
+  Julietta Aleksanyan, Sopraan\
   Daan Boertien, Piano
 in_archive: true
 cancelled: false

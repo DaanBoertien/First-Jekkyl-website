@@ -10,10 +10,10 @@ repertoire_en: |-
   Finale Concert Mastercourse
   Songs by Schubert and Rachmaninov
 musicians: |-
-  Alexander York, Bariton
+  Alexander York, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Alexander York, Baritone
+  Alexander York, Baritone\
   Daan Boertien, Piano
 organizer_url: https://www.oxfordlieder.co.uk/events/forthcoming?jumptodate=&category=mastercourse
 in_archive: true

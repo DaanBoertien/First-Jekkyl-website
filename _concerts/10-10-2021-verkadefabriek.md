@@ -6,10 +6,10 @@ place: Den Bosch
 repertoire: Liederen van o.a. Wolf, Loewe en Schumann
 repertoire_en: Songs by a.o. Wolf, Loewe and Schumann
 musicians: |-
-  Marc Pantus, Basbariton
+  Marc Pantus, Basbariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Marc Pantus, Bass-Bariton
+  Marc Pantus, Bass-Bariton\
   Daan Boertien, Piano
 organizer_url: https://www.verkadefabriek.nl/agenda/ivc-liedduo-wolf-leeuw-en-123818
 in_archive: true

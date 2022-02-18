@@ -6,10 +6,10 @@ place: Hamburg
 repertoire: Liederen van Beethoven, Grieg en Sibelius
 repertoire_en: Songs by Beethoven, Grieg and Sibelius
 musicians: |-
-  Raoul Steffani, Bariton
+  Raoul Steffani, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Raoul Steffani, Baritone
+  Raoul Steffani, Baritone\
   Daan Boertien, Piano
 in_archive: true
 cancelled: false

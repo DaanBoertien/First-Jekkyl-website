@@ -6,10 +6,10 @@ place: Hamburg
 repertoire: Liederen van Schumann en Schubert
 repertoire_en: Songs by Schumann and Schubert
 musicians: |-
-  Geng Lee, Bariton
+  Geng Lee, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Geng Lee, Baritone
+  Geng Lee, Baritone\
   Daan Boertien, Piano
 in_archive: true
 cancelled: false

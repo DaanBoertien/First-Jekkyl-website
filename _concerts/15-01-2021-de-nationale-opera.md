@@ -7,10 +7,10 @@ place: Amsterdam
 repertoire: Liederen van Purcel en Britten
 repertoire_en: Songs by Purcel and Britten
 musicians: |
-  Cameron Shabhazi, Countertenor
+  Cameron Shahbazi, Countertenor\
   Daan Boertien, Piano
 musicians_en: |-
-  Cameron Shabhazi, Countertenor
+  Cameron Shahbazi, Countertenor\
   Daan Boertien, Piano
 in_archive: true
 cancelled: false

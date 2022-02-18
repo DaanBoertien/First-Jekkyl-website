@@ -6,10 +6,10 @@ place: Blaibach
 repertoire: Liederen van Schumann, Schubert, Poulenc, Strauss en Vaughan Williams
 repertoire_en: Songs by Schumann, Schubert, Poulenc, Strauss and Vaughan Williams
 musicians: |-
-  Benjamin Appl, Bariton
+  Benjamin Appl, Bariton\
   Daan Boertien, Pianist
 musicians_en: |-
-  Benjamin Appl, Baritone
+  Benjamin Appl, Baritone\
   Daan Boertien, Pianist
 in_archive: true
 cancelled: true

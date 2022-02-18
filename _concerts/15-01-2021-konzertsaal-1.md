@@ -6,10 +6,10 @@ place: Blaibach
 repertoire: Liederen van Schumann, Schubert en Mahler
 repertoire_en: Songs by Schumann, Schubert and Mahler
 musicians: |-
-  Benjamin Appl, Bariton
+  Benjamin Appl, Bariton\
   Daan Boertien, Pianist
 musicians_en: |-
-  Benjamin Appl, Baritone
+  Benjamin Appl, Baritone\
   Daan Boertien, Pianist
 in_archive: true
 cancelled: true

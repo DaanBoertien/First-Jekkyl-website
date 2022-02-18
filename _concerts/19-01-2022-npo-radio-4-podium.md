@@ -7,12 +7,12 @@ place: NPO Radio 4
 repertoire: Nog te bepalen
 repertoire_en: Yet to determine
 musicians: |-
-  Michael Wilmering, Bariton
-  Daan Boertien, Piano
+  Michael Wilmering, Bariton\
+  Daan Boertien, Piano\
   Jet Berkhout, Host
 musicians_en: |-
-  Michael Wilmering, Baritone
-  Daan Boertien, Piano
+  Michael Wilmering, Baritone\
+  Daan Boertien, Piano\
   Jet Berkhout, Host
 in_archive: true
 cancelled: false

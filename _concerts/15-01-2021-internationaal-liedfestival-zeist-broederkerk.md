@@ -8,12 +8,12 @@ repertoire: |+
 
 repertoire_en: Songs by a.o. Rachmaninov and Ravel
 musicians: |-
-  Michael Wilmering, bariton
+  Michael Wilmering, bariton\
   Daan Boertien, piano
 
   Verplaatst naar oktober
 musicians_en: |-
-  Michael Wilmering, baritone
+  Michael Wilmering, baritone\
   Daan Boertien, piano
 
   Postponed until October

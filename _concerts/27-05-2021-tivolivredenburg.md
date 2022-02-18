@@ -8,10 +8,10 @@ place_en: Utrecht
 repertoire: Liederen van Berg, Korngold en Alma Mahler
 repertoire_en: Songs by Berg, Korngold and Alma Mahler
 musicians: |-
-  Raoul Steffani, Bariton
+  Raoul Steffani, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Raoul Steffani, Baritone
+  Raoul Steffani, Baritone\
   Daan Boertien, Piano
 organizer_url: https://www.tivolivredenburg.nl/agenda/raoul-steffani-daan-boertien-12-10-2021/
 in_archive: true

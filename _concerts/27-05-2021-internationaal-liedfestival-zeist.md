@@ -7,10 +7,10 @@ place_en: Zeist
 repertoire: Liederen van Schubert, Beethoven, Rachmaninov en Wolf
 repertoire_en: Songs by Schubert, Beethoven, Rachmaninov and Wolf
 musicians: |-
-  Michael Wilmering, Bariton
+  Michael Wilmering, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Michael Wilmering, Baritone
+  Michael Wilmering, Baritone\
   Daan Boertien, Piano
 organizer_url: https://ilfz.nl/
 in_archive: true

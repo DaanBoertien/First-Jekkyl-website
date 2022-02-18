@@ -6,10 +6,10 @@ place: Hamburg
 repertoire: Liederen van Schumann, Rubinstein en Mendelssohn
 repertoire_en: Songs by Schumann, Rubinstein and Mendelssohn
 musicians: |-
-  Benjamin Appl, Bariton
+  Benjamin Appl, Bariton\
   Daan Boertien, Pianist
 musicians_en: |-
-  Benjamin Appl, Baritone
+  Benjamin Appl, Baritone\
   Daan Boertien, Pianist
 in_archive: true
 cancelled: false
