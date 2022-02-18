@@ -198,11 +198,12 @@ collections:
                 field: { name: alineas, label: "Alinea", widget: text }
 
           - label: "Quote NL + EN"
-            name: "qute"
+            name: "quote"
             widget: "list"
+            collapsed: false
             min: 2
             max: 2
-            collapsed: true
+
             field: { name: quotes, label: Titel, widget: text }
           - label: "Quote Author"
             name: "quote-author"
