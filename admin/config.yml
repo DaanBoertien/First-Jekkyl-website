@@ -180,17 +180,21 @@ collections:
           - label: "Titel NL + EN"
             name: "title"
             widget: "list"
+            min: 2
+            max: 2
+            collapsed: true
             field: { name: titles, label: Titel, widget: string }
 
           - label: "Biografie NL + EN"
             name: "main"
             widget: "list"
             summary: "Bio Tekst"
+            collapsed: true
             fields:
               - label: "Alinea's"
                 name: "alinea"
                 widget: "list"
-
+                collapsed: true
                 field: { name: alineas, label: "Alinea", widget: text }
 
           - label: "Quote (NL)"
