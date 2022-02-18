@@ -189,7 +189,8 @@ collections:
               - label: "Alinea's"
                 name: "alinea"
                 widget: "list"
-                field: { name: alineas, label: "Bio tekst", widget: text }
+                summary: "HOI"
+                field: { name: alineas, label: "Alinea", widget: text }
 
           - label: "Quote (NL)"
             name: "quote[0]"
