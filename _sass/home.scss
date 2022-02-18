@@ -77,16 +77,16 @@
 }
 
 .landing-title {
-  font-size: 60px;
+  font-size: 65px;
   color: white;
   margin-bottom: 10px;
 }
 
 .landing-subtitle {
-  font-size: 40px;
-  color: var(--red);
-  filter: brightness(120%);
-  font-weight: 300;
+  font-size: 50px;
+  color: white;
+  // filter: brightness(80%);
+  font-weight: 200;
 }
 
 .fa-angle-down {
@@ -130,6 +130,7 @@
 .next-concert {
   font-weight: 200;
   color: var(--red);
+  // filter: brightness(90%);
   margin-bottom: 1em;
   font-size: 2em;
 }

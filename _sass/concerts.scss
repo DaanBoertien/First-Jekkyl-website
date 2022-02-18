@@ -52,11 +52,12 @@
 .concert-date {
   color: var(--clr-greyblue);
   font-size: 1.3em;
+  font-weight: 300;
 }
 
 .concert-hall {
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--red);
 }
 
@@ -67,7 +68,7 @@
 .concert-repertoire {
   margin-bottom: 1em;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .concert-musicians {
