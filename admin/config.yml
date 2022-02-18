@@ -141,24 +141,25 @@ collections:
         editor:
           preview: false
         fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "Biografie Teaser (NL)"
+          - label: "Bio Teaser NL + EN"
             name: "bio-teaser"
-            widget: "text"
-          - label: "Biography teaser (EN)"
-            name: "bio-teaser-en"
+            widget: "list"
+            min: 2
+            max: 2
+            collapsed: false
+            field: { name: teasers, label: Homepage tekst, widget: string }
             widget: "text"
           - label: "YouTube ID"
             name: "youtube-id"
             widget: "string"
-          - label: "Quote (NL)"
+          - label: "Quote NL + EN"
             name: "quote"
-            widget: "text"
-          - label: "Quote (EN)"
-            name: "quote-en"
-            widget: "text"
+            widget: "list"
+            collapsed: false
+            min: 2
+            max: 2
+
+            field: { name: quotes, label: Quote, widget: text }
           - label: "Quote Author"
             name: "quote-author"
             widget: "string"

@@ -1,3 +1,5 @@
+{% assign language = page.lang %}
+
 <div class="background-image background-mahij">
   <section class="section-landing">
     <div class="video-container">
@@ -25,12 +27,13 @@
   <section class="section-bio border-top" id="section-bio">
     <div class="container bio-teaser fadeIn">
       <p class="bio-teaser">
-        {% if page.lang == "nl" %} {{ site.data.home.bio-teaser | markdownify }}
-        {% else %} {{ site.data.home.bio-teaser-en | markdownify}} {% endif %}
+        {{ site.data.home.bio-teaser[language] | markdownify }}
       </p>
     </div>
     <p>
-      <a href="/biografie/" class="btn fadeIn">Lees meer</a>
+      <a href="/biografie/" class="btn fadeIn"
+        >{{ site.data.home.read-more[language] }}</a
+      >
     </p>
   </section>
 
@@ -46,31 +49,52 @@
           allowfullscreen
         ></iframe>
       </div>
-      <a href="/media/" class="btn fadeIn">Meer video's</a>
+      <a href="/media/" class="btn fadeIn"
+        >{{ site.data.home.more-videos[language] }}</a
+      >
     </section>
   </div>
   <section class="container">
-    <h2 class="next-concert fadeIn">Volgende concert</h2>
+    <h2 class="next-concert fadeIn">
+      {{ site.data.home.next-concert[language] }}
+    </h2>
     {% assign future_concerts = site.concerts | where_exp: "concert",
     "concert.date >= site.time" %} {% for concert in future_concerts limit:1 %}
     <div class="concert-poster fadeIn">
       <div class="concert-location">
         <p class="concert-date">
-          {% assign m = concert.date | date: "%-m" %} {{ concert.date | date:
-          "%-d" }} {% case m %} {% when '1' %}Januari {% when '2' %}Februari {%
-          when '3' %}Maart {% when '4' %}April {% when '5' %}Mei {% when '6'
-          %}Juni {% when '7' %}Juli {% when '8' %}Augustus {% when '9'
-          %}September {% when '10' %}Oktober {% when '11' %}November {% when
-          '12' %}December {% endcase %} {{ concert.date | date: "%Y" }} |
-          {{concert.date | date: "%k:%M" }}
+          {% if page.lang == 0 %} {% assign m = concert.date | date: "%-m" %} {{
+          concert.date | date: "%-d" }} {% case m %} {% when '1' %}Januari {%
+          when '2' %}Februari {% when '3' %}Maart {% when '4' %}April {% when
+          '5' %}Mei {% when '6' %}Juni {% when '7' %}Juli {% when '8' %}Augustus
+          {% when '9' %}September {% when '10' %}Oktober {% when '11' %}November
+          {% when '12' %}December {% endcase %} {{ concert.date | date: "%Y" }}
+          | {{concert.date | date: "%k:%M" }} {% else %} {{concert.date | date:
+          "%B %e, %Y"}} | {{concert.date | date: "%k:%M" }} {% endif %}
         </p>
-
-        <p class="concert-hall">{{concert.hall}}</p>
-        <p class="concert-place">{{concert.place}}</p>
-        <p class="concert-repertoire">{{concert.repertoire}}</p>
-        <p class="concert-musicians">{{concert.musicians }}</p>
+        <p class="concert-hall">
+          {% if page.lang == 0 %}{{concert.hall}}{% elsif concert.hall_en
+          %}{{concert.hall_en}}{% else %} {{concert.hall}}{% endif %}
+        </p>
+        <p class="concert-place">
+          {% if page.lang == 0 %}{{concert.place}}{% elsif concert.place_en
+          %}{{concert.place_en}}{% else %} {{concert.place}}{% endif %}
+        </p>
+        <p class="concert-repertoire">
+          {% if page.lang == 0 %}{{concert.repertoire}}{% elsif
+          concert.repertoire_en %}{{concert.repertoire_en}}{% else %}
+          {{concert.repertoire}}{% endif %}
+        </p>
+        <p class="concert-musicians">
+          {% if page.lang == 0 %}{{concert.musicians | markdownify}}{% elsif
+          concert.musicians_en | markdownify %}{{concert.musicians_en |
+          markdownify }}{% else %} {{concert.musicians | markdownify }}{% endif
+          %}
+        </p>
         {% if concert.cancelled %}
-        <p class="concert-cancelled">Geannuleerd</p>
+        <p class="concert-cancelled">
+          {{ site.data.home.cancelled[language] }}
+        </p>
         {% endif %}
       </div>
     </div>
@@ -81,7 +105,7 @@
   </section>
   <div class="container-without-padding">
     <section class="section-quote">
-      <p class="quote fadeIn">{{ site.data.home.quote }}</p>
+      <p class="quote fadeIn">{{ site.data.home.quote[language] }}</p>
       <p class="quote-author fadeIn">{{ site.data.home.quote-author }}</p>
     </section>
   </div>

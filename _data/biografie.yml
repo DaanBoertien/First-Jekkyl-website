@@ -16,10 +16,6 @@ main:
         His debut CD with baritone Michael Wilmering was praised by the
         international press. Since 2020, Daan Boertien has been affiliated with
         the Dutch National Opera Studio as an Associate Artist.
-    alinea-nl: x nl
-    alinea-en: x en
-    "alinea[0]": Alinea 1 NL
-    "alinea[1]": Alinea 1 EN
   - alinea:
       - Daan Boertien won vele prijzen. Zo mocht hij in 2020 de Berenbergprijs
         bekronen met een prijswinnaarsconcert in de Elbphilharmonie in Hamburg.
@@ -39,10 +35,6 @@ main:
         at the Gustav-Mahler-Wettbewerb in Hamburg, together with Baritone Geng
         Lee. In 2015 he received the 'Kunst aan de Dijk Prijs voor Jong Talent'
         and in 2010 Daan was prize winner of the Princess Christina Competition.
-    alinea-nl: x nl
-    alinea-en: x en
-    "alinea[0]": Alinea 2 NL
-    "alinea[1]": Alinea 2 EN
   - alinea:
       - Op 10-jarige leeftijd werd Daan aangenomen bij de Young Musician’s
         Academy van het Conservatorium van Tilburg, waar hij les had van Jelena
@@ -60,10 +52,6 @@ main:
         Bernhard Cultuurfonds and the Oscar und Vera Ritter-Stiftung Hamburg.
         Furthermore, he recently received important musical impulses from György
         Kurtág and Alfred Brendel.
-    alinea-nl: x nl
-    alinea-en: x en
-    "alinea[0]": Alinea 3 NL
-    "alinea[1]": Alinea 3 EN
   - alinea:
       - Daan Boertien trad onder meer op bij festivals als het Internationaal
         Liedfestival Zeist, het Grachtenfestival Amsterdam en het
@@ -83,12 +71,6 @@ main:
         the Elbphilharmonie and Laeiszhalle in Hamburg. He can also be heard
         regularly on NPO Radio 4 and on television, in tv shows such as Podium
         Witteman.
-    alinea-nl: x nl
-    alinea-en: x en
-    "alinea[0]": Alinea 4 NL
-    "alinea[1]": Alinea 4 EN
-"quote[0]": Quote NL
-"quote[1]": Quote EN
 quote-author: "- Peter van der Lint, Trouw"
 image: assets/img/g3z506s2jaa3lwogi93g.1920x0.jpg
 photographer: Petra Teeuwsen
