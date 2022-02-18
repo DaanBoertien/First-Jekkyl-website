@@ -434,7 +434,7 @@ h1 { font-size: 2rem; }
 
 p { line-height: 1.6; }
 
-.btn { border: 0px; background: var(--clr-greyblue-hover); color: rgba(255, 255, 255, 0.85); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.7em 1.5em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.2s ease-out; }
+.btn { border: 0px; background: var(--clr-greyblue-hover); color: rgba(255, 255, 255, 0.85); display: block; box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1); padding: 0.7em 1.5em; border-radius: 100px; font-family: inherit; display: block; text-decoration: none; width: max-content; transition: background 0.2s ease-out; font-weight: 200; }
 
 .btn:hover, .btn:focus { background: var(--clr-greyblue); }
 
@@ -500,11 +500,15 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-bio .btn, .section-media .btn { margin: 1em auto 3em; }
 
+.more-concerts { margin: 1em auto 2em; }
+
 .bio-teaser a { color: var(--red); transition: color 0.2s ease-out; }
 
 .bio-teaser a:hover { color: red; }
 
 .section-media .btn { margin-top: 2em; }
+
+.next-concert { font-weight: 200; color: var(--red); margin-bottom: 1em; font-size: 2em; }
 
 .section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 1.1rem; position: relative; padding: 2em 1.5em; margin: 0em; overflow: hidden; }
 

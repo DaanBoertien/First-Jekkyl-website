@@ -110,6 +110,10 @@
   margin: 1em auto 3em;
 }
 
+.more-concerts {
+  margin: 1em auto 2em;
+}
+
 .bio-teaser a {
   color: var(--red);
   transition: color 0.2s ease-out;
@@ -121,6 +125,13 @@
 
 .section-media .btn {
   margin-top: 2em;
+}
+
+.next-concert {
+  font-weight: 200;
+  color: var(--red);
+  margin-bottom: 1em;
+  font-size: 2em;
 }
 
 .section-quote {
