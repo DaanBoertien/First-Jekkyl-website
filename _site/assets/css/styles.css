@@ -526,7 +526,7 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-quote { font-family: "Playfair Display", serif; font-weight: 400; font-style: italic; letter-spacing: 0.2px; font-size: 1.1rem; position: relative; padding: 2em 1.5em; margin: 0em; overflow: hidden; }
 
-.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.1; font-style: normal; }
+.section-quote::before, .section-quote::after { position: absolute; font-family: "Playfair Display", serif; font-size: 500px; color: var(--red); opacity: 0.2; font-style: normal; }
 
 .section-quote::before { content: "“"; top: -180px; left: -80px; }
 
