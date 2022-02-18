@@ -182,10 +182,10 @@ collections:
             widget: "list"
             fields:
               - label: "Alinea (NL)"
-                name: "alinea-nl"
+                name: "alinea[0]"
                 widget: "text"
               - label: "Alinea (EN)"
-                name: "alinea-en"
+                name: "alinea[1]"
                 widget: "text"
           - label: "Quote (NL)"
             name: "quote[0]"
