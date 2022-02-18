@@ -182,10 +182,10 @@ collections:
             widget: "list"
             fields:
               - label: "Titel (NL)"
-                name: "title"
+                name: "title[0]"
                 widget: "text"
               - label: "Titel (EN)"
-                name: "title"
+                name: "title[1]"
                 widget: "string"
           - label: "Biografie NL+EN"
             name: "main"
