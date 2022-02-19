@@ -7,11 +7,11 @@ place: Rotterdam
 repertoire: Liederen van Schubert en Hahn
 repertoire_en: Songs by Schubert and Hahn
 musicians: |-
-  Hi Hawaii
+  Hi Hawaii\
   Michael Wilmering, Bariton\
   Daan Boertien, Piano
 musicians_en: |-
-  Hi Hawaii
+  Hi Hawaii\
   Michael Wilmering, Baritone\
   Daan Boertien, Piano
 organizer_url: https://o-festival.nl/voorstelling/first-dates-hi-hawaii-x-michael-wilmering/
