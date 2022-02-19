@@ -8,10 +8,10 @@ naam:
   - "Name:"
 email:
   - "E-mailadres:"
-  - "E-mail Address"
+  - "E-mail Address:"
 message:
   - "Bericht:"
-  - "Message"
+  - "Message:"
 send:
   - "Verzenden"
   - "Send"
