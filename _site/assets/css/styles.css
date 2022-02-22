@@ -428,7 +428,7 @@ a.page-subtitle:hover { color: var(--red); }
 
 .imgpress { max-width: 500px; margin-top: 2em; }
 
-.margin-top { margin-top: 1em; }
+.margin-top { margin-top: 2em; }
 
 body { font-family: "montserrat", sans-serif; }
 
@@ -512,7 +512,13 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-bio { padding-top: 2em; }
 
-.section-bio .btn, .section-media .btn { margin: 1em auto 3em; }
+.section-bio .btn, .section-media .btn, .section-cd .btn, .section-more-concerts .btn { margin: 2em auto 3em; }
+
+.section-cd img { box-shadow: var(--boxshadow); opacity: 1; }
+
+.cd-image { position: relative; }
+
+.cd-image::before { position: absolute; content: ""; top: 0; left: 0; right: 0; bottom: 0; background: white; z-index: -1; }
 
 .more-concerts { margin: 1em auto 2em; }
 

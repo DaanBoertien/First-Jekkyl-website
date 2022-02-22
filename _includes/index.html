@@ -54,7 +54,37 @@
       >
     </section>
   </div>
-  <section class="container">
+  <div class="container">
+    <section class="section-cd">
+      <div class="cd-image">
+        <img src="/assets/img/Cover-scaled.jpg" alt="" />
+      </div>
+      <p>
+        <a
+          href="https://trptk.com/shop/cds-sacds/schubert-winterreise-sacd/"
+          class="btn fadeIn margin-top"
+          >{% if page.lang == 0 %}Bestel hier!{% else %}Order now!{% endif %}</a
+        >
+      </p>
+    </section>
+  </div>
+  <div class="container-without-padding">
+    <section class="section-quote">
+      <p class="quote fadeIn">
+        {% if page.lang == 0 %}Wilmering legt in zijn interpretatie de nadruk op
+        de rijkelijk aanwezige donkere kanten in de cyclus, wat zich onder meer
+        uit in bedachtzame tempi waardoor de bariton zijn fraaie stem kan laten
+        opbloeien. Het duo heeft hoorbaar over elke frase en elke noot
+        nagedacht.{% else %}In his interpretation, Wilmering emphasizes the
+        richly present darker sides in the cycle, which is reflected in, among
+        other things, thoughtful tempos that allow the baritone to allow his
+        fine voice to blossom. The duo has audibly thought about every phrase
+        and every note.{% endif %}
+      </p>
+      <p class="quote-author fadeIn">- Erik Voermans, Het Parool</p>
+    </section>
+  </div>
+  <section class="container section-more-concerts">
     <h2 class="next-concert fadeIn">
       {{ site.data.home.next-concert[language] }}
     </h2>
