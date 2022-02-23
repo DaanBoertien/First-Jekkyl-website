@@ -151,17 +151,21 @@
   opacity: 1;
 }
 
-.cd-image {
+.cd-image-container {
   position: relative;
-  transition: transform 0.2s ease-out;
+
   overflow: hidden;
+}
+
+.cd-image {
+  transition: transform 0.2s ease-out;
 }
 
 .cd-image:hover {
   transform: scale(1.05);
 }
 
-.cd-image::before {
+.cd-image-container::before {
   position: absolute;
   content: "";
   top: 0;
@@ -170,7 +174,6 @@
   bottom: 0;
   background: white;
   z-index: -1;
-  overflow: hidden;
 }
 .more-concerts {
   margin: 1em auto 2em;
