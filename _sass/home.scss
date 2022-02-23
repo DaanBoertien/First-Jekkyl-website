@@ -146,14 +146,9 @@
   margin: 2em auto 3em;
 }
 
-.section-cd img {
-  box-shadow: var(--boxshadow);
-  opacity: 1;
-}
-
 .cd-image-container {
   position: relative;
-
+  box-shadow: var(--boxshadow);
   overflow: hidden;
 }
 
