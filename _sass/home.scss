@@ -153,6 +153,12 @@
 
 .cd-image {
   position: relative;
+  transition: transform 0.2 ease-out;
+  overflow: hidden;
+}
+
+.cd-image:hover {
+  transform: scale(1.05);
 }
 
 .cd-image::before {
