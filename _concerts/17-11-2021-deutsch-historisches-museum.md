@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Deutsch Historisches Museum
+hall: Deutsches Historisches Museum
 date: 2022-03-07T18:00:42.888Z
 place: Berlijn
 place_en: Berlin
