@@ -13,5 +13,5 @@ musicians_en: |-
   Daan Boertien, Piano
 organizer_url: https://www.leidsesalon.nl/agenda/dichters-muziek-3
 in_archive: true
-cancelled: false
+cancelled: true
 ---
