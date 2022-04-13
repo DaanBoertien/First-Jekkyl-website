@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Grote Kerk
-date: 2022-04-13T08:09:19.501Z
+date: 2022-10-23T13:30:19.501Z
 place: Blokzijl
 repertoire: Liederen van o.a. Purcell, Grieg & Mahler
 repertoire_en: Songs by a.o. Purcell, Grieg & Mahler
