@@ -3,7 +3,7 @@ layout: concert
 hall: Muziekgebouw Eindhoven
 hall_en: Muziekgebouw Eindhoven
 date: 2022-11-06T11:00:20.992Z
-place: Nijmegen
+place: Eindhoven
 repertoire: H. Wolf - Italienisches Liederbuch
 musicians: |-
   Laetitia Gerards, Sopraan\
