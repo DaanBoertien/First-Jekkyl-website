@@ -13,5 +13,5 @@ musicians_en: |-
   Daan Boertien, Piano
 organizer_url: https://www.parcbroekhuizen.nl/wilmering-boertien/
 in_archive: true
-cancelled: false
+cancelled: true
 ---
