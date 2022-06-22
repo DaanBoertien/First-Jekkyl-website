@@ -4,7 +4,7 @@ hall: Cenakelkerk
 hall_en: Cenakelkerk
 date: 2022-08-19T18:00:42.543Z
 place: Nijmegen
-repertoire: "R. Wagner - Parsifal: Akte 3"
+repertoire: "R. Wagner - Parsifal: Acte 3"
 repertoire_en: "R. Wagner - Parsifal: Act 3"
 musicians: |
   Frank van Aken, Tenor\
