@@ -3,8 +3,8 @@ layout: concert
 hall: Axel Springer Verlag
 hall_en: Axel Springer Verlag
 date: 2022-09-08T17:00:40.322Z
-place: Hamburg
-place_en: Hamburg
+place: Berlijn
+place_en: Berlin
 repertoire: "Liederen van o.a. Mahler, Strauss en Schubert "
 repertoire_en: Songs by a.o. Mahler, Strauss and Schubert
 musicians: |-
@@ -17,7 +17,7 @@ musicians_en: |-
   Éva Fahidi, Speaker\
   Daan Boertien, Piano\
   Jennifer Wilton, Moderator
-organizer_url: https://www.hamburger-kunsthalle.de/programmformat/musik-der-hamburger-kunsthalle
+organizer_url: ""
 in_archive: true
 cancelled: false
 ---
