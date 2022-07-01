@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Theater Junushoff
-date: 2022-11-09T19:15:28.209Z
+date: 2022-11-07T19:15:28.209Z
 place: Wageningen
 repertoire: F. Schubert - Winterreise
 musicians: |-
