@@ -21,7 +21,7 @@ nav {
 }
 
 nav a,
-.navdesktop a {
+.navdesktop a, .fa-instagram .fa-square-facebook {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   text-transform: uppercase;
@@ -32,8 +32,22 @@ nav a,
   transition: color 0.3s ease-in-out;
 }
 
+.fa-instagram {
+  font-size: 23px;
+  color: var(--clr-greyblue);
+}
+
+.fa-square-facebook {
+  font-size: 23px;
+  color: var(--clr-greyblue);
+}
+
 .navdesktop a {
   color: white;
+}
+
+.navdesktop .fa-brands {
+  color: var(--clr-greyblue);
 }
 
 .navdesktop a.navblack {
@@ -67,7 +81,7 @@ nav a:focus::before,
 nav a:hover,
 nav a:focus,
 .navdesktop a:hover,
-.navdesktop a:focus {
+.navdesktop a:focus, .fa-brands:hover {
   color: var(--clr-greyblue);
 }
 

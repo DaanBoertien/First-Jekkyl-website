@@ -444,9 +444,15 @@ body { position: relative; }
 
 nav { background: var(--gradient); position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center; border-left: 10px solid var(--clr-greyblue); opacity: 0; }
 
-nav a, .navdesktop a { color: rgba(0, 0, 0, 0.7); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 300; position: relative; transition: color 0.3s ease-in-out; }
+nav a, .navdesktop a, .fa-instagram .fa-square-facebook { color: rgba(0, 0, 0, 0.7); text-decoration: none; text-transform: uppercase; letter-spacing: 1px; font-size: 20px; font-weight: 300; position: relative; transition: color 0.3s ease-in-out; }
+
+.fa-instagram { font-size: 23px; color: var(--clr-greyblue); }
+
+.fa-square-facebook { font-size: 23px; color: var(--clr-greyblue); }
 
 .navdesktop a { color: white; }
+
+.navdesktop .fa-brands { color: var(--clr-greyblue); }
 
 .navdesktop a.navblack { color: rgba(0, 0, 0, 0.7); }
 
@@ -456,7 +462,7 @@ nav a::before, .navdesktop a::before { position: absolute; content: ""; bottom: 
 
 nav a:hover::before, nav a:focus::before, .navdesktop a:hover::before, .navdesktop a:focus::before { transform: scale(0.95); }
 
-nav a:hover, nav a:focus, .navdesktop a:hover, .navdesktop a:focus { color: var(--clr-greyblue); }
+nav a:hover, nav a:focus, .navdesktop a:hover, .navdesktop a:focus, .fa-brands:hover { color: var(--clr-greyblue); }
 
 nav .current, .navdesktop .current { color: var(--red); font-weight: 400; }
 
@@ -514,11 +520,13 @@ nav li, .navdesktop li { list-style: none; }
 
 .section-bio .btn, .section-media .btn, .section-cd .btn, .section-more-concerts .btn { margin: 2em auto 3em; }
 
-.section-cd img { box-shadow: var(--boxshadow); opacity: 1; }
+.cd-image-container { position: relative; box-shadow: var(--boxshadow); overflow: hidden; }
 
-.cd-image { position: relative; }
+.cd-image { transition: transform 0.2s ease-out; }
 
-.cd-image::before { position: absolute; content: ""; top: 0; left: 0; right: 0; bottom: 0; background: white; z-index: -1; }
+.cd-image:hover { transform: scale(1.05); }
+
+.cd-image-container::before { position: absolute; content: ""; top: 0; left: 0; right: 0; bottom: 0; background: white; z-index: -1; }
 
 .more-concerts { margin: 1em auto 2em; }
 
