@@ -1,6 +1,6 @@
 ---
 layout: concert
-hall: Amare, Concervatoriumzaal
+hall: Amare, Concervatorium zaal
 hall_en: Amare, Conservatory Hall
 date: 2023-01-21T18:30:13.479Z
 place: Den Haag
