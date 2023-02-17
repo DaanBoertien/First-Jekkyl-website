@@ -10,7 +10,7 @@ musicians: |-
 musicians_en: |-
   Marc Pantus, Bass Baritone\
   Daan Boertien
-organizer_url: https://asociacionqultura.es/ciclos/xxiii-ciclo-de-musica-camara-de-asociacion-qultura/
+organizer_url: https://tickentradas.com/eventos/winterreise-asociacion-qultura-2023
 in_archive: true
 cancelled: false
 ---
