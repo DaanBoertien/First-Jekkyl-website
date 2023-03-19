@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: American Cathedral
-date: 2023-03-19T15:00:22.596Z
+date: 2023-06-18T14:00:22.596Z
 place: Parijs
 place_en: Paris
 repertoire: N.T.B.
