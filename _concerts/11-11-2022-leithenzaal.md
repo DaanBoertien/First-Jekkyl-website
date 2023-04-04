@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Leithenzaal
-date: 2023-04-20T18:15:20.589Z
+date: 2023-04-12T18:15:20.589Z
 place: Leiden
 repertoire: Liederen van Nederlandse componisten op teksten van Heinrich Heine
 repertoire_en: Songs by Dutch composers on texts of Heinrich Heine
