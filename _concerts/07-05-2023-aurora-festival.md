@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Aurora Festival
-date: 2023-05-07T10:32:18.491Z
+date: 2023-07-23T17:00:18.491Z
 place: Groningen
 repertoire: Liederen van o.a. Schumann, Mahler en Britten
 repertoire_en: Songs by a.o. Schumann, Mahler en Britten
