@@ -3,7 +3,7 @@ layout: concert
 hall: Musica Sacra Festival
 hall_en: Musica Sacra Festival
 date: 2023-09-17T13:30:55.168Z
-place: Wageningen
+place: Maastricht
 repertoire: "R. Wagner - Parsifal: Acte 3"
 repertoire_en: "R. Wagner - Parsifal: Act 3"
 musicians: |
