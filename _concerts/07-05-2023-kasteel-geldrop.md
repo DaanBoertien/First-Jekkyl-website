@@ -2,7 +2,7 @@
 layout: concert
 hall: Kasteel Geldrop
 hall_en: Kasteel Geldrop
-date: 2023-11-12T15:00:38.730Z
+date: 2023-11-12T11:00:38.730Z
 place: Geldrop
 repertoire: Schubert - Winterreise
 repertoire_en: Schubert - Winterreise
