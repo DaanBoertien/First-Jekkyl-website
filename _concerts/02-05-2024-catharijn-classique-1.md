@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Catharijn Classique
-date: 2024-07-21T14:30:26.536Z
+date: 2024-07-21T14:00:26.536Z
 place: Utrecht
 repertoire: O.a. liederen van Finzi en Surinaamse volksliederen
 repertoire_en: A.o. Songs by Finzi and Surinamian folk songs
