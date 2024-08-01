@@ -1,7 +1,7 @@
 ---
 layout: concert
 hall: Concertgebouw
-date: 2024-08-01T09:40:01.118Z
+date: 2024-08-31T09:40:01.118Z
 place: Amsterdam
 repertoire: O.a. liederen van Finzi en Surinaamse volksliederen
 repertoire_en: A.o. Songs by Finzi and Surinamian folk songs
