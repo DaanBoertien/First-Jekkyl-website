@@ -1,11 +1,11 @@
 ---
 layout: concert
 hall: The Garrick Club
-date: 2023-12-20T13:22:16.775Z
+date: 2024-05-31T16:00:16.775Z
 place: Londen
 place_en: London
-repertoire: Nog te bepalen
-repertoire_en: To be announced
+repertoire: Liederen van o.a. Ravel en Schubert
+repertoire_en: Songs by a.o. Ravel and Schubert
 musicians: |-
   Polly Leech, Mezzosopraan\
   Daan Boertien, Piano
