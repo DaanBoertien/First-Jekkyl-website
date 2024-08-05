@@ -22,6 +22,7 @@ collections:
     sortable_fields: ["date"]
     summary: "{{day}}-{{month}}-{{year}}: {{hall}}, {{place}}"
     slug: "{{day}}-{{month}}-{{year}}-{{hall}}"
+    # should have been DATE probably
     editor:
       preview: false
     fields:
