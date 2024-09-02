@@ -1,3 +1,5 @@
+image-desktop: /assets/img/uploads/Daan_22_PMT0770_.jpg
+image-mobile: /assets/img/uploads/Musica en Segura Solo - J. Ortega.jpg
 youtube-id: krrw7utSaio
 last-image: /assets/img/uploads/Musica en Segura Solo - J. Ortega.jpg
 more-concerts:
@@ -6,7 +8,7 @@ more-concerts:
 quote-cd-author: "[ - Musicweb
   International](https://www.musicweb-international.com/classrev/2022/Apr/Schub\
   ert-winterreise-TTK0078.htm)"
-photographer: Martijn Gijsbertsen
+photographer:
 occupation:
   - Pianist
   - Klavier
@@ -57,6 +59,7 @@ bio-teaser:
     Since 2020, Daan Boertien has been affiliated with the Dutch National Opera
     Studio as an Associate Artist.
 title: Home
+title-alignment: right # Add this key
 quote:
   - Gespecialiseerd in het begeleiden van liederen toonde Daan Boertien zich een
     zanger op de vleugel. Met zijn fijnzinnige en milde aanslag, zijn zowel

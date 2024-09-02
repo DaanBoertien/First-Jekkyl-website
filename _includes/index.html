@@ -4,25 +4,25 @@
   <section class="section-landing">
     <div class="video-container">
       <img
-        src="/assets/img/DaanBoertienSebastianGaltier.jpg"
+        src="{{ site.data.home.image-mobile }}"
         alt="Daan met bomen"
         class="background-video imgsmall"
       />
       <img
-        src="/assets/img/g3z506s2jaa3lwogi93g.1920x0.jpg"
+        src="{{ site.data.home.image-desktop }}"
         alt="Daan met bomen"
         class="background-video imglarge"
       />
 
-      <div class="landing-title-container">
-        <h1 class="landing-title fadeInLanding">{{site.data.home.name}}</h1>
+      <div class="landing-title-container {{ site.data.home.title-alignment }}">
+        <h1 class="landing-title fadeInLanding">{{ site.data.home.name }}</h1>
         <p class="landing-subtitle fadeInLanding">
           {{ site.data.home.occupation[language] }}
         </p>
       </div>
-      <a href="#section-bio"
-        ><i class="fa fa-angle-down bounce-7" aria-hidden="true"></i
-      ></a>
+      <a href="#section-bio">
+        <i class="fa fa-angle-down bounce-7" aria-hidden="true"></i>
+      </a>
     </div>
   </section>
 
@@ -142,7 +142,7 @@
   <section class="section-onemore fadeIn">
     <div class="container-without-padding home-last-image border-top">
       <img src="{{ site.data.home.last-image }}" alt="" />
-      <p class="photographer">© {{ site.data.home.photographer }}</p>
+      <p class="photographer">{{ site.data.home.photographer }}</p>
     </div>
   </section>
 </div>
